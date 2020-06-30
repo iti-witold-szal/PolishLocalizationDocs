@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Korygowanie kurs&#243;w wymiany | IT.integro </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Korygowanie kurs&#243;w wymiany | IT.integro ">
+    <meta name="generator" content="docfx 2.55.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="TOC.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="korygowanie-kursów-wymiany" sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="1">Korygowanie kursów wymiany</h1>
+
+<h2 id="informacje-ogólne" sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="3">Informacje ogólne</h2>
+<p sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="5">Korygowanie kursów wymiany, czyli wycena bilansowa, to przeliczenie
+otwartych rozrachunków nabywców i dostawców oraz środków pieniężnych
+zgromadzonych w kasie i na rachunkach bankowych według kursu wymiany
+obowiązującego na dzień przeprowadzenia wyceny bilansowej. Wycena taka
+powinna być przeprowadzana co najmniej raz w roku. W ramach Polskiej
+Lokalizacji do standardowej funkcjonalności zostały dodane następujące
+ulepszenia:</p>
+<ul sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="13">
+<li sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="13"><p sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="13">Możliwość uruchomienia skryptu <strong sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="13">Korygowanie kursów wymiany</strong>
+oddzielnie dla nabywców, dostawców i kont bankowych.</p>
+</li>
+<li sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="16"><p sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="16">Możliwość zaksięgowania zapisów szczegółowo lub zagregowanych
+według waluty, w wyniku uruchomienia skryptu <strong sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="17">Korygowanie kursów
+wymiany</strong>.</p>
+</li>
+<li sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="20"><p sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="20">Możliwość uruchomienia skryptu <strong sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="20">Korygowanie kursów wymiany</strong>
+w trybie testowym, wyłącznie jako symulacji (czyli bez wykonywania
+wynikających z przeliczeń księgowań).</p>
+</li>
+</ul>
+<h2 id="obsługa" sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="24">Obsługa</h2>
+<p sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="26">W celu uruchomienia skryptu <strong sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="26">Korygowanie kursów wymiany</strong>
+z wykorzystaniem ulepszeń Polskiej Lokalizacji, należy postępować
+według następujących kroków:</p>
+<ol sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="30">
+<li sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="30"><p sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="30">Należy wybrać <strong sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="30">Działy &gt; Zarządzanie Finansami &gt; Działania
+okresowe &gt; Waluta &gt;</strong> <strong sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="31">Koryguj kursy wymiany.</strong></p>
+</li>
+<li sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="33"><p sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="33">W oknie wstępnym skryptu należy we właściwy sposób wypełnić pola
+na karcie skróconej <strong sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="34">Opcje</strong>:</p>
+<ul sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="36">
+<li sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="36"><p sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="36"><strong sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="36">Data początkowa</strong> – w tym polu należy wprowadzić datę początkową
+okresu objętego korygowaniem kursów wymiany. Pozostawienie pola
+pustego oznacza, że skorygowane zostaną wszystkie zapisy z okresu
+przed <strong sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="39">Datą końcową</strong> włącznie.</p>
+</li>
+<li sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="41"><p sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="41"><strong sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="41">Data końcowa</strong> – w tym polu należy wprowadzić datę końcową okresu
+objętego korygowaniem kursów wymiany. Pozostawienie pola pustego
+oznacza, że skorygowane zostaną wszystkie zapisy z okresu
+po <strong sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="44">Dacie początkowej</strong> włącznie.</p>
+</li>
+<li sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="46"><p sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="46"><strong sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="46">Opis księgowania</strong> – opis, jaki zostanie przeniesiony do zapisów
+księgi głównej po wykonaniu skryptu. Pole wypełniane jest
+automatycznie przez system, w razie potrzeby można ręcznie zmienić
+jego zawartość.</p>
+</li>
+<li sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="51"><p sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="51"><strong sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="51">Data księgowania</strong> – data, z jaką zostaną zaksięgowane zapisy
+w wyniku uruchomienia skryptu. Pole jest wypełniane automatycznie
+przez system <strong sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="53">Data końcową</strong>, w razie potrzeby, można ją ręcznie
+zmienić.</p>
+</li>
+<li sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="56"><p sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="56"><strong sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="56">Nr dokumentu</strong> – w tym polu należy wprowadzić numer dokumentu,
+na podstawie którego zostaną zaksięgowane zapisy w wyniku
+uruchomienia skryptu.</p>
+</li>
+<li sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="60"><p sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="60"><strong sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="60">Koryguj konta bankowe</strong> – pole należy zaznaczyć, jeśli podczas
+uruchomienia skryptu mają zostać skorygowane kwoty na kontach
+bankowych i kontach kas.</p>
+</li>
+<li sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="64"><p sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="64"><strong sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="64">Koryguj nabywcę</strong> – pole należy zaznaczyć, jeśli podczas
+uruchomienia skryptu mają zostać skorygowane otwarte zapisy księgi
+nabywców.</p>
+</li>
+<li sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="68"><p sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="68"><strong sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="68">Koryguj dostawcę</strong> – pole należy zaznaczyć, jeśli podczas
+uruchomienia skryptu mają zostać skorygowane otwarte zapisy księgi
+dostawców.</p>
+</li>
+<li sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="72"><p sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="72"><strong sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="72">Koryguj konta K/G dla dodat. waluty raportowania</strong> – pole należy
+zaznaczyć, jeśli podczas uruchomienia skryptu mają zostać
+skorygowane kwoty na kontach K/G dla dodatkowej waluty
+raportowania.</p>
+</li>
+<li sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="77"><p sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="77"><strong sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="77">Sumuj zapisy</strong> – pole należy zaznaczyć, jeśli zapisy księgowe
+będące wynikiem działania skryptu mają zostać zsumowane
+według waluty. Niezaznaczenie pola spowoduje utworzenie
+szczegółowych zapisów księgowych będących wynikiem działania
+skryptu.</p>
+</li>
+<li sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="83"><p sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="83"><strong sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="83">Tryb testowy –</strong> pole należy zaznaczyć, jeśli skrypt ma zostać
+uruchomiony w trybie testowym, wyłącznie jako symulacja, bez
+księgowania. Niezaznaczenie tego pola spowoduje zaksięgowanie
+korekty kursów wymiany podczas wykonania skryptu.</p>
+</li>
+</ul>
+<div class="NOTE" sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="88">
+<h5>Uwaga</h5>
+<p sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="89">Skrypt nie może być uruchomiony w <strong sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="89">Trybie testowym</strong>,
+gdy zaznaczone jest pole <strong sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="90">Sumuj zapisy</strong>.</p>
+</div>
+<p sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="92">W kartach skróconych: <strong sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="92">Waluta</strong>, <strong sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="92">Nabywca</strong>, <strong sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="92">Dostawca</strong>, <strong sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="92">Konto
+bankowe</strong> można w standardowy sposób ustawić filtry ograniczające
+zakres danych wybranych do skorygowania.</p>
+</li>
+</ol>
+<p sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="96"><img src="media/image36.png" sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="96" alt=""></p>
+<ol start="3" sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="99">
+<li sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="99">Należy wybrać <strong sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="99">Drukuj</strong> w celu uruchomienia skryptu z jednoczesnym
+wydrukiem lub **Podgląd w **celu uruchomienia skryptu z jednoczesnym
+wyświetleniem na ekranie:</li>
+</ol>
+<p sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="103"><img src="media/image37.png" sourcefile="PolishFunctionality/gl-adjusting-exchange-rates.md" sourcestartlinenumber="103" alt=""></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+           <div class="doc-language">
+              <a href="https://docs.it.integro.pl/pl-pl/" hreflang="pl-PL" lang="pl-PL">PL</a>
+              <a href="https://docs.it.integro.pl/en-us/" hreflang="en-US" lang="en-US" class="lang-flag">EN</a>
+            </div>
+            Copyright © IT.integro sp. z o.o.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

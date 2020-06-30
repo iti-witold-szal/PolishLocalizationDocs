@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Zam&#243;wienia i&#160;faktury wewn&#281;trzne sprzeda&#380;y | IT.integro </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Zam&#243;wienia i&#160;faktury wewn&#281;trzne sprzeda&#380;y | IT.integro ">
+    <meta name="generator" content="docfx 2.55.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="TOC.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="zamówienia-ifaktury-wewnętrzne-sprzedaży" sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="1">Zamówienia i faktury wewnętrzne sprzedaży</h1>
+
+<h2 id="informacje-ogólne" sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="3">Informacje ogólne</h2>
+<p sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="5">Zgodnie z polskim prawem w przypadku nieodpłatnego przekazania towarów
+i usług, w pewnych przypadkach, transakcję taką należy potraktować
+z punktu widzenia podatku VAT jako sprzedaż i naliczyć VAT należny. Tak
+naliczona kwota podatku VAT jest traktowana jako koszt. Polska
+Lokalizacja została wyposażona w narzędzie upraszczające proces
+dodatkowej ewidencji podatku VAT dla tego rodzaju transakcji</p>
+<h2 id="ustawienia" sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="12">Ustawienia</h2>
+<p sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="14">Żeby móc tworzyć i księgować wewnętrzne zamówienia i faktury sprzedaży,
+konieczne jest zdefiniowanie kartoteki nabywcy wewnętrznego z właściwymi
+parametrami. W tym celu, należy postępować według następujących kroków:</p>
+<ol sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="18">
+<li sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="18"><p sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="18">Należy wybrać <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="18">Działy &gt; Zarządzanie Finansami &gt; Administracja &gt;
+Gł. gospodarcze grupy księgowe</strong>.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="21"><p sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="21">W oknie <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="21">Gł. gospodarcze grupy księgowe</strong>, które się otworzy,
+należy zdefiniować kod nowej grupy, która będzie wykorzystana
+do dokonania technicznych księgowań wewnętrznych faktur sprzedaży.</p>
+</li>
+</ol>
+<p sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="25"><img src="media/image136.png" sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="25" alt=""></p>
+<ol start="3" sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="27">
+<li sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="27"><p sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="27">W tym samym oknie należy zaznaczyć wiersz z nową grupą i wybrać
+<strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="28">Ustawienia</strong>.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="30"><p sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="30">W oknie <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="30">Główne ustawienia księgowania</strong>, które się otworzy, należy
+wybrać <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="31">Nowe</strong> (czynność z tego i następnego kroku należy
+powtórzyć dla każdej wybranej kombinacji kodów <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="32">Głównej
+gospodarczej grupy księgowej</strong> i <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="33">Głównej towarowej grupy
+księgowej</strong>).</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="36"><p sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="36">W oknie <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="36">Kartoteka gł. ustawień księg.</strong>, które się otworzy, należy
+zdefiniować właściwe ustawienia, wprowadzając to samo konto
+pozabilansowe K/G przeznaczone do technicznych księgowań w polach
+umieszczonych na karcie skróconej <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="39">Sprzedaż</strong>: <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="39">Konto
+sprzedaży</strong>, <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="40">Konto faktury kor. sprzedaży</strong>, <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="40">Konto rabatu
+wiersza sprzedaży</strong>, <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="41">Konto rabatu faktury sprzedaży</strong>. Na karcie
+skróconej <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="42">Zapasy</strong> należy uzupełnić pole <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="42">Konto KWS</strong>
+wybierając w nim konto K/G przeznaczone do zaksięgowania w koszty
+wartości towaru wydanego bezpłatnie.</p>
+</li>
+</ol>
+<p sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="46"><img src="media/image137.png" sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="46" alt=""></p>
+<ol start="6" sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="48">
+<li sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="48"><p sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="48">Należy wybrać <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="48">Działy &gt; Zarządzanie Finansami &gt; Administracja &gt;
+Grupy księgowe nabywców</strong>.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="51"><p sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="51">W oknie <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="51">Grupy księgowe nabywców</strong>, które się otworzy, w pierwszym
+wolnym wierszu należy wprowadzić unikalny kod grupy księgowej
+nabywców przeznaczonej do księgowań technicznych i w polu <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="53">Konto
+należności</strong> wybrać to samo konto pozabilansowe K/G przeznaczone
+do technicznych księgowań, które zostało użyte w oknie <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="55">Główne
+ustawienia księgowania</strong>:</p>
+</li>
+</ol>
+<p sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="58"><img src="media/image138.png" sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="58" alt=""></p>
+<ol start="8" sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="60">
+<li sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="60"><p sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="60">Należy wybrać <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="60">Działy &gt; Zarządzanie Finansami &gt; Administracja &gt;
+Metody płatności</strong>.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="63"><p sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="63">W oknie <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="63">Metody płatności</strong>, które się otworzy, w pierwszym wolnym
+wierszu należy wprowadzić unikalny kod i opis metody płatności
+przeznaczonej do rozliczenia księgowań technicznych, w polu <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="65">Typ
+konta przeciwst.</strong> należy wybrać <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="66">Konto K/G</strong>, a w polu <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="66">Nr
+konta przeciwst.</strong> wybrać to samo konto pozabilansowe K/G
+przeznaczone do technicznych księgowań, które zostało użyte
+we wcześniej zdefiniowanych ustawieniach.</p>
+</li>
+</ol>
+<p sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="71"><img src="media/image139.png" sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="71" alt=""></p>
+<ol start="10" sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="73">
+<li sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="73"><p sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="73">Należy zdefiniować kartotekę nabywcy technicznego do księgowania
+faktur wewnętrznych sprzedaży. W tym celu należy w sposób
+standardowy założyć nową kartotekę nabywcy, wprowadzając
+specyficzne parametry: zalecane jest, żeby nazwa, dane adresowe
+i NIP nabywcy technicznego były identyczne z danymi firmy,
+lecz nie jest to wymóg obligatoryjny. Niżej wymienione pola należy
+wypełnić zgodnie z opisem:</p>
+<ul sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="81">
+<li sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="81"><p sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="81">Na karcie skróconej <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="81">Fakturowanie</strong>:</p>
+<ul sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="84">
+<li sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="84"><p sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="84"><strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="84">Gł. gosp. grupa księgowa</strong> – z listy rozwijanej w tym polu należy
+wybrać kod wcześniej zdefiniowanej grupy.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="87"><p sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="87"><strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="87">Gosp. grupa księgowa VAT</strong> – z listy rozwijanej w tym polu należy
+wybrać kod grupy, której ustawienia będą obowiązywały w kalkulacji
+podatku VAT należnego do przekazania w koszty.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="91"><p sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="91"><strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="91">Grupa księgowa nabywcy</strong> – z listy rozwijanej w tym polu należy
+wybrać kod wcześniej zdefiniowanej grupy.</p>
+</li>
+</ul>
+</li>
+<li sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="94"><p sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="94">Na karcie skróconej <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="94">Płatności</strong>:</p>
+<ul sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="96">
+<li sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="96"><strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="96">Kod metody płatności</strong> – z listy rozwijanej w tym polu należy
+wybrać kod wcześniej zdefiniowanej metody.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<p sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="99"><img src="media/image140.png" sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="99" alt=""></p>
+<ol start="11" sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="101">
+<li sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="101"><p sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="101">Należy zdefiniować kody dla podatku VAT przekazywanego w koszty,
+wraz z przypisanymi do nich właściwymi kontami K/G. W tym celu
+należy wybrać <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="103">Działy &gt; Zarządzanie Finansami &gt;
+Administracja &gt; Kody VAT'u przekazanego</strong>.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="106"><p sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="106">W oknie <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="106">Kody VAT'u przekazanego</strong>, które się otworzy, w pierwszym
+wolnym wierszu należy wprowadzić ustawienia:</p>
+<ul sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="109">
+<li sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="109"><p sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="109"><strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="109">Kod –</strong> w tym polu należy wprowadzić unikalny kod dla danego typu
+podatku VAT do przekazania w koszty</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="112"><p sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="112"><strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="112">Opis –</strong> w tym polu należy wprowadzić opis danego typu podatku
+VAT do przekazania w koszty</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="115"><p sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="115"><strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="115">Konto kosztu VAT</strong> – z listy rozwijanej w tym polu należy wybrać
+konto K/G kosztowe, na którym ma być zaksięgowana kwota podatku
+VAT</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="119"><p sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="119"><strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="119">Konto rozliczenia VAT</strong> – z listy rozwijanej w tym polu należy
+wybrać to samo konto pozabilansowe K/G przeznaczone
+do technicznych księgowań, które zostało użyte we wcześniej
+zdefiniowanych ustawieniach.</p>
+</li>
+</ul>
+</li>
+</ol>
+<p sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="124"><img src="media/image141.png" sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="124" alt=""></p>
+<h2 id="obsługa" sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="126">Obsługa</h2>
+<p sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="128">W celu obliczenia i zaksięgowania podatku VAT należnego od wartości
+bezpłatnie przekazanych towarów lub produktów, należy postępować
+według następujących kroków:</p>
+<ol sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="132">
+<li sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="132"><p sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="132">Należy otworzyć nową kartotekę zamówienia sprzedaży i z listy
+rozwijanej w polu <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="133">Nr nabywcy (sprzedaż)</strong> należy wybrać
+wcześniej zdefiniowanego nabywcę technicznego lub nabywcę, któremu
+przekazywany jest towar – w tym drugim przypadku konieczne jest
+wybranie nabywcy technicznego w polu <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="136">Nr odbiorcy faktury</strong>
+na karcie skróconej <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="137">Fakturowanie</strong>. System automatycznie
+uzupełnił część pól w nagłówku faktury sprzedaży na podstawie
+danych przypisanych domyślnie do kartoteki wybranego nabywcy
+(odbiorcy faktury), m.in. nazwa i adres nabywcy, <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="140">Gł. gosp. grupa
+księgowa</strong>, <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="141">Gosp. grupa księgowa VAT</strong>, <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="141">Grupa księgowa
+nabywcy</strong>, <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="142">Kod metody płatności</strong>.</p>
+<p sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="144">Konieczne jest wybranie właściwego, wcześniej zdefiniowanego typu
+podatku VAT do przekazania z listy rozwijanej w polu <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="145">Kod VAT'u
+przekazanego</strong>.</p>
+</li>
+</ol>
+<p sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="148"><img src="media/image142.png" sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="148" alt=""></p>
+<ol start="2" sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="150">
+<li sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="150">Na karcie skróconej <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="150">Wiersze</strong>, w polu <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="150">Typ</strong> należy wybrać
+<strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="151">Zapas</strong>, a w polu <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="151">Nr</strong> należy wybrać zapas, który zostanie
+przekazany bezpłatnie. Pola: <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="152">Ilość i Kod lokalizacji</strong> należy
+wypełnić standardowo. W polu <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="153">Cena jednostkowa bez VAT</strong> należy
+wprowadzić cenę sprzedaży, na podstawie której zostanie ustalona
+kwota stanowiąca podstawę do obliczenia podatku VAT należnego
+do przekazania w koszty.</li>
+</ol>
+<p sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="158"><img src="media/image143.png" sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="158" alt=""></p>
+<ol start="3" sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="160">
+<li sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="160">Pozostałe dane w zamówieniu sprzedaży należy wprowadzić standardowo
+i zaksięgować wydanie i fakturę sprzedaży.</li>
+</ol>
+<p sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="163">W wyniku zaksięgowania faktury sprzedaży z zamówienia wewnętrznego
+powstaną zapisy księgi głównej, zgodne z ustawieniami. Kwota podatku VAT
+zostanie zaksięgowana na kontach K/G: podatku VAT należnego i kosztowym,
+wartość wydanego towaru zostanie zaksięgowana na kontach K/G:
+magazynowym i kosztowym, a pozostałe kwoty netto i brutto, będące
+wynikiem technicznych automatycznych księgowań, zostaną zaksięgowane
+na pozabilansowym koncie technicznym K/G użytym w ustawieniach.</p>
+<p sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="171">Efekty zaksięgowania wewnętrznej faktury sprzedaży można zobaczyć
+postępując według kroków:</p>
+<ol sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="174">
+<li sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="174"><p sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="174">Należy otworzyć kartotekę zaksięgowanej faktury sprzedaży i wybrać
+akcję <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="175">Nawiguj</strong>.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="177"><p sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="177">W oknie <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="177">Nawigacja</strong>, które się otworzy, należy zaznaczyć tabelę
+**Zapis K/G i **wybrać akcję <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="178">Pokaż powiązane zapisy</strong>.</p>
+</li>
+</ol>
+<p sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="180"><img src="media/image144.png" sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="180" alt=""></p>
+<p sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="182">W celu wystawienia wewnętrznej faktury sprzedaży do zakupów kosztowych
+związanych z reklamą i reprezentacją, należy postępować
+według następujących kroków:</p>
+<ol sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="186">
+<li sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="186"><p sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="186">Należy otworzyć nową kartotekę faktury sprzedaży i z listy
+rozwijanej w polu <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="187">Nr nabywcy (sprzedaż)</strong> należy wybrać
+wcześniej zdefiniowanego nabywcę technicznego. System
+automatycznie uzupełnił część pól w nagłówku faktury sprzedaży
+na podstawie danych przypisanych domyślnie do kartoteki wybranego
+nabywcy, m.in. nazwa i adres nabywcy, <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="191">Gł. gosp. grupa
+księgowa</strong>, <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="192">Gosp. grupa księgowa VAT</strong>, <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="192">Grupa księgowa
+nabywcy</strong>, <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="193">Kod metody płatności</strong>.</p>
+<p sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="195">Konieczne jest wybranie właściwego, wcześniej zdefiniowanego typu
+podatku VAT do przekazania z listy rozwijanej w polu <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="196">Kod VAT'u
+przekazanego</strong>.</p>
+</li>
+</ol>
+<p sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="199"><img src="media/image145.png" sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="199" alt=""></p>
+<ol start="2" sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="201">
+<li sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="201">Na karcie skróconej <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="201">Wiersze</strong>, w polu <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="201">Typ</strong> należy wybrać
+<strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="202">Konto K/G</strong>, a w polu <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="202">Nr</strong> należy wybrać to samo konto
+pozabilansowe K/G przeznaczone do technicznych księgowań,
+które zostało użyte we wcześniej zdefiniowanych ustawieniach. W polu
+<strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="205">Ilość</strong> należy wprowadzić cyfrę <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="205">1</strong>, a w polu <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="205">Cena jednostkowa
+bez VAT</strong> należy wprowadzić kwotę stanowiąca podstawę do obliczenia
+podatku VAT należnego do przekazania w koszty.</li>
+</ol>
+<p sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="209"><img src="media/image146.png" sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="209" alt=""></p>
+<ol start="3" sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="211">
+<li sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="211">Pozostałe dane w fakturze sprzedaży należy wprowadzić standardowo
+i ją zaksięgować.</li>
+</ol>
+<p sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="214">W wyniku zaksięgowania wewnętrznej faktury sprzedaży powstaną zapisy
+księgi głównej, zgodne z ustawieniami. Kwota podatku VAT zostanie
+zaksięgowana na kontach K/G: podatku VAT należnego i konto kosztowe,
+a pozostałe kwoty netto i brutto, będące wynikiem technicznych
+automatycznych księgowań, zostaną zaksięgowane na pozabilansowym koncie
+technicznym K/G użytym w ustawieniach.</p>
+<p sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="221">Efekty zaksięgowania wewnętrznej faktury sprzedaży można zobaczyć
+postępując według kroków:</p>
+<ol sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="224">
+<li sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="224"><p sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="224">Należy otworzyć kartotekę zaksięgowanej faktury sprzedaży i wybrać
+<strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="225">Nawiguj</strong>.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="227"><p sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="227">W oknie <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="227">Nawigacja</strong>, które się otworzy, należy zaznaczyć tabelę
+<strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="228">Zapis K/G</strong> i wybrać <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="228">Pokaż</strong>.</p>
+</li>
+</ol>
+<p sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="230"><img src="media/image147.png" sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="230" alt=""></p>
+<div class="NOTE" sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="232">
+<h5>Uwaga</h5>
+<p sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="233">Proces przekazania podatku VAT w koszty może być
+obsługiwany w dokumentach: <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="234">Faktura sprzedaży</strong>, <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="234">Zamówienie
+sprzedaży</strong>, <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="235">Faktura korygująca sprzedaży</strong>, <strong sourcefile="PolishFunctionality/vat-orders-internal-sales-invoices.md" sourcestartlinenumber="235">Zamówienie zwrotu
+sprzedaży</strong>.</p>
+</div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+           <div class="doc-language">
+              <a href="https://docs.it.integro.pl/pl-pl/" hreflang="pl-PL" lang="pl-PL">PL</a>
+              <a href="https://docs.it.integro.pl/en-us/" hreflang="en-US" lang="en-US" class="lang-flag">EN</a>
+            </div>
+            Copyright © IT.integro sp. z o.o.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

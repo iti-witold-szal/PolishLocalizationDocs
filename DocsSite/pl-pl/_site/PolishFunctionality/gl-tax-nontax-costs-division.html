@@ -1,0 +1,251 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Podzia&#322; koszt&#243;w na podatkowe i&#160;niepodatkowe | IT.integro </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Podzia&#322; koszt&#243;w na podatkowe i&#160;niepodatkowe | IT.integro ">
+    <meta name="generator" content="docfx 2.55.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="TOC.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="podział-kosztów-na-podatkowe-iniepodatkowe">Podział kosztów na podatkowe i niepodatkowe</h1>
+
+<h2 id="informacje-ogólne">Informacje ogólne</h2>
+<p>Zgodnie z aktualnie obowiązującymi przepisami, podatnik może zaliczyć
+tylko 75% wydatków związanych z używaniem samochodu do kosztów uzyskania
+przychodu w przypadku, gdy wykorzystuje ten samochód również do celów
+niezwiązanych z prowadzoną działalnością, czyli również do celów
+prywatnych. W ramach Polskiej Lokalizacji w systemie Microsoft Dynamics
+365 Business Central on‑premises zostało dodane narzędzie umożliwiające
+poprawne i przejrzyste rozliczenie takich wydatków.</p>
+<h2 id="ustawienia">Ustawienia</h2>
+<p>W celu ustawienia zasad alokacji kosztów, należy wykonać następujące
+kroki:</p>
+<ol>
+<li><p>Należy wybrać <strong>Działy &gt; Zarządzanie Finansami &gt; Administracja &gt;
+Zobowiązania &gt; Ustawienia &gt; Typy alokacji.</strong></p>
+</li>
+<li><p>W oknie <strong>Typy alokacji</strong>, które się otworzy, należy na wstążce
+kliknąć <strong>Nowy</strong>.</p>
+</li>
+<li><p>W oknie <strong>Kartoteka typu alokacji</strong> należy wypełnić pola zgodnie z
+poniższym opisem:</p>
+<p>Karta skrócona <strong>Ogólne</strong>:</p>
+<ul>
+<li><p><strong>Kod</strong> – w tym polu należy wprowadzić unikalny kod identyfikujący
+dany schemat alokacji kosztów,</p>
+</li>
+<li><p><strong>Opis</strong> – w tym polu można wprowadzić opis danego schematu
+alokacji kosztów,</p>
+</li>
+<li><p><strong>Zachowaj pierwotny wiersz</strong> – zaznaczenie tego pola spowoduje,
+że źródłowy wiersz dokumentu z kosztem podlegającym alokowaniu
+nie zostanie usunięty po wykonaniu alokacji. Brak znacznika
+spowoduje, że wiersz źródłowy zostanie usunięty z dokumentu.</p>
+</li>
+</ul>
+<p>Karta skrócona <strong>Wiersze</strong>:</p>
+<ul>
+<li><p><strong>Typ</strong> – domyślnie ustawiona jest opcja <strong>Konto K/G</strong>, bez
+możliwości zmiany – wskazuje na bezpośrednią ewidencję kosztu na
+kontach księgi głównej (ewidencja wartościowa),</p>
+</li>
+<li><p><strong>Nr</strong> – z listy rozwijanej w tym polu należy wybrać właściwe dla
+ewidencji kosztów konto księgi głównej,</p>
+</li>
+<li><p><strong>Typ alokacji</strong> – z listy rozwijanej w tym polu należy wybrać
+wartość w dokumencie zakupu, która będzie dzielona w wyniku
+alokowania kosztu:</p>
+</li>
+<li><p><strong>Ilość</strong> – nowe wiersze dokumentu zakupu zostaną utworzone w
+wyniku podzielenia wartości z pola <strong>Ilość</strong> w pierwotnym wierszu
+zakupu,</p>
+</li>
+<li><p><strong>Koszt jednostkowy</strong> – nowe wiersze dokumentu zakupu zostaną
+utworzone w wyniku podzielenia wartości z pola <strong>Bezpośr. koszt
+jedn.</strong> w pierwotnym wierszu zakupu.</p>
+</li>
+<li><p><strong>Opis</strong> – pole opcjonalne – w tym polu można wprowadzić krótki
+opis wiersza (np. zdefiniowanych w nim zasad alokacji),</p>
+</li>
+<li><p><strong>Udział</strong> – w tym polu należy wprowadzić wartość klucza podziału
+kosztów według udziału ilościowego – na tej podstawie zostanie
+wyliczona wartość procentowa w polu <strong>Procent</strong>,</p>
+</li>
+<li><p><strong>Procent</strong> – pole nieedytowalne, prezentujące wartość klucza
+podziału kosztów według udziału procentowego, wyliczonego na
+podstawie wartości wprowadzonych w polu <strong>Udział</strong>.</p>
+</li>
+</ul>
+<p>Do każdego wiersza alokacji można przypisać zestaw wartości wymiarów,
+który będzie miał zastosowanie w utworzonych wierszach dokumentu
+zakupu. Aby przypisać wartości wymiarów, w karcie skróconej
+<strong>Wiersze</strong> można wyświetlić kolumny z odpowiednimi wymiarami, lub
+zaznaczyć wiersz i kliknąć akcję <strong>Wiersze</strong>, następnie kliknąć
+<strong>Wymiary</strong> (można też nacisnąć <strong>Ctrl+Shift+D</strong>). Czynność należy
+powtórzyć dla każdego wiersza w oknie <strong>Kartoteka typu alokacji</strong>.</p>
+</li>
+</ol>
+<p><img src="media/image64.png" alt=""></p>
+<h2 id="obsługa">Obsługa</h2>
+<p>Alokowanie kosztów w głównej mierze dotyczy wydatków, które należy
+podzielić na podatkowe i niepodatkowe, dlatego funkcjonalność jest
+dostępna w dokumentach zakupu typu faktura i zamówienie.</p>
+<div class="NOTE">
+<h5>Uwaga</h5>
+<p>Opis funkcji alokowania kosztów zamieszczony w dalszej części
+rozdziału bazuje na przykładzie faktury zakupu. W zamówieniu zakupu
+mechanizm jest identyczny, więc należy wzorować się na opisie dotyczącym
+faktury zakupu.</p>
+</div>
+<p>W celu zaksięgowania kosztów z faktury zakupu według wybranego klucza
+alokacji, należy wykonać następujące kroki:</p>
+<ol>
+<li><p>Należy wybrać <strong>Działy &gt; Zarządzanie Finansami &gt; Zobowiązania &gt;
+Faktury zakupu.</strong></p>
+</li>
+<li><p>W oknie <strong>Faktury zakupu</strong>, które się otworzy, należy na wstążce
+kliknąć <strong>Nowy</strong>.</p>
+</li>
+<li><p>Należy wypełnić nagłówek i wiersze nowej faktury zakupu w
+standardowy sposób.</p>
+</li>
+<li><p>W wybranych wierszach faktury z kosztami do alokowania należy z
+listy rozwijanej w polu <strong>Typ alokacji</strong> wybrać wcześniej
+zdefiniowany klucz, według którego ma zostać dokonany podział
+kosztu z danego wiersza.</p>
+</li>
+</ol>
+<p><img src="media/image65.png" alt="Obraz zawierający zrzut ekranu Opis wygenerowany automatycznie"></p>
+<ol start="5">
+<li><p>Jeśli wszystkie koszty, we wszystkich wierszach faktury, mają zostać
+podzielone według tego samego klucza, można w nagłówku dokumentu,
+w karcie skróconej <strong>Ogólne</strong>, z listy rozwijanej w polu <strong>Typ
+alokacji</strong> wybrać klucz, który zostanie skopiowany do wszystkich
+wierszy.</p>
+<p>Zmiana wartości w polu <strong>Typ alokacji</strong> w karcie skróconej <strong>Ogólne</strong>
+w sytuacji, gdy istnieje choć jeden wiersz dokumentu, spowoduje
+wyświetlenie komunikatu, w którym należy kliknąć <strong>Tak</strong>, aby
+zastosować zmianę do wszystkich wierszy dokumentu.</p>
+</li>
+</ol>
+<p><img src="media/image66.png" alt=""></p>
+<p><img src="media/image67.png" alt="Obraz zawierający zrzut ekranu Opis wygenerowany automatycznie"></p>
+<ol start="6">
+<li>Po przypisaniu typu alokacji do wszystkich wymaganych wierszy,
+należy na wstążce kliknąć <strong>Zaalokuj wszystkie wiersze</strong>.</li>
+</ol>
+<p><img src="media/image68.png" alt="Obraz zawierający zrzut ekranu Opis wygenerowany automatycznie"></p>
+<p>W wyniku działania tej funkcji, system utworzył nowe wiersze faktury
+zakupu na podstawie wybranego typu alokacji, włącznie z wymiarami.
+Wiersz źródłowy, który podlegał alokowaniu, został zachowany lub
+usunięty, w zależności od parametru <strong>Zachowaj pierwotny wiersz</strong>
+ustawionego dla wybranego typu alokacji.</p>
+<p><img src="media/image69.png" alt=""></p>
+<p>Dalsze procesy weryfikacji i księgowania faktury zakupu należy wykonać
+w standardowy sposób.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+           <div class="doc-language">
+              <a href="https://docs.it.integro.pl/pl-pl/" hreflang="pl-PL" lang="pl-PL">PL</a>
+              <a href="https://docs.it.integro.pl/en-us/" hreflang="en-US" lang="en-US" class="lang-flag">EN</a>
+            </div>
+            Copyright © IT.integro sp. z o.o.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

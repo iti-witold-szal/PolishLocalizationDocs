@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>VAT nie do&#160;odliczenia | IT.integro </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="VAT nie do&#160;odliczenia | IT.integro ">
+    <meta name="generator" content="docfx 2.55.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="TOC.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="vat-nie-doodliczenia" sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="1">VAT nie do odliczenia</h1>
+
+<h2 id="informacje-ogólne" sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="3">Informacje ogólne</h2>
+<p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="5">W niektórych przypadkach VAT naliczony nie może być w 100% odliczony,
+to znaczy, że tylko część kwoty podatku VAT może być wykazana
+w rejestrze VAT, a pozostała część powinna zostać doliczona do kwoty
+zakupu i zaksięgowana w koszty. W przypadku zakupu zapasu lub środka
+trwałego, nieodliczalna część kwoty podatku VAT jest doliczana
+do wartości zakupu zapasu lub środka trwałego i zaksięgowana jako część
+kosztu nabycia.</p>
+<p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="13">Celem wdrożenia tego elementu Polskiej Lokalizacji systemu Microsoft
+Dynamics 365 Business Central on‑premises jest umożliwienie:</p>
+<pre><code sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="16">-   Ustawienia częściowego odliczania podatku VAT naliczonego.
+
+-   Księgowania transakcji zakupu z podatkiem naliczonym VAT częściowo
+    odliczanym.
+
+-   Zwiększania kosztu nabycia zapasów i środków trwałych
+    o nieodliczalną część podatku naliczonego VAT.
+</code></pre>
+<h2 id="ustawienia" sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="24">Ustawienia</h2>
+<p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="26">Żeby system automatycznie wyliczał kwotę podatku VAT, która nie podlega
+odliczeniu, muszą by zdefiniowane właściwe ustawienia kalkulacji podatku
+VAT. W celu zdefiniowania niezbędnych ustawień, należy postępować
+według następujących kroków:</p>
+<ol sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="31">
+<li sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="31"><p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="31">Należy wybrać <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="31">Działy &gt; Zarządzanie Finansami &gt; Administracja &gt;
+Ustawienia księgowe VAT.</strong></p>
+</li>
+<li sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="34"><p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="34">W oknie <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="34">Ustawienia księgowe VAT</strong>, które się otworzy, należy
+zaznaczyć wiersz z wybraną kombinacją kodów w polach: <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="35">Gosp.
+grupa księgowa</strong> <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="36">VAT</strong> i <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="36">Tow. grupa księgowa VAT</strong>,
+a następnie wybrać <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="37">VAT nie do odliczenia</strong>.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="39"><p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="39">W oknie <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="39">Ustawienia VAT nie do odliczenia</strong>, które się otworzy,
+należy wypełnić pola:</p>
+<ul sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="42">
+<li sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="42"><p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="42"><strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="42">Od dnia</strong> – należy wprowadzić datę początkową okresu, w którym
+kwota podatku VAT nie będzie podlegać odliczeniu w części
+wprowadzonej w polu <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="44">VAT nie do odliczenia (%)</strong>.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="46"><p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="46"><strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="46">VAT nie do odliczenia (%)</strong> – należy wprowadzić wartość kwoty
+podatku VAT wyrażoną w procentach, jaka nie będzie podlegać
+odliczeniu w okresie rozpoczynającym się datą wprowadzoną w polu
+Od <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="49">dnia</strong>.</p>
+</li>
+</ul>
+</li>
+</ol>
+<p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="51"><img src="media/image122.png" sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="51" alt=""></p>
+<p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="53">Funkcjonalność VAT nie do odliczenia wymaga dodatkowych ustawień
+w transakcjach zakupu, gdzie <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="54">Typ kalkulacji VAT</strong> jest <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="54">Odwrotne
+obciążenie</strong> lub <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="55">Pełny VAT</strong>. Aby je zdefiniować, należy postępować
+według następujących kroków:</p>
+<ol sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="58">
+<li sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="58"><p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="58">Należy zamknąć okno <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="58">Ustawienia VAT nie do odliczenia</strong> wybierając
+<strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="59">OK</strong>.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="61"><p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="61">W oknie <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="61">Ustawienia księgowe VAT</strong> należy zaznaczyć wiersz
+z kombinacją grup dedykowanych do ewidencji zakupu z odwrotnym
+obciążeniem, a następnie należy wybrać <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="63">Edycja</strong>.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="65"><p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="65">W oknie <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="65">Kartoteka ustaw. księg. VAT</strong> na karcie skróconej
+<strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="66">Zakupy</strong> należy uzupełnić pole <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="66">Konto korekty kurs wal.
+odwrotnego obciążenia</strong>. Konto to będzie używane tylko wtedy,
+gdy w ustawieniach dla wybranej kombinacji grup księgowych VAT
+wybrany jest <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="69">Typ kalkulacji VAT</strong> = <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="69">Odwrotne obciążenie</strong>.</p>
+<p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="71">Na konto wybrane w tym polu system zaksięguje kwotę VAT naliczonego
+nie do odliczenia, ale tylko w części wynikającej z różnicy pomiędzy
+kursami waluty zastosowanymi do przeliczenia kwoty netto i kwoty VAT.
+Część kwoty VAT naliczonego nie do odliczenia wynikająca
+z przeliczenia kwoty VAT po kursie dla kwoty netto zostanie
+zaksięgowana standardowo, czyli dodana do wartości netto.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="78"><p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="78">W oknie <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="78">Ustawienia księgowe VAT</strong> należy zaznaczyć wiersz
+z kombinacją grup dedykowanych do ewidencji zakupu z samym VAT (np.
+dokumentów SAD), a następnie należy wybrać <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="80">Edycja</strong>.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="82"><p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="82">W oknie <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="82">Kartoteka ustaw. księg. VAT</strong> na karcie skróconej
+<strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="83">Zakupy</strong> należy uzupełnić pole <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="83">Konto kosztu nie do odliczenia
+dla Pełny VAT</strong>. Konto to będzie używane tylko wtedy,
+gdy w ustawieniach dla wybranej kombinacji grup księgowych VAT
+wybrany jest <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="86">Typ kalkulacji VAT</strong> = <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="86">Pełny VAT</strong>.</p>
+<p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="88">Na konto wybrane w tym polu system zaksięguje kwotę VAT naliczonego
+nie do odliczenia. W tego typu transakcji kwota VAT nie do odliczenia
+nie może być dodana do wartości netto, gdyż w dokumentach z pełnym VAT
+koszt nie jest w ogóle księgowany (tylko VAT i zobowiązanie).</p>
+</li>
+</ol>
+<p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="93"><img src="media/image123.png" sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="93" alt=""></p>
+<p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="95"><img src="media/image124.png" sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="95" alt=""></p>
+<h2 id="obsługa" sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="97">Obsługa</h2>
+<p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="99">Żeby zaksięgować dokument zakupu z podatkiem VAT częściowo odliczalnym,
+należy w sposób standardowy wprowadzić zamówienie lub fakturę zakupu,
+wykorzystując grupy księgowe VAT, dla kombinacji których zostały
+zdefiniowane ustawienia VAT nie do odliczenia. System, bazując
+na zdefiniowanych wcześniej ustawieniach, podzieli odpowiednio obliczoną
+kwotę podatku VAT i wykaże w oknie <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="104">Statystyki dokumentu zakupu</strong>.</p>
+<div class="NOTE" sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="106">
+<h5>Uwaga</h5>
+<p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="107"><strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="107">Uwaga:</strong> Na podstawie <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="107">Daty obowiązku VAT</strong> w wierszu
+faktury/zamówienia zakupu system ustala, czy kwota VAT z danego
+wiersza ma podlegać nieodliczeniu zgodnie z ustawieniami, tzn., czy
+mieści się ona w okresie wyznaczonym datami w polu Od <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="110">dnia</strong> w oknie
+<strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="111">Ustawienia VAT nie do odliczenia</strong>. W sytuacji, gdy pole <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="111">Data
+obowiązku VAT</strong> w wierszu faktury/zamówienia nie jest wypełnione
+lub data ta wykracza poza okres, o którym mowa powyżej, kwota VAT
+zostanie policzona zgodnie z <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="114">Ustawieniami księgowymi VAT</strong>, bez
+uwzględnienia <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="115">Ustawień VAT nie do odliczenia</strong>.</p>
+</div>
+<p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="117">W celu przygotowania i zaksięgowania faktury zakupu z wykorzystaniem tej
+funkcjonalności, należy postępować według następujących kroków:</p>
+<ol sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="120">
+<li sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="120"><p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="120">Należy standardowo wprowadzić fakturę zakupu zwracając uwagę,
+aby użyta w niej była właściwa kombinacja kodów w polach <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="121">Gosp.
+grupa księgowa</strong> <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="122">VAT</strong> i <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="122">Tow. grupa księgowa VAT</strong>, a data
+obowiązku VAT przypadała w okresie zaczynającym się od daty
+wprowadzonej w polu Od <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="124">dnia</strong> w oknie <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="124">Ustawienia VAT
+nie do odliczenia</strong> dla wybranej kombinacji grup księgowych VAT.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="127"><p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="127">W kartotece wprowadzonej faktury zakupu należy wybrać
+<strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="128">Statystyka.</strong></p>
+</li>
+<li sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="130"><p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="130">W oknie <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="130">Statystyka zakupów</strong>, które się otworzy, na karcie
+skróconej <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="131">Wiersze</strong> system wyświetla szczegóły obliczonych kwot.</p>
+<p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="133">W polach: <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="133">VAT%</strong>, <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="133">Kwota wiersza</strong>, <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="133">Podstawa VAT</strong>, <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="133">Kwota
+VAT</strong>, <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="134">Kwota z VAT</strong> pokazane są kwoty ogólne dla całej faktury
+zakupu, obejmują zarówno część kwoty podatku VAT podlegającą
+odliczeniu, jak i nie podlegającą odliczeniu.</p>
+<p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="138">W polach: <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="138">VAT% (nie do odliczenia)</strong>, <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="138">Podstawa VAT (nie
+do odliczenia)</strong>, <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="139">Kwota VAT (nie do odliczenia)</strong> pokazane
+są wartości dotyczące kalkulacji podatku VAT w części nie
+do odliczenia.</p>
+</li>
+</ol>
+<p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="143"><img src="media/image125.png" sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="143" alt=""></p>
+<p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="145">Z kalkulacji wyświetlonej w przykładowym oknie statystyk wynika, że system zaksięguje kwotę zakupu netto w wysokości 5 452,35 zł, kwotę podatku VAT w wysokości 562,35 zł i kwotę brutto w wysokości 6 014,70 zł. Żeby ją sprawdzić, trzeba wykonać kolejne kroki:</p>
+<ol sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="147">
+<li sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="147"><p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="147">Należy w sposób standardowy zaksięgować wprowadzoną fakturę zakupu.
+W oknie z komunikatem o treści <em sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="148">„Fakturę zaksięgowano i przeniesiono
+do okna Zaksięgowana faktura zakupu. Czy chcesz otworzyć
+zaksięgowaną fakturę?&quot;</em> należy wybrać <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="150">Tak</strong>.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="152"><p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="152">W oknie <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="152">Zaksięgowana faktura zakupu</strong>, które się otworzy, należy
+wybrać <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="153">Nawiguj</strong>.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="155"><p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="155">W oknie <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="155">Nawigacja</strong>, które się otworzy, należy zaznaczyć wiersz
+<strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="156">Zapis K/G</strong> i wybrać <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="156">Pokaż powiązane zapisy</strong>.</p>
+</li>
+</ol>
+<p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="158"><img src="media/image126.png" sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="158" alt=""></p>
+<ol start="5" sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="160">
+<li sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="160"><p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="160">Należy wybrać <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="160">Zamknij</strong>, aby zamknąć okno <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="160">Zapisy księgi
+głównej</strong>.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="163"><p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="163">W oknie <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="163">Nawigacja</strong> należy zaznaczyć wiersz <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="163">Zapis VAT</strong> i wybrać
+<strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="164">Pokaż powiązane zapisy</strong>.</p>
+</li>
+</ol>
+<p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="166"><img src="media/image127.png" sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="166" alt=""></p>
+<p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="168">Kwota VAT nie do odliczenia przy zakupie z odwrotnym obciążeniem
+księgowana jest zwykle standardowo, a wyjątek stanowi sytuacja, w której
+kurs wymiany waluty do przeliczenia wartości netto zakupu jest inny
+niż kurs wymiany waluty do przeliczenia VAT. W tej sytuacji system
+wykorzystuje konto K/G podane w polu <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="172">Konto korekty kursu wal.
+odwrotnego obciążenia</strong> w oknie <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="173">Ustawienia księgowe VAT</strong>
+do zaksięgowania nieodliczalnej kwoty VAT w koszty, ale tylko różnicy
+wynikającej z zastosowania różnych kursów waluty, o czym mowa powyżej.</p>
+<p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="177"><em sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="177"><strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="177">Przykład:</strong></em></p>
+<p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="179">Zakup o wartości 100 EUR.</p>
+<p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="181">VAT 23% (odwrotne obciążenie) nieodliczalny w 50%</p>
+<p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="183"><strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="183">Wartość netto</strong> 100 EUR * kurs wymiany waluty 4,00 = <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="183">400 PLN</strong></p>
+<p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="185"><strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="185">VAT należny</strong> 23% * wartość netto 100 EUR = <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="185">23 EUR</strong> * kurs
+wymiany waluty 4,00 = <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="186">92 PLN</strong></p>
+<p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="188"><strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="188">VAT naliczony</strong> 50% * (23% * wartość netto 100 EUR = <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="188">23 EUR</strong>) *
+kurs wymiany waluty 4,00 = <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="189">46 PLN</strong></p>
+<p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="191"><strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="191">Kwota kosztu</strong> = wartość netto PLN + nieodliczalna część wartości VAT
+naliczonego = <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="192">446 PLN</strong></p>
+<p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="194">Przeliczenie VAT po innym kursie wymiany waluty (1 EUR = 5
+PLN)</p>
+<p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="197"><strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="197">Różnica w kwocie VAT należnego</strong> = (23 EUR * 5,00) – (23 EUR *
+4,00) = <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="198">23 PLN</strong></p>
+<p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="200"><strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="200">Różnica w kwocie VAT naliczonego nie do odliczenia</strong> = 50% * ((23 EUR
+* 5,00) – (23 EUR * 4,00)) = <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="201">11,50 PLN</strong></p>
+<p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="203"><strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="203">Różnica w kwocie VAT naliczonego do odliczenia =</strong> ((23 EUR * 5,00)
+– (23 EUR * 4,00)) – VAT naliczony nie do odliczenia = <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="204">11,50 PLN</strong></p>
+<p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="206"><img src="media/image128.png" sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="206" alt=""></p>
+<p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="208"><img src="media/image129.png" sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="208" alt=""></p>
+<p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="210">Kwota VAT nie do odliczenia przy ewidencji samego podatku VAT (np.
+z dokumentu PZC) jest księgowana na konto kosztowe wybrane
+w ustawieniach. W tego typu transakcji kwota VAT nie do odliczenia nie
+może być dodana do wartości netto, gdyż w dokumentach z pełnym VAT koszt
+nie jest w ogóle księgowany (tylko VAT i zobowiązanie).</p>
+<p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="216">W celu przygotowania i zaksięgowania faktury zakupu tylko z VAT,
+którego częściowo nie można odliczyć, należy postępować
+według następujących kroków:</p>
+<ol sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="220">
+<li sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="220">Fakturę zakupu należy wprowadzić w sposób typowy dla ewidencji
+dokumentów z pełnym VAT, zwracając uwagę, aby użyta w niej była
+właściwa kombinacja kodów w polach <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="222">Gosp. grupa księgowa</strong> <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="222">VAT</strong>
+i <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="223">Tow. grupa księgowa VAT</strong>, a data obowiązku VAT przypadała
+w okresie zaczynającym się od daty wprowadzonej w polu Od <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="224">dnia</strong>
+w oknie <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="225">Ustawienia VAT nie do odliczenia</strong> dla wybranej kombinacji
+grup księgowych VAT.</li>
+</ol>
+<div class="NOTE" sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="228">
+<h5>Uwaga</h5>
+<p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="229"><strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="229">Uwaga:</strong> Księgowanie dokumentów tylko z VAT opisane jest w rozdziale
+<strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="230">2.7. Księgowanie pełnego VAT</strong>.</p>
+</div>
+<ol start="2" sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="232">
+<li sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="232">W kartotece wprowadzonej faktury zakupu należy wybrać
+<strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="233">Statystyka.</strong></li>
+</ol>
+<p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="235"><img src="media/image130.png" sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="235" alt=""></p>
+<ol start="3" sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="237">
+<li sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="237"><p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="237">Należy w sposób standardowy zaksięgować wprowadzoną fakturę zakupu.
+W oknie z komunikatem o treści <em sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="238">„Fakturę zaksięgowano
+i przeniesiono do okna Zaksięgowana faktura zakupu. Czy chcesz
+otworzyć zaksięgowaną fakturę?&quot;</em> należy wybrać <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="240">Tak</strong>.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="242"><p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="242">W oknie <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="242">Zaksięgowana faktura zakupu</strong>, które się otworzy, należy
+wybrać <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="243">Nawiguj</strong>.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="245"><p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="245">W oknie <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="245">Nawigacja</strong>, które się otworzy, należy zaznaczyć wiersz
+<strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="246">Zapis K/G</strong> i wybrać <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="246">Pokaż powiązane zapisy</strong>. Można zauważyć,
+że kwota VAT w części nie do odliczenia została zaksięgowana
+na konto kosztowe, które zostało wybrane w polu <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="248">Konto kosztu nie
+do odliczenia dla Pełny VAT</strong> w <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="249">Ustawieniach księgowych VAT</strong>
+dla kombinacji grup księgowych VAT użytych w tej fakturze zakupu:</p>
+</li>
+</ol>
+<p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="252"><img src="media/image131.png" sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="252" alt=""></p>
+<ol start="6" sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="254">
+<li sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="254"><p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="254">Należy wybrać <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="254">Zamknij</strong>, aby zamknąć okno <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="254">Zapisy księgi
+głównej</strong>.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="257"><p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="257">W oknie <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="257">Nawigacja</strong> należy zaznaczyć wiersz <strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="257">Zapis VAT</strong> i wybrać
+<strong sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="258">Pokaż powiązane zapisy</strong>.</p>
+</li>
+</ol>
+<p sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="260"><img src="media/image132.png" sourcefile="PolishFunctionality/vat-non-deductible-vat.md" sourcestartlinenumber="260" alt=""></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+           <div class="doc-language">
+              <a href="https://docs.it.integro.pl/pl-pl/" hreflang="pl-PL" lang="pl-PL">PL</a>
+              <a href="https://docs.it.integro.pl/en-us/" hreflang="en-US" lang="en-US" class="lang-flag">EN</a>
+            </div>
+            Copyright © IT.integro sp. z o.o.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

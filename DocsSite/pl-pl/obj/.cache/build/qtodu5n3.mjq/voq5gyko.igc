@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Podstawowe ustawienia i&#160;transakcje z&#160;VAT | IT.integro </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Podstawowe ustawienia i&#160;transakcje z&#160;VAT | IT.integro ">
+    <meta name="generator" content="docfx 2.55.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="TOC.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="podstawowe-ustawienia-itransakcje-zvat" sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="1">Podstawowe ustawienia i transakcje z VAT</h1>
+
+<h2 id="informacje-ogólne" sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="3">Informacje ogólne</h2>
+<p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="5">Funkcjonalność <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="5">Data obowiązku VAT</strong> została wprowadzona ze względu
+na wymagania przepisów polskiego prawa, zgodnie z którymi podatek VAT
+może być rozliczony w innym okresie niż dokument został zaksięgowany.</p>
+<p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="9">Funkcjonalność <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="9">Data obowiązku VAT</strong> ma wpływ na sposób obsługi
+poniższych elementów systemu:</p>
+<ul sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="12">
+<li sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="12"><p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="12">Ustawienie funkcji <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="12">Daty obowiązku VAT</strong>.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="14"><p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="14">Księgowanie transakcji sprzedaży, zakupu i serwisu z <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="14">Datą
+obowiązku VAT</strong>.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="17"><p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="17">Przekładanie podatku VAT w fakturach korygujących sprzedaży.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="19"><p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="19">Przygotowanie deklaracji VAT.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="21"><p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="21">Kalkulowanie i księgowanie podatku VAT.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="23"><p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="23">Uzgadnianie podatku VAT z zapisami księgi głównej.</p>
+</li>
+</ul>
+<h2 id="ustawienia" sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="25">Ustawienia</h2>
+<p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="27">W celu ustawienia możliwości i sposobu obsługi <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="27">Daty obowiązku VAT</strong>,
+należy postępować według następujących kroków:</p>
+<ol sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="30">
+<li sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="30"><p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="30">Należy wybrać <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="30">Działy &gt; Zarządzanie Finansami &gt; Administracja &gt;
+Ustawienia księgi głównej.</strong></p>
+</li>
+<li sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="33"><p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="33">W oknie <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="33">Ustawienia księgi głównej</strong>, na karcie skróconej <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="33">VAT</strong>
+należy wypełnić pola zgodnie z potrzebami:</p>
+<ul sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="36">
+<li sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="36"><p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="36"><strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="36">Użyj daty obowiązku VAT</strong> – zaznaczenie tego pola umożliwia
+korzystanie z funkcjonalności <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="37">Data obowiązku VAT</strong>, a system
+kontroluje, czy pole <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="38">Data obowiązku VAT</strong> nie jest puste
+w transakcjach sprzedaży, zakupu i serwisu. Niezaznaczenie tego
+pola powoduje, że w całym systemie, we wszystkich dokumentach
+do pola <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="41">Data obowiązku VAT</strong> kopiowana jest <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="41">Data
+księgowania</strong>, a system uniemożliwia ręczną zmianę daty obowiązku
+VAT na inną.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="45"><p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="45">**Dozw. księgowanie VAT od **– w tym polu należy wprowadzić datę
+początkową okresu, w jakim dozwolone jest rozliczanie podatku VAT
+z księgowanych transakcji. Pozostawienie pola pustego powoduje,
+że system nie kontroluje początku okresu rozliczenia VAT
+i istnieje ryzyko, że podatek VAT z księgowanej transakcji może
+zostać przypisany do okresu już rozliczonego.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="52"><p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="52">**Dozw. księgowanie VAT do **– w tym polu należy wprowadzić datę
+końcową okresu, w jakim dozwolone jest rozliczanie podatku VAT
+z księgowanych transakcji. Pozostawienie pola pustego powoduje,
+że system nie kontroluje końca okresu rozliczenia VAT i istnieje
+ryzyko, że podatek VAT z księgowanej transakcji może zostać
+przypisany do okresu, który będzie rozliczany w dalekiej
+przyszłości.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="60"><p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="60"><strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="60">Dozw. zmiana daty obowiązku VAT w wierszach</strong> – zaznaczenie tego
+pola spowoduje umożliwienie wprowadzenia innej daty obowiązku VAT
+w wierszach dokumentu, a to oznacza, że możliwe jest w takiej
+sytuacji rozliczenie podatku VAT z każdego wiersza jednego
+dokumentu w innym okresie. Domyślnie w każdym wierszu system
+wstawi datę obowiązku VAT taką samą, jak w nagłówku, ale pozwoli
+ją zmienić na inną.</p>
+<p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="68">Pozostawienie pustego pola spowoduje, że system będzie kontrolował,
+czy data obowiązku VAT w nagłówku dokumentu jest taka sama,
+jak w wierszach.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="72"><p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="72"><strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="72">Użyj przełożonego VAT</strong> – zaznaczenie tego pola oznacza
+pozwolenie na używanie funkcji <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="73">Przełożony VAT</strong>.</p>
+</li>
+</ul>
+<div class="NOTE" sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="75">
+<h5>Uwaga</h5>
+</div>
+<p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="76"><strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="76">Uwaga:</strong> Funkcja <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="76">Przełożony VAT</strong> wykorzystana jest do oznaczania
+faktur korygujących sprzedaży jako podpisane przez odbiorcę.</p>
+<blockquote sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="78">
+<p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="79">Zaznaczenie pola <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="79">Użyj przełożonego VAT</strong> możliwe jest tylko
+w sytuacji, gdy zaznaczone jest pole <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="80">Użyj daty obowiązku VAT.</strong></p>
+</blockquote>
+<ul sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="82">
+<li sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="82"><strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="82">Zezwalaj na przełożony VAT w wierszu –</strong> zaznaczenie tego pola
+spowoduje, że możliwe będzie zaznaczanie lub odznaczanie pola
+**Przełożony VAT w **wierszach dokumentu, niezależnie od tego, czy
+pole <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="85">Przełożony VAT</strong> w nagłówku jest zaznaczone. Domyślnie
+w każdym wierszu system wstawi znacznik w polu <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="86">Przełożony VAT</strong>,
+jeśli pole to jest zaznaczone w nagłówku, ale pozwoli na zmianę
+w wierszach.</li>
+</ul>
+</li>
+<li sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="90"><p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="90">Na karcie skróconej <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="90">Ogólne</strong> jest pole <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="90">Drukowanie specyfikacji
+VAT w PLN</strong> – zaznaczenie tego pola powoduje, że specyfikacja VAT
+na dokumentach sprzedaży wystawionych w walucie obcej drukowana
+jest w PLN.</p>
+</li>
+</ol>
+<p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="95"><img src="media/image70.png" sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="95" alt=""></p>
+<ol start="4" sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="97">
+<li sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="97"><p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="97">Należy wybrać <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="97">Działy &gt; Zarządzanie Finansami &gt; Administracja &gt;
+Ustawienia sprzedaży i należności</strong>.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="100"><p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="100">W oknie <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="100">Ustawienia sprzedaży i należn.</strong>, na karcie skróconej
+<strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="101">Ogólne</strong> należy zaznaczyć pole <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="101">Potwierdzenie faktury
+korygującej</strong>, jeśli podatek VAT z faktur korygujących sprzedaży ma
+być automatycznie traktowany jako <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="103">Przełożony VAT</strong> do chwili, aż
+dokument zostanie podpisany przez odbiorcę.</p>
+</li>
+</ol>
+<p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="106"><img src="media/image71.png" sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="106" alt=""></p>
+<p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="108">Po zdefiniowaniu podstawowych ustawień dla <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="108">Daty obowiązku VAT</strong> można,
+na wzór standardowej funkcjonalności dla dozwolonych okresów
+księgowania, ustawić dozwolone okresy VAT, czyli, oprócz ogólnego
+ustawienia w oknie <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="111">Ustawienia księgi głównej</strong>, można definiować
+ustawienia dla poszczególnych użytkowników. W tym celu należy postępować
+według następujących kroków:</p>
+<ol sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="115">
+<li sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="115"><p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="115">Należy wybrać <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="115">Działy &gt; Administracja &gt; Użytkownicy &gt; Ustawienia
+użytkownika</strong>.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="118"><p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="118">W oknie <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="118">Ustawienia użytkownika</strong>, które się otworzy, w wierszu
+z ustawieniami wybranego użytkownika, należy uzupełnić pola:</p>
+<ul sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="121">
+<li sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="121"><p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="121">**Dozw. księgowanie VAT od **– w tym polu należy wprowadzić datę
+początkową okresu, w jakim dozwolone dla wybranego użytkownika
+jest rozliczanie podatku VAT z księgowanych transakcji.
+Pozostawienie pola pustego powoduje, że system nie kontroluje
+początku okresu rozliczenia VAT i istnieje ryzyko, że podatek VAT
+z księgowanej transakcji może zostać przypisany do okresu już
+rozliczonego.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="129"><p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="129">**Dozw. księgowanie VAT do **– w tym polu należy wprowadzić datę
+końcową okresu, w jakim dozwolone jest rozliczanie podatku VAT
+z księgowanych transakcji. Pozostawienie pola pustego powoduje,
+że system nie kontroluje końca okresu rozliczenia VAT i istnieje
+ryzyko, że podatek VAT z księgowanej transakcji może zostać
+przypisany do okresu, który będzie rozliczany w dalekiej
+przyszłości.</p>
+</li>
+</ul>
+<div class="NOTE" sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="137">
+<h5>Uwaga</h5>
+<p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="138">Jeśli obydwa pola: <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="138">Dozw. księgowanie VAT od i Dozw.
+księgowanie VAT do są</strong> puste w wierszu z ustawieniami wybranego
+użytkownika w oknie <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="140">Ustawienia użytkownika</strong>, system traktuje
+to jako brak ustawienia szczególnego okresu VAT dla tego użytkownika
+i stosuje dla niego dozwolony okres ustawiony w oknie <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="142">Ustawienia
+księgi głównej.</strong></p>
+<p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="145">Ustawienia zdefiniowane w oknie <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="145">Ustawienia użytkownika</strong> mają wyższy
+priorytet niż ustawienia zdefiniowane w oknie <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="146">Ustawienia księgi
+głównej.</strong> Oznacza to, że dla wybranych użytkowników można ustawić
+inne dozwolone okresy VAT (w oknie <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="148">Ustawienia użytkownika</strong>),
+niż obowiązujące dla pozostałych użytkowników (w oknie <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="149">Ustawienia
+księgi głównej</strong>), nie mających specjalnych ustawień w oknie
+<strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="151">Ustawienia użytkownika</strong>.</p>
+</div>
+</li>
+</ol>
+<p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="153"><img src="media/image72.png" sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="153" alt=""></p>
+<p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="155">Zdarza się, iż okresy sprawozdawcze VAT i okresy obrachunkowe się nie
+pokrywają. Aby ułatwić raportowanie i księgowanie VAT zgodne z okresami
+VAT oraz tworzenie wewnętrznych i ustawowych raportów zgodnych
+z okresami obrachunkowymi, w ramach funkcji <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="158">Data obowiązku VAT</strong>
+zostały dodane <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="159">Okresy VAT</strong>.</p>
+<p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="161">W celu ich zdefiniowania należy postępować według następujących kroków:</p>
+<ol sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="163">
+<li sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="163"><p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="163">Należy wybrać <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="163">Działy &gt; Zarządzanie Finansami &gt; Administracja &gt;
+Okresy VAT</strong>.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="166"><p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="166">W oknie <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="166">Okresy VAT</strong>, które się otworzy, należy wybrać <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="166">Utwórz
+okresy</strong>.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="169"><p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="169">W oknie <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="169">Utwórz okres VAT</strong>, które się otworzy, należy wypełnić
+pola:</p>
+<ul sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="172">
+<li sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="172"><p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="172"><strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="172">Data początkowa</strong> – w tym polu należy wprowadzić datę początkową
+roku rozliczeniowego dla podatku VAT</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="175"><p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="175"><strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="175">Liczba okresów</strong> – w tym polu należy wprowadzić ilość okresów,
+które składają się na rok rozliczenia podatku VAT</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="178"><p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="178"><strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="178">Długość okresu</strong> – w tym polu należy wprowadzić formułę,
+na podstawie której zostanie obliczona długość jednego okresu roku
+rozliczenia podatku VAT, np. 1M = 1 miesiąc, 3M = 3 miesiące itp.</p>
+</li>
+</ul>
+</li>
+</ol>
+<p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="182"><img src="media/image73.png" sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="182" alt=""></p>
+<ol start="4" sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="184">
+<li sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="184">Zatwierdzenie przyciskiem <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="184">OK</strong> w poprzednim oknie, powoduje
+automatyczne dodanie kolejnych wierszy w oknie <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="185">Okresy VAT</strong>,
+zgodnie z wprowadzonymi parametrami podczas tworzenia okresów:</li>
+</ol>
+<p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="188"><img src="media/image74.png" sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="188" alt=""></p>
+<p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="190">Dla podatku VAT zaksięgowanego z transakcji oznaczonych jako
+<strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="191">Przełożony VAT</strong>, konieczne jest wskazanie kont księgi głównej,
+które mogą być inne niż te przeznaczone do księgowania zwykłego
+podatku VAT należnego i naliczonego. W tym celu należy postępować
+według następujących kroków:</p>
+<ol sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="196">
+<li sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="196"><p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="196">Należy wybrać <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="196">Działy &gt; Zarządzanie Finansami &gt; Administracja &gt;
+Ustawienia księgowe VAT</strong>.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="199"><p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="199">W oknie <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="199">Ustawienia księgowe VAT</strong>, które się otworzy, należy
+zaznaczyć wiersz z wybraną kombinacją kodów w polach <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="200">Gosp. grupa
+księgowa VAT</strong> i <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="201">Tow. grupa księgowa VAT</strong>, a następnie wybrać
+<strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="202">Edycja</strong>.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="204"><p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="204">W oknie <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="204">Kartoteka ustaw. księg. VAT</strong>, które się otworzy,
+na karcie skróconej <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="205">Sprzedaż</strong> należy uzupełnić pole <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="205">Konto
+przełoż. należnego VAT</strong>, a na karcie skróconej <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="206">Zakupy</strong> należy
+uzupełnić pola: <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="207">Konto przełoż. naliczonego VAT i Konto przełoż.
+odwrotnego obciążenia</strong>. W wymienionych polach można rozwinąć
+listę kont księgi głównej i wybrać spośród nich właściwe.</p>
+</li>
+</ol>
+<p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="211"><img src="media/image75.png" sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="211" alt=""></p>
+<h2 id="obsługa" sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="213">Obsługa</h2>
+<p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="215">Aby księgować transakcje zakupu, sprzedaży i serwisu z wykorzystaniem
+funkcjonalności <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="216">Data obowiązku VAT</strong>, użytkownik musi mieć możliwość
+wprowadzania daty obowiązku VAT we wszystkich właściwych oknach
+w systemie: nagłówkach i wierszach dokumentów, wierszach dzienników itp.
+W celu zaksięgowania np. transakcji zakupu z użyciem funkcjonalności
+<strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="220">Data obowiązku VAT</strong>, należy postępować według następujących kroków:</p>
+<ol sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="222">
+<li sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="222"><p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="222">Należy wybrać <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="222">Działy &gt; Zarządzanie Finansami &gt; Zobowiązania &gt;
+Faktury zakupu.</strong></p>
+</li>
+<li sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="225"><p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="225">W oknie, które się otworzy, należy wybrać <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="225">Nowe</strong> i standardowo
+wprowadzić dane o fakturze zakupu.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="228"><p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="228">Na karcie skróconej <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="228">Ogólne</strong> pole <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="228">Data obowiązku VAT</strong> jest
+wypełniane automatycznie przez system. Przyjmowana jest wartość
+z pola <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="230">Data dokumentu</strong> lub z pola <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="230">Data wpływu dokumentu</strong>,
+w zależności od tego, która z nich jest późniejsza. Należy zmienić
+datę w polu **Data obowiązku VAT na **inną niż domyślna.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="234"><p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="234">Na karcie skróconej <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="234">Wiersze</strong>, należy zwrócić uwagę na pole <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="234">Data
+obowiązku VAT</strong> – powinno przyjąć wartość taką samą, jak w polu
+<strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="236">Data obowiązku VAT</strong> na karcie skróconej <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="236">Ogólne</strong>. Jeśli
+w ustawieniach dozwolona jest zmiana daty obowiązku VAT
+w wierszach, należy zmienić datę w polu <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="238">Data obowiązku VAT</strong>
+na inną niż domyślna.</p>
+</li>
+</ol>
+<p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="241"><img src="media/image76.png" sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="241" alt=""></p>
+<ol start="5" sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="243">
+<li sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="243"><p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="243">Należy zaksięgować fakturę zakupu.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="245"><p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="245">Należy sprawdzić daty obowiązku VAT w zaksięgowanej fakturze zakupu.
+W tym celu należy wybrać <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="246">Działy &gt; Zarządzanie Finansami &gt;
+Archiwum &gt; Zaksięgowane faktury zakupu.</strong></p>
+</li>
+<li sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="249"><p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="249">Wybraną zaksięgowaną fakturę zakupu należy wyświetlić w formie
+kartoteki:</p>
+</li>
+</ol>
+<p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="252"><img src="media/image77.png" sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="252" alt=""></p>
+<ol start="8" sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="254">
+<li sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="254">Można też sprawdzić, jak daty obowiązku VAT zostały zapisane w oknie
+<strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="255">Zapisy VAT</strong>. W tym celu, w zaksięgowanej fakturze zakupu należy
+wybrać <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="256">Nawiguj</strong>, następnie należy zaznaczyć wiersz <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="256">Zapis VAT</strong>
+i wybrać <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="257">Pokaż powiązane zapisy</strong>:</li>
+</ol>
+<p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="259"><img src="media/image78.png" sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="259" alt=""></p>
+<div class="NOTE" sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="261">
+<h5>Uwaga</h5>
+<p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="262">Pole <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="262">Data obowiązku VAT</strong> jest dostępne
+do edycji w następujących dokumentach: Zamówienie <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="263">zakupu, Faktura
+zakupu, Zamówienie zwrotu zakupu, Faktura korygująca zakupu,
+Zamówienie sprzedaży, Faktura sprzedaży, Zamówienie zwrotu sprzedaży,
+Faktura korygująca sprzedaży.</strong> Datę obowiązku VAT można też edytować
+w wierszach dzienników głównych oraz w oknie <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="267">VAT-dodatkowe
+informacje</strong>.</p>
+<p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="270">Po zaksięgowaniu transakcji z VAT, data obowiązku VAT zapisywana jest
+w zaksięgowanych dokumentach: <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="271">Zaksięgowana faktura zakupu,
+Zaksięgowana faktura korygująca zakupu, Zaksięgowana faktura
+sprzedaży, Zaksięgowana faktura korygująca sprzedaży</strong>. Data obowiązku
+VAT zapamiętana jest również w tabelach: <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="274">Zapis VAT</strong>
+oraz <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="275">Szczegółowy zapis VAT.</strong></p>
+</div>
+<p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="277">VAT pochodzący z różnych transakcji może być rozliczany w okresie innym
+niż księgowana jest transakcja podlegająca opodatkowaniu. Okres
+rozliczenia zależy od różnych czynników i może być ustalany w różny
+sposób. W sytuacji, gdy okres rozliczenia podatku VAT zależy od terminu
+zapłaty, zastosowanie mają ustawienia związane z VAT niezrealizowanym,
+a kwota podatku może być księgowana na odrębnych kontach. W sytuacji,
+gdy okres rozliczenia VAT jest znany w momencie księgowania transakcji,
+można od razu wybrać okres rozliczenia wprowadzając właściwą datę
+obowiązku VAT, która może różnić się od daty księgowania. W sytuacji,
+gdy z jakichś przyczyn okres rozliczenia VAT nie jest znany w momencie
+księgowania transakcji podlegającej opodatkowaniu, można użyć
+funkcjonalności przełożonego VAT, a podatek może być zaksięgowany
+na odrębnym koncie KG. Zasady te dotyczą zarówno normalnego VAT,
+jak i odwrotnego obciążenia. W oknie <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="290">Kartoteka ustaw. księg. VAT</strong>
+dla każdej kombinacji grup <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="291">Gosp. grupa księgowa VAT</strong> i <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="291">Tow. grupa
+księgowa VAT</strong> można przypisać oddzielne konta KG do księgowania kwoty
+podatku VAT przełożonego i niezrealizowanego, dotyczy to również
+odwrotnego obciążenia, która też może być przełożona
+lub niezrealizowana.</p>
+<p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="297">W sytuacji, gdy podatek VAT jest jednocześnie przełożony
+i niezrealizowany, konieczne jest zachowanie właściwej kolejności w jego
+realizacji: najpierw realizacja przełożonego VAT (funkcją <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="299">Realizuj
+przełożony VAT</strong> uruchamianą w oknie <strong sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="300">Arkusz rozliczania VAT</strong>),
+a później realizacja niezrealizowanego VAT (poprzez rozliczenie
+należności lub zobowiązania z płatnością). Polska Lokalizacja w ramach
+obsługi podatku VAT została wyposażona w zabezpieczenia, które nie
+dopuszczają innej kolejności realizacji podatku VAT.</p>
+<p sourcefile="PolishFunctionality/vat-master-settings-transactions.md" sourcestartlinenumber="306">W sytuacji, gdy kwota odwrotnego obciążenia jest jednocześnie przełożona
+i niezrealizowana, obowiązują zasady opisane powyżej. Jeżeli w odwrotnym
+obciążeniu wystąpiła różnica w kursie wymiany, może ona zostać
+zaksięgowana po realizacji przełożonego i niezrealizowanego VAT.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+           <div class="doc-language">
+              <a href="https://docs.it.integro.pl/pl-pl/" hreflang="pl-PL" lang="pl-PL">PL</a>
+              <a href="https://docs.it.integro.pl/en-us/" hreflang="en-US" lang="en-US" class="lang-flag">EN</a>
+            </div>
+            Copyright © IT.integro sp. z o.o.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,485 @@
+
+<div id="sidetoggle">
+  <div>
+    <div class="sidefilter">
+      <form class="toc-filter">
+        <span class="glyphicon glyphicon-filter filter-icon"></span>
+        <span class="glyphicon glyphicon-remove clear-icon" id="toc_filter_clear"></span>
+        <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+      </form>
+    </div>
+    <div class="sidetoc">
+      <div class="toc" id="toc">
+          
+          <ul class="nav level1">
+                <li>
+                    <a href="index.html" name="" title="Wprowadzenie">Wprowadzenie</a>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="gl-general-ledger.html" name="" title="Obs&#322;uga ksi&#281;gi g&#322;&#243;wnej">Obs&#322;uga ksi&#281;gi g&#322;&#243;wnej</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="gl-posted-document-number-information.html" name="" title="Informacja o numerze zaksi&#281;gowanego dokumentu">Informacja o numerze zaksi&#281;gowanego dokumentu</a>
+                          </li>
+                          <li>
+                              <a href="gl-posting-description.html" name="" title="Opis ksi&#281;gowania">Opis ksi&#281;gowania</a>
+                          </li>
+                          <li>
+                              <a href="gl-posting-correction-red-strono.html" name="" title="Ksi&#281;gowanie korekty (storno czerwone)">Ksi&#281;gowanie korekty (storno czerwone)</a>
+                          </li>
+                          <li>
+                              <a href="gl-document-numbering-series.html" name="" title="Szablony serii numeracji dokument&#243;w">Szablony serii numeracji dokument&#243;w</a>
+                          </li>
+                          <li>
+                              <a href="gl-master-templates-number-series.html" name="" title="Seria numeracji w szablonach g&#322;&#243;wnych">Seria numeracji w szablonach g&#322;&#243;wnych</a>
+                          </li>
+                          <li>
+                              <a href="gl-importing-exchange-rates.html" name="" title="Import kurs&#243;w wymiany NBP">Import kurs&#243;w wymiany NBP</a>
+                          </li>
+                          <li>
+                              <a href="gl-master-settings.html" name="" title="Podstawowe ustawienia">Podstawowe ustawienia</a>
+                          </li>
+                          <li>
+                              <a href="gl-exchange-rate-for-amount-different-from-one.html" name="" title="Kurs wymiany dla kwoty r&#243;&#380;nej od 1">Kurs wymiany dla kwoty r&#243;&#380;nej od 1</a>
+                          </li>
+                          <li>
+                              <a href="gl-capturing-historical-data.html" name="" title="Przechwytywanie danych historycznych">Przechwytywanie danych historycznych</a>
+                          </li>
+                          <li>
+                              <a href="gl-adjusting-exchange-rates.html" name="" title="Korygowanie kurs&#243;w wymiany">Korygowanie kurs&#243;w wymiany</a>
+                          </li>
+                          <li>
+                              <a href="gl-exchange-rate-adjustment-registers.html" name="" title="Rejestry korekt kurs&#243;w wymiany">Rejestry korekt kurs&#243;w wymiany</a>
+                          </li>
+                          <li>
+                              <a href="gl-accounting-software-name-and-version.html" name="" title="Informacja o nazwie i wersji programu ksi&#281;gowego">Informacja o nazwie i wersji programu ksi&#281;gowego</a>
+                          </li>
+                          <li>
+                              <a href="gl-business-types.html" name="" title="Typy dzia&#322;alno&#347;ci">Typy dzia&#322;alno&#347;ci</a>
+                          </li>
+                          <li>
+                              <a href="gl-selected-financial-statement-elements.html" name="" title="Wybrane elementy sprawozdania finansowego">Wybrane elementy sprawozdania finansowego</a>
+                          </li>
+                          <li>
+                              <a href="gl-account-categories.html" name="" title="Kategorie kont">Kategorie kont</a>
+                          </li>
+                          <li>
+                              <a href="gl-balance-sheet.html" name="" title="Bilans">Bilans</a>
+                          </li>
+                          <li>
+                              <a href="gl-debit-credit-amounts.html" name="" title="Rachunek zysk&#243;w i strat">Rachunek zysk&#243;w i strat</a>
+                          </li>
+                          <li>
+                              <a href="gl-tax-nontax-costs-division.html" name="" title="Podzia&#322; koszt&#243;w na podatkowe i niepodatkowe">Podzia&#322; koszt&#243;w na podatkowe i niepodatkowe</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="vat.html" name="" title="Obs&#322;uga podatku VAT">Obs&#322;uga podatku VAT</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="vat-settlement-date.html" name="" title="Data obowi&#261;zku VAT">Data obowi&#261;zku VAT</a>
+                          </li>
+                          <li>
+                              <a href="vat-master-settings-transactions.html" name="" title="Podstawowe ustawienia i transakcje z VAT">Podstawowe ustawienia i transakcje z VAT</a>
+                          </li>
+                          <li>
+                              <a>[Przełożony VAT (oznaczanie podpisanych faktur korygujących sprzedaży)](vat-postponed</a>
+                          </li>
+                          <li>
+                              <a href="vat-sales-purchase-vat-register.html" name="" title="Rejestr VAT sprzeda&#380;y/zakupu">Rejestr VAT sprzeda&#380;y/zakupu</a>
+                          </li>
+                          <li>
+                              <a href="vat-application-worksheet.html" name="" title="Arkusz rozliczania VAT">Arkusz rozliczania VAT</a>
+                          </li>
+                          <li>
+                              <a href="vat-declaration.html" name="" title="Deklaracja VAT">Deklaracja VAT</a>
+                          </li>
+                          <li>
+                              <a href="vat-detailed-vat-entries.html" name="" title="Szczeg&#243;&#322;owe zapisy VAT">Szczeg&#243;&#322;owe zapisy VAT</a>
+                          </li>
+                          <li>
+                              <a href="vat-posting-vat-documents-in-general-journals.html" name="" title="Ksi&#281;gowanie dokument&#243;w z VAT w dziennikach g&#322;&#243;wnych">Ksi&#281;gowanie dokument&#243;w z VAT w dziennikach g&#322;&#243;wnych</a>
+                          </li>
+                          <li>
+                              <a href="vat-posting-full-vat-amount.html" name="" title="Ksi&#281;gowanie pe&#322;nego VAT">Ksi&#281;gowanie pe&#322;nego VAT</a>
+                          </li>
+                          <li>
+                              <a href="vat-non-deductible-vat.html" name="" title="VAT nie do odliczenia">VAT nie do odliczenia</a>
+                          </li>
+                          <li>
+                              <a href="vat-skipping-transactions-in-the-vat-register.html" name="" title="Pomijanie transakcji w ewidencji VAT">Pomijanie transakcji w ewidencji VAT</a>
+                          </li>
+                          <li>
+                              <a href="vat-orders-internal-sales-invoices.html" name="" title="Zam&#243;wienia i faktury wewn&#281;trzne sprzeda&#380;y">Zam&#243;wienia i faktury wewn&#281;trzne sprzeda&#380;y</a>
+                          </li>
+                          <li>
+                              <a href="vat-reverse-charge-vat-supported.html" name="" title="Obs&#322;uga odwrotnego obci&#261;&#380;enia">Obs&#322;uga odwrotnego obci&#261;&#380;enia</a>
+                          </li>
+                          <li>
+                              <a href="vat-reverse-charge-in-purchase-transactions.html" name="" title="Odwrotne obci&#261;&#380;enie w transakcjach zakupu">Odwrotne obci&#261;&#380;enie w transakcjach zakupu</a>
+                          </li>
+                          <li>
+                              <a href="vat-reverse-charge-in-sales-transactions.html" name="" title="Odwrotne obci&#261;&#380;enie w transakcjach sprzeda&#380;y">Odwrotne obci&#261;&#380;enie w transakcjach sprzeda&#380;y</a>
+                          </li>
+                          <li>
+                              <a href="vat-additional-currency-exchange-rates-for-vat-conversion.html" name="" title="Dodatkowy kurs wymiany waluty do przeliczenia VAT">Dodatkowy kurs wymiany waluty do przeliczenia VAT</a>
+                          </li>
+                          <li>
+                              <a href="vat-eu-vat-declaration.html" name="" title="Deklaracja VAT-UE">Deklaracja VAT-UE</a>
+                          </li>
+                          <li>
+                              <a href="vat-service-tariff-number.html" name="" title="Nr taryfy us&#322;ugowej">Nr taryfy us&#322;ugowej</a>
+                          </li>
+                          <li>
+                              <a href="vat-27-declaration.html" name="" title="Deklaracja VAT-27">Deklaracja VAT-27</a>
+                          </li>
+                          <li>
+                              <a href="vat-checking-the-vat-status-of-an-entity.html" name="" title="Sprawdzenie statusu podmiotu w VAT">Sprawdzenie statusu podmiotu w VAT</a>
+                          </li>
+                          <li>
+                              <a href="vat-downloading-data-form-government-services.html" name="" title="Pobieranie danych z serwis&#243;w rz&#261;dowych">Pobieranie danych z serwis&#243;w rz&#261;dowych</a>
+                          </li>
+                          <li>
+                              <a href="vat-bir-contractor-data.html" name="" title="Dane kontrahent&#243;w w Bazie Internetowej Regon (BIR)">Dane kontrahent&#243;w w Bazie Internetowej Regon (BIR)</a>
+                          </li>
+                          <li>
+                              <a href="vat-taxpayer-list.html" name="" title="Wykaz podatnik&#243;w VAT">Wykaz podatnik&#243;w VAT</a>
+                          </li>
+                          <li>
+                              <a href="vat-bank-account-update.html" name="" title="Aktualizacja kont bankowych">Aktualizacja kont bankowych</a>
+                          </li>
+                          <li>
+                              <a href="vat-taxpayer-list-inquiry-register.html" name="" title="Rejestr zapyta&#324; wykazu podatnik&#243;w VAT">Rejestr zapyta&#324; wykazu podatnik&#243;w VAT</a>
+                          </li>
+                          <li>
+                              <a href="vat-proof-of-purchase.html" name="" title="Dokumenty zakupu">Dokumenty zakupu</a>
+                          </li>
+                          <li>
+                              <a href="vat-suppliers-buyers-payment-sheet.html" name="" title="Bankowo&#347;&#263; elektroniczna &#8211; Arkusz p&#322;atno&#347;ci do dostawc&#243;w/nabywc&#243;w">Bankowo&#347;&#263; elektroniczna &#8211; Arkusz p&#322;atno&#347;ci do dostawc&#243;w/nabywc&#243;w</a>
+                          </li>
+                          <li>
+                              <a href="vat-bank-transfer-log.html" name="" title="Bankowo&#347;&#263; elektroniczna &#8211; Dziennik przelew&#243;w bankowych">Bankowo&#347;&#263; elektroniczna &#8211; Dziennik przelew&#243;w bankowych</a>
+                          </li>
+                          <li>
+                              <a href="vat-transfer-order-register-records.html" name="" title="Bankowo&#347;&#263; elektroniczna &#8211; Zapisy rejestru polecenia przelewu">Bankowo&#347;&#263; elektroniczna &#8211; Zapisy rejestru polecenia przelewu</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="cm-cash-management.html" name="" title="Obs&#322;uga &#347;rodk&#243;w pieni&#281;&#380;nych">Obs&#322;uga &#347;rodk&#243;w pieni&#281;&#380;nych</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="cm-cash-managing.html" name="" title="Zarz&#261;dzanie kas&#261; got&#243;wkow&#261;">Zarz&#261;dzanie kas&#261; got&#243;wkow&#261;</a>
+                          </li>
+                          <li>
+                              <a href="cm-bank-statement-journal.html" name="" title="Dziennik wyci&#261;g&#243;w bankowych">Dziennik wyci&#261;g&#243;w bankowych</a>
+                          </li>
+                          <li>
+                              <a href="cm-calculating-and-posting-currency-exchange-rate-differences.html" name="" title="Kalkulacja i ksi&#281;gowanie r&#243;&#380;nic kursowych w transakcjach bankowych">Kalkulacja i ksi&#281;gowanie r&#243;&#380;nic kursowych w transakcjach bankowych</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="eb-electronic-banking.html" name="" title="Bankowo&#347;&#263; elektroniczna">Bankowo&#347;&#263; elektroniczna</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="eb-setup.html" name="" title="Ustawienia">Ustawienia</a>
+                          </li>
+                          <li>
+                              <a href="eb-entering-transfers.html" name="" title="Wprowadzanie przelew&#243;w">Wprowadzanie przelew&#243;w</a>
+                          </li>
+                          <li>
+                              <a href="eb-transfer-registers.html" name="" title="Rejestry przelew&#243;w">Rejestry przelew&#243;w</a>
+                          </li>
+                          <li>
+                              <a href="eb-importing-and-transfering-bank-statements.html" name="" title="Import/przekazywanie wyci&#261;g&#243;w bankowych">Import/przekazywanie wyci&#261;g&#243;w bankowych</a>
+                          </li>
+                          <li>
+                              <a href="eb-split-payment.html" name="" title="Mechanizm podzielonej p&#322;atno&#347;ci (Split Payment)">Mechanizm podzielonej p&#322;atno&#347;ci (Split Payment)</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="rp-receivables-and-payables.md" name="" title="Obs&#322;uga nale&#380;no&#347;ci I zobowi&#261;za&#324;">Obs&#322;uga nale&#380;no&#347;ci I zobowi&#261;za&#324;</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a>[Precyzja zaokrąglania cen sprzedaży]</a>
+                          </li>
+                          <li>
+                              <a>[Paragony fiskalne]</a>
+                          </li>
+                          <li>
+                              <a>[Drukowanie paragonów fiskalnych]</a>
+                          </li>
+                          <li>
+                              <a>[NIP nabywcy na paragonie fiskalnym]</a>
+                          </li>
+                          <li>
+                              <a>[Wydruki dokumentów sprzedaży]</a>
+                          </li>
+                          <li>
+                              <a href="rp-printing-sales-invoice.md" name="" title="Wydruk faktury sprzeda&#380;y">Wydruk faktury sprzeda&#380;y</a>
+                          </li>
+                          <li>
+                              <a href="rp-printing-sales-credit-memo.md" name="" title="Wydruk faktury koryguj&#261;cej sprzeda&#380;y">Wydruk faktury koryguj&#261;cej sprzeda&#380;y</a>
+                          </li>
+                          <li>
+                              <a>[Wydruk faktury sprzedaży serwisu]</a>
+                          </li>
+                          <li>
+                              <a>[Wydruk faktury korygującej sprzedaży serwisu]</a>
+                          </li>
+                          <li>
+                              <a>[Faktura Pro-forma sprzedaży]</a>
+                          </li>
+                          <li>
+                              <a>[Baza Danych Odpadowych (BDO)]</a>
+                          </li>
+                          <li>
+                              <a href="rp-sales-credit-memo.md" name="" title="Faktura koryguj&#261;ca sprzeda&#380;y">Faktura koryguj&#261;ca sprzeda&#380;y</a>
+                          </li>
+                          <li>
+                              <a href="rp-credit-memo-creator" name="" title="Kreator faktury koryguj&#261;cej">Kreator faktury koryguj&#261;cej</a>
+                          </li>
+                          <li>
+                              <a>[Korygowanie danych nagłówkowych]</a>
+                          </li>
+                          <li>
+                              <a>[Wybór konta bankowego na dokumentach sprzedaży]</a>
+                          </li>
+                          <li>
+                              <a>[Noty korygujące]</a>
+                          </li>
+                          <li>
+                              <a>[Faktura rozliczenia zaliczki pracowniczej]</a>
+                          </li>
+                          <li>
+                              <a>[Szablony nabywców i dostawców]</a>
+                          </li>
+                          <li>
+                              <a>[Wiele kont należności/zobowiązań]</a>
+                          </li>
+                          <li>
+                              <a>[Kompensaty nabywców i dostawców]</a>
+                          </li>
+                          <li>
+                              <a>[Wyświetlanie salda jako dostawca/nabywca]</a>
+                          </li>
+                          <li>
+                              <a>[Sugerowanie i księgowanie kompensaty]</a>
+                          </li>
+                          <li>
+                              <a>[Faktury zaliczkowe]</a>
+                          </li>
+                          <li>
+                              <a href="rp-customer-vendor-balance-reconciliation.md" name="" title="Potwierdzenie salda nabywcy/dostawcy">Potwierdzenie salda nabywcy/dostawcy</a>
+                          </li>
+                          <li>
+                              <a>[Sprawozdanie kwartalne GUS DNU-K]</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="fa-fixed-assets-management.md" name="" title="Obs&#322;uga &#347;rodk&#243;w trwa&#322;ych">Obs&#322;uga &#347;rodk&#243;w trwa&#322;ych</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a>[Klasyfikacja środków trwałych]</a>
+                          </li>
+                          <li>
+                              <a>[Zwiększenie wartości środka trwałego w fakturze zakupu]</a>
+                          </li>
+                          <li>
+                              <a href="fa-anual-depreciation-plan.md" name="" title="Roczny plan amortyzacji">Roczny plan amortyzacji</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="inv-inventory-management.md" name="" title="Obs&#322;uga zapas&#243;w">Obs&#322;uga zapas&#243;w</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a>[Polska Klasyfikacja Wyrobów i Usług (PKWiU)]</a>
+                          </li>
+                          <li>
+                              <a>[Obsługa gł. gospodarczej grupy księgowej w operacjach magazynowych]</a>
+                          </li>
+                          <li>
+                              <a>[Kalkulacja podatku od opakowań]</a>
+                          </li>
+                          <li>
+                              <a href="inv-intrastat.md" name="" title="Intrastat">Intrastat</a>
+                          </li>
+                          <li>
+                              <a href="inv-physical-inventory-counting-document.md" name="" title="Dokument inwentaryzacji">Dokument inwentaryzacji</a>
+                          </li>
+                          <li>
+                              <a>[Dokumenty operacji magazynowych]</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="ar-analysis-and-reports.md" name="" title="Analizy i raporty">Analizy i raporty</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="ar-general-ledger-account-net-change-and-balance.md" name="" title="Zestawienie obrot&#243;w i sald kont K/G">Zestawienie obrot&#243;w i sald kont K/G</a>
+                          </li>
+                          <li>
+                              <a href="ar-general-ledger-journal.md" name="" title="Dziennik K/G">Dziennik K/G</a>
+                          </li>
+                          <li>
+                              <a>[Dokument księgowy – rejestr K/G]</a>
+                          </li>
+                          <li>
+                              <a href="ar-analytical-general-ledger-register.md" name="" title="Analityczny rejestr K/G">Analityczny rejestr K/G</a>
+                          </li>
+                          <li>
+                              <a href="ar-analytical-general-ledger-document.md" name="" title="Analityczny dokument K/G">Analityczny dokument K/G</a>
+                          </li>
+                          <li>
+                              <a>[K/G - faktura zakupu]</a>
+                          </li>
+                          <li>
+                              <a>[K/G - faktura korygująca zakupu]</a>
+                          </li>
+                          <li>
+                              <a>[K/G - faktura sprzedaży]</a>
+                          </li>
+                          <li>
+                              <a>[K/G - faktura korygująca sprzedaży]</a>
+                          </li>
+                          <li>
+                              <a href="ar-bank-account-detail-trial-balance.md" name="" title="Konto bankowe - szczeg&#243;&#322;owy bilans pr&#243;bny">Konto bankowe - szczeg&#243;&#322;owy bilans pr&#243;bny</a>
+                          </li>
+                          <li>
+                              <a href="ar-customer-vendor-net-change-and-balance.md" name="" title="Zestawienie obrot&#243;w i sald nabywcy/dostawcy">Zestawienie obrot&#243;w i sald nabywcy/dostawcy</a>
+                          </li>
+                          <li>
+                              <a href="ar-customer-vendor-ledger-entry-journal.md" name="" title="Dziennik zapis&#243;w ksi&#281;gi nabywc&#243;w/ dostawc&#243;w">Dziennik zapis&#243;w ksi&#281;gi nabywc&#243;w/ dostawc&#243;w</a>
+                          </li>
+                          <li>
+                              <a>[Wiekowanie należności/zobowiązań  w zadanych okresach]</a>
+                          </li>
+                          <li>
+                              <a href="ar-receivables-payables-ageing-analysis.md" name="" title="Analiza wiekowania nale&#380;no&#347;ci/zobowi&#261;za&#324;">Analiza wiekowania nale&#380;no&#347;ci/zobowi&#261;za&#324;</a>
+                          </li>
+                          <li>
+                              <a>[Nabywca/dostawca - saldo na dzień]</a>
+                          </li>
+                          <li>
+                              <a>[Nabywca/dostawca - szczegółowy bilans próbny]</a>
+                          </li>
+                          <li>
+                              <a>[Raporty środków trwałych]</a>
+                          </li>
+                          <li>
+                              <a>[Wiekowanie zapasów]</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="saft-standard-audit-file-jpk.md" name="" title="Jednolity Plik Kontrolny">Jednolity Plik Kontrolny</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="saft-setup.md" name="" title="JPK Ustawienia">JPK Ustawienia</a>
+                          </li>
+                          <li>
+                              <a>[Ustawienia raportowania ustawowego]</a>
+                          </li>
+                          <li>
+                              <a>[Ustawienia ogólne JPK]</a>
+                          </li>
+                          <li>
+                              <a>[Obszary JPK]</a>
+                          </li>
+                          <li>
+                              <a>[Wersje obszarów JPK]</a>
+                          </li>
+                          <li>
+                              <a>[Elementy obszarów JPK]</a>
+                          </li>
+                          <li>
+                              <a>[Ustawienia elementów obszaru JPK_VAT]</a>
+                          </li>
+                          <li>
+                              <a>[Ustawienia elementów obszaru JPK_FA]</a>
+                          </li>
+                          <li>
+                              <a>[Dodatkowe ustawienia dla pliku JPK_VAT]</a>
+                          </li>
+                          <li>
+                              <a>[Przygotowanie danych pliku JPK_FA]</a>
+                          </li>
+                          <li>
+                              <a href="saft-executing-saft-jpk-file-export.md" name="" title="JPK Uruchamianie eksportu plik&#243;w">JPK Uruchamianie eksportu plik&#243;w</a>
+                          </li>
+                          <li>
+                              <a>[Generowanie pliku JPK_VAT]</a>
+                          </li>
+                          <li>
+                              <a>[Generowanie pliku JPK_FA]</a>
+                          </li>
+                          <li>
+                              <a>[Generowanie pliku JPK_KR]</a>
+                          </li>
+                          <li>
+                              <a>[Generowanie pliku JPK_WB]</a>
+                          </li>
+                          <li>
+                              <a>[Generowanie pliku JPK_MAG]</a>
+                          </li>
+                          <li>
+                              <a href="saft-jpk-export-file-register.md" name="" title="JPK Rejestr eksportu plik&#243;w">JPK Rejestr eksportu plik&#243;w</a>
+                          </li>
+                          <li>
+                              <a>[Funkcje rejestru plików JPK]</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="msp-mandatory-split-payment.md" name="" title="Obowi&#261;zkowa podzielona p&#322;atno&#347;&#263;">Obowi&#261;zkowa podzielona p&#322;atno&#347;&#263;</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a>[Dokumenty sprzedaży i zakupu]</a>
+                          </li>
+                          <li>
+                              <a href="msp-selling.md" name="" title="Wsparcie procesu sprzeda&#380;y z obowi&#261;zkow&#261; podzielon&#261; p&#322;atno&#347;ci&#261;">Wsparcie procesu sprzeda&#380;y z obowi&#261;zkow&#261; podzielon&#261; p&#322;atno&#347;ci&#261;</a>
+                          </li>
+                          <li>
+                              <a href="msp-purchasing.md" name="" title="Wsparcie procesu zakupu z obowi&#261;zkow&#261; podzielon&#261; p&#322;atno&#347;ci&#261;">Wsparcie procesu zakupu z obowi&#261;zkow&#261; podzielon&#261; p&#322;atno&#347;ci&#261;</a>
+                          </li>
+                          <li>
+                              <a>[Bankowość elektroniczna]</a>
+                          </li>
+                          <li>
+                              <a>[Generowanie przelewów]</a>
+                          </li>
+                          <li>
+                              <a>[Import wyciągów bankowych]</a>
+                          </li>
+                    </ul>
+                </li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</div>

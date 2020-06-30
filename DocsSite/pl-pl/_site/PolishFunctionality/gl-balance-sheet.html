@@ -1,0 +1,316 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Bilans | IT.integro </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Bilans | IT.integro ">
+    <meta name="generator" content="docfx 2.55.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="TOC.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="bilans">Bilans</h1>
+
+<h2 id="informacje-ogólne">Informacje ogólne</h2>
+<p>Rozszerzenia dodane w ramach Polskiej Lokalizacji dają możliwość takiego skonfigurowania wybranych pozycji bilansu, aby opierały się one wyłącznie o zapisy debetowe lub wyłącznie o zapisy kredytowe związane z księgami pomocniczymi nabywców i dostawców. Przepisy prawa wymagają takiej prezentacji należności i zobowiązań w bilansie. Ponadto salda niektórych kont księgi głównej mogą być prezentowane w aktywach lub pasywach, w zależności od tego, czy wykazują saldo debetowe, czy kredytowe – w taki sposób należy prezentować np. rozrachunki publiczno-prawne.</p>
+<h2 id="ustawienia">Ustawienia</h2>
+<p>W standardowej funkcjonalności systemu Microsoft Dynamics 365 Business
+Central on‑premises konto księgi głównej może należeć tylko do jednej
+kategorii/podkategorii kont. Niektóre pozycje bilansu sporządzanego
+zgodnie z polskimi przepisami wymagają, aby jedno konto księgi głównej
+przynależało do dwóch kategorii: należności i zobowiązań.</p>
+<p>Jeżeli podkategoria konta, widoczna w kartotece konta księgi głównej,
+jest oparta o źródło typu <strong>Należności</strong> lub <strong>Zobowiązania</strong>, należy
+określić również przeciwstawną podkategorię dla tego konta, która ma
+przeciwny typ źródła. W tym celu, należy wykonać następujące kroki:</p>
+<ol>
+<li><p>Należy wybrać <strong>Działy &gt; Zarządzanie Finansami &gt; Księga główna &gt;
+Plan kont</strong>.</p>
+</li>
+<li><p>W oknie <strong>Plan kont</strong>, które się otworzy, należy ustawić kursor w
+wierszu z wybranym kontem rozrachunkowym używanym w konfiguracji
+<strong>Grup księgowych nabywcy</strong> lub <strong>Grup księgowych dostawcy</strong>, a
+następnie wybrać <strong>Edytuj</strong>.</p>
+</li>
+<li><p>W oknie <strong>Kartoteka konta K/G</strong>, na karcie skróconej <strong>Ogólne</strong>,
+należy wypełnić pola zgodnie z poniższym opisem:</p>
+<ul>
+<li><p><strong>Kategoria konta</strong> – należy wybrać jedną z opcji:</p>
+<ul>
+<li><p><strong>Aktywa</strong> – jeśli jest to konto rozrachunków z odbiorcami,</p>
+</li>
+<li><p><strong>Pasywa</strong> – jeśli jest to konto rozrachunków z dostawcami.</p>
+</li>
+</ul>
+</li>
+<li><p><strong>Podkategoria konta</strong> – z listy rozwijanej w tym polu należy
+wybrać:</p>
+<ul>
+<li><p>podkategorię, dla której ustawione jest źródło typu <strong>Należności</strong>,
+jeśli w polu <strong>Kategoria konta</strong> została wybrana opcja <strong>Aktywa</strong>,</p>
+</li>
+<li><p>podkategorię, dla której ustawione jest źródło typu
+<strong>Zobowiązania</strong>, jeśli w polu <strong>Kategoria konta</strong> została wybrana
+opcja <strong>Pasywa</strong>.</p>
+</li>
+</ul>
+</li>
+<li><p><strong>Przeciwst. podkategoria konta</strong> – z listy rozwijanej w tym polu
+należy wybrać:</p>
+<ul>
+<li><p>podkategorię, dla której ustawione jest źródło typu
+<strong>Zobowiązania</strong>, jeśli w polu <strong>Kategoria konta</strong> została wybrana
+opcja <strong>Aktywa</strong>,</p>
+</li>
+<li><p>podkategorię, dla której ustawione jest źródło typu <strong>Należności</strong>,
+jeśli w polu <strong>Kategoria konta</strong> została wybrana opcja <strong>Pasywa</strong>.</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<p><img src="media/image53.png" alt=""></p>
+<p>W oknie <strong>Kategorie kont K/G</strong>, w polu <strong>Konta K/G w kategorii</strong>
+prezentowany jest zestaw kont księgi głównej przyporządkowanych do danej
+podkategorii. Konto przyporządkowane do podkategorii ze źródłem typu
+<strong>Należności</strong>, powinno być przyporządkowane również do podkategorii ze
+źródłem typu <strong>Zobowiązania</strong> i odwrotnie, aby zagwarantować ujęcie
+wszystkich sald wszystkich kont księgi głównej w bilansie.</p>
+<p><img src="media/image54.png" alt=""></p>
+<p>Jeżeli podkategoria konta, widoczna w kartotece konta księgi głównej,
+jest oparta o źródło typu <strong>Rozliczenie</strong>, należy określić przeciwstawną
+podkategorię dla tego konta, również ze źródłem <strong>Rozliczenie</strong>, ale
+przynależącą do przeciwnej kategorii. W tym celu, należy wykonać
+następujące kroki:</p>
+<ol>
+<li><p>Należy wybrać <strong>Działy &gt; Zarządzanie Finansami &gt; Księga główna &gt;
+Plan kont</strong>.</p>
+</li>
+<li><p>W oknie <strong>Plan kont</strong>, które się otworzy, należy ustawić kursor w
+wierszu z wybranym kontem księgi głównej, np. dotyczącym
+rozrachunków publiczno-prawnych, a następnie wybrać <strong>Edytuj</strong>.</p>
+</li>
+<li><p>W oknie <strong>Kartoteka konta K/G</strong>, na karcie skróconej <strong>Ogólne</strong>,
+należy wypełnić pola zgodnie z poniższym opisem:</p>
+<ul>
+<li><p><strong>Kategoria konta</strong> – należy wybrać jedną z opcji: <strong>Aktywa</strong> lub
+<strong>Pasywa</strong></p>
+<ul>
+<li><p><strong>Podkategoria konta</strong> – z listy rozwijanej w tym polu należy
+wybrać podkategorię, dla której ustawione jest źródło typu
+<strong>Rozliczenie,</strong> przypisaną do kategorii wybranej w polu
+<strong>Kategoria konta</strong></p>
+</li>
+<li><p><strong>Przeciwst. podkategoria konta</strong> – z listy rozwijanej w tym polu
+należy wybrać podkategorię, dla której ustawione jest źródło
+typu <strong>Rozliczenie</strong>, przypisaną do kategorii przeciwnej do tej
+wybranej w polu <strong>Kategoria konta.</strong></p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<p><img src="media/image55.png" alt=""></p>
+<p>W oknie <strong>Kategorie kont K/G</strong>, w polu <strong>Konta K/G w kategorii</strong>
+prezentowany jest zestaw kont księgi głównej przyporządkowanych do danej
+podkategorii. Konto przyporządkowane do podkategorii ze źródłem typu
+<strong>Rozliczenie</strong> w kategorii Aktywa, powinno być przyporządkowane również
+do podkategorii ze źródłem typu <strong>Rozliczenie</strong> w kategorii Pasywa, aby
+zagwarantować ujęcie wszystkich sald wszystkich kont księgi głównej w
+bilansie.</p>
+<p><img src="media/image56.png" alt="Obraz zawierający zrzut ekranu, komputer Opis wygenerowany automatycznie"></p>
+<p>Standardowa funkcjonalność systemu Microsoft Dynamics 365 Business
+Central on‑premises zawiera pole informacji <strong>Konta K/G bez kategorii</strong>,
+prezentujące konta księgi głównej, które nie zostały przypisane do
+żadnej kategorii i podkategorii. W ramach Polskiej Lokalizacji zostało
+dodane pole informacji <strong>Błędnie przypisane konta K/G</strong>, które
+prezentuje konta księgi głównej przypisane wyłącznie do jednej
+podkategorii, mającej źródło typu <strong>Należności</strong>, <strong>Zobowiązania lub
+Rozliczenie,</strong> czyli analizującej wyłącznie zapisy po jednej stronie
+danego konta. Aby w bilansie pojawiła się całość obrotów danego konta
+księgi głównej, należy przypisać je do przeciwstawnej kategorii lub
+wybrać dla niego kategorię ze źródłem typu <strong>K/G</strong>.</p>
+<p><img src="media/image57.png" alt="Obraz zawierający zrzut ekranu Opis wygenerowany automatycznie"></p>
+<h3 id="obsługa">Obsługa</h3>
+<p>Na podstawie kategorii kont można w standardowy sposób wygenerować
+arkusze kont, przy użyciu akcji <strong>Wygeneruj arkusze kont</strong> w oknie
+<strong>Kategorie kont K/G</strong>. Funkcja generująca arkusze kont została
+dostosowana w taki sposób, aby ustawiać typ źródła w poszczególnych
+pozycjach bilansu w wygenerowanym arkuszu kont, na podstawie ustawienia
+typów źródła poszczególnych podkategorii kont K/G. W przypadku
+podkategorii z  typem źródła <strong>Rozliczenie</strong>, pod wierszem z pozycją
+bilansu tworzone są wiersze techniczne z kontami księgi głównej
+wchodzącymi w skład pozycji bilansu. W pozycjach z typem źródła
+<strong>Formuła</strong> są prezentowane salda powiązanych z nimi kont księgi
+głównej.</p>
+<p>Arkusze kont mogą być też tworzone ręcznie. W tej sytuacji, w wierszu
+arkusza kont jest możliwość zaznaczenia, że dane mają dotyczyć wyłącznie
+należności lub zobowiązań, poprzez wybranie odpowiedniej opcji w polu
+<strong>Typ źródła</strong>.</p>
+<div class="NOTE">
+<h5>Uwaga</h5>
+<p>Typ źródła <strong>Należności</strong> lub <strong>Zobowiązania</strong> nie może być użyty, gdy:</p>
+<ul>
+<li><p>kwoty pochodzą z budżetu</p>
+</li>
+<li><p>kwoty pochodzą z arkusza analitycznego</p>
+</li>
+<li><p>kwoty mają być wyrażone w dodatkowej walucie raportowania</p>
+</li>
+<li><p>kwota jest innego typu niż <strong>Kwota netto</strong></p>
+</li>
+</ul>
+<p>W takich przypadkach wartość komórki arkusza nie będzie obliczona.</p>
+</div>
+<p><img src="media/image59.png" alt=""></p>
+<p>Aby w pozycjach z typem źródła <strong>Należności</strong> lub <strong>Zobowiązania</strong> saldo
+było poprawnie obliczone, program analizuje zapisy szczegółowe ksiąg
+nabywcy, dostawcy i pracownika, połączone z danym kontem księgi głównej
+poprzez konfigurację <strong>Grup księgowych nabywców</strong>, <strong>Grup księgowych
+dostawców</strong> i <strong>Grup księgowych pracownika</strong>. Wymagane jest, aby saldo
+konta księgi głównej było zgodne z saldem w księgach pomocniczych do
+niego przypisanych.</p>
+<p><em><strong>Przykład:</strong></em></p>
+<p>Konto księgi głównej połączone jest z wybraną <strong>Grupą księgową
+nabywców</strong>. W tej grupie księgowej zaksięgowano fakturę na 100 zł i
+płatność na 50 zł. Oto wyniki, które dla tego konta pokaże arkusz kont,
+w zależności od wybranego typu źródła:</p>
+<p><strong>K/G</strong> 50 zł<br>
+<strong>Należności</strong> 100 zł<br>
+<strong>Zobowiązania</strong> 50 zł</p>
+<p>W sytuacji, gdy faktura zostanie rozliczona z płatnością, wyniki będą
+następujące:</p>
+<p><strong>K/G</strong> 50 zł<br>
+<strong>Należności</strong> 50 zł<br>
+<strong>Zobowiązania</strong> 0 zł</p>
+<p>W powyższym przykładzie można zauważyć, że aby bilans ujmował całość
+zapisów, konto musi wystąpić w dwóch pozycjach bilansu, raz jako
+<strong>Zobowiązania</strong>, raz jako <strong>Należności</strong>. Alternatywnie jego obroty
+można ująć całościowo (per saldo) w jednej pozycji z typem źródła
+<strong>K/G</strong>.</p>
+<p>Aby w pozycjach z typem źródła <strong>Rozliczenie</strong> saldo było poprawnie
+obliczone, program analizuje znak kwoty salda każdego konta księgi
+głównej przypisanego do danej pozycji.</p>
+<p><em><strong>Przykład:</strong></em></p>
+<p>Do dwóch pozycji bilansu z typem źródła <strong>Rozliczenie</strong> (jednej w
+aktywach i jednej w pasywach) przypisane są trzy konta księgi głównej z
+grupy rozrachunków publiczno-prawnych, prezentujące salda dodatnie i
+ujemne:</p>
+<p><strong>Konto nr 1</strong> -50 zł<br>
+<strong>Konto nr 2</strong> 100 zł<br>
+<strong>Konto nr 3</strong> -250 zł</p>
+<p>Oto wyniki, które dla tych kont pokaże arkusz kont:</p>
+<p><strong>Aktywa</strong> 100 zł<br>
+<strong>Pasywa</strong> 300 zł</p>
+<p>W powyższym przykładzie można zauważyć, że aby w bilansie poprawnie
+zostały zaprezentowane salda poszczególnych rozrachunków
+publiczno-prawnych, każde powiązane z nimi konto księgi głównej musi
+wystąpić w dwóch pozycjach bilansu, raz w <strong>Aktywach</strong>, raz w
+<strong>Pasywach</strong>. Alternatywnie obroty tych kont można ująć całościowo (per
+saldo) w jednej pozycji z typem źródła <strong>K/G.</strong></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+           <div class="doc-language">
+              <a href="https://docs.it.integro.pl/pl-pl/" hreflang="pl-PL" lang="pl-PL">PL</a>
+              <a href="https://docs.it.integro.pl/en-us/" hreflang="en-US" lang="en-US" class="lang-flag">EN</a>
+            </div>
+            Copyright © IT.integro sp. z o.o.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

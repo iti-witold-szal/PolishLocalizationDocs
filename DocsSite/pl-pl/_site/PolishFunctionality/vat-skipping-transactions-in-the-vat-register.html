@@ -1,0 +1,185 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Pomijanie transakcji w ewidencji VAT | IT.integro </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Pomijanie transakcji w ewidencji VAT | IT.integro ">
+    <meta name="generator" content="docfx 2.55.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="TOC.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="pomijanie-transakcji-w-ewidencji-vat">Pomijanie transakcji w ewidencji VAT</h1>
+
+<h2 id="informacje-ogólne">Informacje ogólne</h2>
+<p>Księgowanie dokumentów zakupu i dokumentów sprzedaży w Microsoft
+Dynamics 365 Business Central on‑premises skutkuje powstaniem zapisów
+VAT, które są bazą do rozliczenia VAT za dany okres. Jednak są takie
+transakcje, które nie podlegają opodatkowaniu VAT, dlatego w ramach
+Polskiej Lokalizacji zostało dodane narzędzie, które umożliwia
+wykluczanie wybranych zapisów VAT z rozliczenia VAT.</p>
+<h2 id="ustawienia">Ustawienia</h2>
+<p>W przypadku, gdy transakcje z wybraną kombinacją grup księgowych VAT
+nigdy nie podlegają opodatkowaniu VAT, możliwe jest ich domyślne
+oznaczenie jako pomijane w ewidencji VAT. W tym celu, należy postępować
+według następujących kroków:</p>
+<ol>
+<li><p>Należy wybrać <strong>Działy &gt; Zarządzanie Finansami &gt; Administracja &gt;
+Ustawienia księgowe VAT</strong>.</p>
+</li>
+<li><p>W oknie <strong>Ustawienia księgowe VAT</strong>, które się otworzy, należy
+ustawić kursor w wierszu z wybraną kombinacją grup księgowych VAT,
+a następnie wybrać <strong>Edycja</strong>.</p>
+</li>
+<li><p>W oknie <strong>Kartoteka ustaw. księg. VAT</strong>, które się otworzy, należy
+zaznaczyć pole <strong>Pomiń w ewidencji VAT</strong>.</p>
+</li>
+</ol>
+<p><img src="media/image133.png" alt=""></p>
+<h2 id="obsługa">Obsługa</h2>
+<p>Funkcjonalność <strong>Pomiń w ewidencji VAT</strong> opisana jest na przykładzie
+faktur zakupu, ale może być wykorzystana w wierszach następujących
+dokumentów: <strong>Zamówienie zakupu</strong>, <strong>Faktura zakupu</strong>, <strong>Zamówienie
+zwrotu zakupu</strong>, <strong>Faktura korygująca zakupu</strong>, <strong>Zamówienie
+sprzedaży</strong>, <strong>Faktura sprzedaży</strong>, <strong>Zamówienie zwrotu sprzedaży</strong>,
+<strong>Faktura korygująca sprzedaży</strong>. Pole <strong>Pomiń w ewidencji VAT</strong> można
+też edytować w wierszach dzienników głównych oraz w oknie
+<strong>VAT‑dodatkowe informacje</strong>. Po zaksięgowaniu transakcji z VAT,
+informacja o pominięciu w ewidencji VAT zapisywana jest w wierszach
+zaksięgowanych dokumentów: <strong>Zaksięgowana faktura zakupu</strong>,
+<strong>Zaksięgowana faktura korygująca zakupu</strong>, <strong>Zaksięgowana faktura
+sprzedaży</strong>, <strong>Zaksięgowana faktura korygująca sprzedaży</strong>. <strong>Pomiń w
+ewidencji VAT</strong> zapamiętane jest również w tabelach: <strong>Zapis VAT</strong>
+oraz <strong>Szczegółowy zapis VAT</strong>.</p>
+<div class="NOTE">
+<h5>Uwaga</h5>
+<p>Zarządzanie pomijaniem i pokazywaniem poszczególnych
+zapisów VAT w ewidencji VAT po zaksięgowaniu dokumentów możliwe jest w
+oknie <strong>Arkusz rozliczania VAT</strong>. Więcej informacji na ten temat
+znajduje się w rozdziale <strong>Arkusz rozliczania VAT</strong>.</p>
+</div>
+<p>Aby zaksięgować fakturę zakupu z pominięciem w ewidencji VAT, należy
+postępować według następujących kroków:</p>
+<ol>
+<li><p>Fakturę zakupu należy wprowadzić w standardowy sposób.</p>
+</li>
+<li><p>W wybranym wierszu faktury należy zaznaczyć pole <strong>Pomiń w ewidencji
+VAT</strong>.</p>
+<div class="NOTE">
+<h5>Uwaga</h5>
+<p>W przypadku wprowadzenia wiersza dokumentu z kombinacją
+grup księgowych VAT, dla której w oknie <strong>Ustawienia księgowe VAT</strong>
+zaznaczone jest pole <strong>Pomiń w ewidencji VAT</strong>, spowoduje automatyczne
+zaznaczenie tego pola w wierszu dokumentu.</p>
+</div>
+</li>
+</ol>
+<p><img src="media/image134.png" alt=""></p>
+<p>Po zaksięgowaniu dokumentu utworzone zostaną m.in. zapisy w tabelach
+<strong>Zapisy VAT</strong> i <strong>Szczegółowe zapisy VAT</strong>, w których pole <strong>Pomiń w
+ewidencji VAT</strong> będzie zaznaczone.</p>
+<p><img src="media/image135.png" alt=""></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+           <div class="doc-language">
+              <a href="https://docs.it.integro.pl/pl-pl/" hreflang="pl-PL" lang="pl-PL">PL</a>
+              <a href="https://docs.it.integro.pl/en-us/" hreflang="en-US" lang="en-US" class="lang-flag">EN</a>
+            </div>
+            Copyright © IT.integro sp. z o.o.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

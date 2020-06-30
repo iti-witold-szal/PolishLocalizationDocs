@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Deklaracja VAT-27 | IT.integro </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Deklaracja VAT-27 | IT.integro ">
+    <meta name="generator" content="docfx 2.55.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="TOC.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="deklaracja-vat-27" sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="1">Deklaracja VAT-27</h1>
+
+<h2 id="informacje-ogólne" sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="3">Informacje ogólne</h2>
+<p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="5"><strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="5">Deklaracja VAT-27</strong> to informacja podsumowująca o dokonanych w danym
+okresie transakcjach, dla których podatnikiem jest nabywca. Obowiązek
+składania deklaracji VAT-27 wynika ze zmian, jakie do ustawy o podatku
+VAT wprowadza ustawa z 9 kwietnia 2015 r. o zmiana ustawy o podatku
+od towarów i usług oraz ustawy – Prawo zamówień publicznych. Deklaracja
+VAT-27 dotyczy transakcji (dostawy towarów lub świadczenia usług), dla
+których podatnikiem jest nabywca. Wypełnią ją zatem m.in., podatnicy,
+którzy stosując odwrotne obciążenie sprzedawać będą towary wrażliwe,
+jak laptopy, smartfony, tablety, telefony, metale, makulaturę., a także
+usługi w zakresie przenoszenia uprawnień do emisji gazów cieplarnianych.</p>
+<p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="16">Polska Lokalizacja wyposażona została w narzędzie ułatwiające
+i automatyzujące przygotowanie danych do deklaracji VAT-27.</p>
+<h2 id="ustawienia" sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="19">Ustawienia</h2>
+<p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="21">Żeby móc automatycznie tworzyć deklarację VAT-27, muszą być zdefiniowane
+odpowiednie ustawienia.</p>
+<ol sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="24">
+<li sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="24"><p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="24">Należy wybrać <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="24">Działy &gt; Zarządzanie Finansami &gt; Administracja &gt;
+Ustawienia raportowania stat.</strong></p>
+</li>
+<li sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="27"><p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="27">W oknie <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="27">Ustawienia raportowania stat.</strong>, które się otworzy, należy
+odpowiednio wypełnić pola na karcie skróconej <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="28">Informacje
+podsumowujące</strong>:</p>
+<ul sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="31">
+<li sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="31"><p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="31"><strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="31">Seria numeracji deklaracji VAT-27</strong> – z listy rozwijanej w tym
+polu należy wybrać kod serii numeracji, według której system
+będzie nadawał numery kolejnym deklaracjom VAT-27</p>
+<p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="35">Jeżeli nie korzystamy z funkcjonalności deklaracji VAT-UE, należy
+dodatkowo uzupełnić poniższe dane:</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="38"><p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="38"><strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="38">Numer urzędu skarbowego</strong> – należy wpisać numer (kod) urzędu
+skarbowego, do którego należy dostarczyć deklarację VAT-27</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="41"><p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="41"><strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="41">Nazwisko upoważnionego pracownika (dekl. VAT-UE)</strong> – należy
+wpisać imię i nazwisko przedstawiciela firmy upoważnionego
+do podpisywania deklaracji VAT‑27</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="45"><p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="45"><strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="45">Wypełnił pracownik o nazwisku (dekl. VAT-UE)</strong> – należy wpisać
+imię i nazwisko przedstawiciela firmy wypełniającego deklarację
+VAT-27</p>
+</li>
+</ul>
+</li>
+</ol>
+<p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="49"><img src="media/image195.png" sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="49" alt=""></p>
+<p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="51">Deklaracja VAT-27 będzie pobierała informacje dotyczące transakcji
+sprzedaży, dla których zastosowane zostały ustawienia VAT z <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="52">Typem
+kalkulacji VAT</strong> <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="53">=</strong> <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="53">Odwrotne obciążenie</strong>.</p>
+<p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="55">Można zastosować poniższe przykładowe ustawienia (usługi, środki trwałe
+i pozostałe):</p>
+<p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="58"><img src="media/image196.png" sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="58" alt=""></p>
+<h2 id="obsługa" sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="60">Obsługa</h2>
+<p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="62">W celu przygotowania deklaracji VAT-27 za wybrany okres, należy
+postępować według następujących kroków:</p>
+<ol sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="65">
+<li sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="65"><p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="65">Należy wybrać <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="65">Działy &gt; Zarządzanie Finansami &gt; Działania
+okresowe &gt; VAT &gt; Deklaracje VAT-27</strong>.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="68"><p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="68">W oknie <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="68">Deklaracje VAT-27</strong> należy wybrać <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="68">Nowe</strong>.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="70"><p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="70">W kartotece nowej deklaracji, na karcie skróconej <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="70">Ogólne</strong>, należy
+wypełnić pola:</p>
+<ul sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="73">
+<li sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="73"><p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="73"><strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="73">Nr</strong> – w tym polu system wstawia numer kolejny deklaracji VAT-27,
+zgodny z serią numeracji wybraną w ustawieniach.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="76"><p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="76"><strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="76">Deklaracja za okres</strong> – z listy opcji dostępnych w tym polu
+należy wybrać, za jaki okres przygotowywana jest deklaracja.
+Możliwe opcje do wyboru, to <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="78">Kwartał</strong> i <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="78">Miesiąc</strong>.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="80"><p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="80"><strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="80">Typ deklaracji</strong> – od typu deklaracji wybranego w tym polu zależą
+dalsze czynności podczas tworzenia deklaracji VAT-27. Możliwe
+opcje do wyboru, to: <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="82">Normalna</strong>, <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="82">Korygująca</strong>,
+<strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="83">Korygująco-uzupełniająca</strong>.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="85"><p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="85"><strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="85">Nr skorygowanej deklaracji</strong> – dostępność tego pola do edycji
+zależy od wybranego <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="86">Typu deklaracji</strong>:</p>
+<ul sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="88">
+<li sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="88"><p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="88">dla typu <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="88">Normalna</strong> – pole jest nieedytowalne.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="90"><p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="90">dla typu <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="90">Korygująca</strong> – pole jest edytowalne, z listy w nim
+rozwijanej należy wybrać wcześniej utworzoną deklarację, która ma
+zostać skorygowana.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="94"><p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="94">dla typu <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="94">Korygująco-uzupełniająca</strong> – pole jest edytowalne,
+z listy w nim rozwijanej należy wybrać wcześniej utworzoną
+deklarację, która ma zostać skorygowana lub uzupełniona.</p>
+</li>
+</ul>
+</li>
+<li sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="98"><p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="98"><strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="98">Nazwa</strong> – pole wypełniane automatycznie przez system – wstawiana
+jest nazwa firmy skopiowana z okna <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="99">Dane Firmy.</strong></p>
+</li>
+<li sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="101"><p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="101"><strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="101">NIP</strong> – pole wypełniane automatycznie przez system – wstawiany
+jest NIP skopiowany z okna <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="102">Dane Firmy.</strong></p>
+</li>
+<li sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="104"><p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="104"><strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="104">Numer urzędu skarbowego</strong> – pole wypełniane automatycznie
+przez system – wstawiany jest numer urzędu skarbowego skopiowany
+z okna <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="106">Ustawienia raportowania statystycznego.</strong></p>
+</li>
+<li sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="108"><p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="108"><strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="108">Data dokumentu</strong> – w tym polu system automatycznie wstawia datę
+roboczą jako datę utworzenia deklaracji VAT-27. Datę ta można
+zmienić ręcznie.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="112"><p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="112"><strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="112">Nr okresu</strong> – w zależności od wybranej opcji w polu <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="112">Deklaracja
+za okres</strong>, należy podać numer kolejny miesiąca lub kwartału
+w roku, którego dotyczy tworzona deklaracja VAT-27.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="116"><p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="116"><strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="116">Rok</strong> – w tym polu należy wpisać rok, z którego pochodzi okres
+(miesiąc lub kwartał), którego dotyczy tworzona deklaracja VAT-27.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="119"><p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="119"><strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="119">Data początkowa</strong> – pole nieedytowalne, system wstawia w nim datę
+początkową okresu, jakim objęta jest deklaracja, na podstawie
+wcześniej wprowadzonych parametrów w polach <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="121">Deklaracja
+za okres</strong>, <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="122">Nr okresu</strong>, <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="122">Rok</strong>.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="124"><p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="124"><strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="124">Data końcowa</strong> – pole nieedytowalne, system wstawia w nim datę
+końcową okresu, jakim objęta jest deklaracja, na podstawie
+wcześniej wprowadzonych parametrów w polach <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="126">Deklaracja
+za okres</strong>, <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="127">Nr okresu</strong>, <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="127">Rok</strong>.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="129"><p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="129"><strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="129">Kwota (PLN)</strong> – pole nieedytowalne, system wstawia sumę kwot
+z wierszy deklaracji VAT-27.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="132"><p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="132"><strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="132">Stan</strong> – pole nieedytowalne, którego bieżąca opcja wskazuje
+na stan edycji deklaracji. Zmiana stanu następuje poprzez wybranie
+akcji <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="134">Zwolnij</strong>, lub <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="134">Otwórz ponownie</strong>.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="136"><p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="136"><strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="136">Towary/usługi</strong> – z listy opcji dostępnych w tym polu należy
+wybrać rodzaj transakcji, jakie mają być zestawione w deklaracji.
+Możliwe opcje do wyboru, to: <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="138">Oba</strong>, <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="138">Towary</strong>, <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="138">Usługi</strong>.
+System analizuje <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="139">Ustawienia księgowe VAT</strong>,
+dla których zaznaczone jest (lub nie) pole <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="140">Usługa</strong>.</p>
+</li>
+</ul>
+</li>
+<li sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="142"><p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="142">Do pól w karcie skróconej <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="142">Osoby</strong> system kopiuje dane z wcześniej
+zdefiniowanych ustawień. W razie potrzeby, zawartość tych pól może
+zostać ręcznie zmieniona.</p>
+</li>
+</ol>
+<p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="146"><img src="media/image197.png" sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="146" alt=""></p>
+<ol start="5" sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="148">
+<li sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="148"><p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="148">Po prawidłowym wypełnieniu pól nagłówka deklaracji, należy wypełnić
+wiersze. W tym celu, w kartotece deklaracji należy wybrać
+<strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="150">Sugeruj wiersze</strong>.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="152"><p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="152">W oknie <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="152">Sugeruj wiersze deklaracji VAT-27</strong>, które się otworzy,
+należy zaznaczyć pole <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="153">Usuń istniejące wiersze</strong>, aby skrypt
+nadpisał istniejące wiersze deklaracji.</p>
+</li>
+</ol>
+<p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="156"><img src="media/image198.png" sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="156" alt=""></p>
+<ol start="7" sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="158">
+<li sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="158"><p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="158">Następnie należy wybrać <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="158">OK</strong> w celu wykonania skryptu.</p>
+<p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="160">W wyniku użycia skryptu <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="160">Sugeruj wiersze deklaracji VAT-27</strong> system
+wypełnia automatycznie wiersze deklaracji według poniższej logiki:</p>
+<ul sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="163">
+<li sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="163"><p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="163">Skrypt przetwarza <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="163">Zapisy VAT</strong> mające datę obowiązku VAT (jeżeli
+pole <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="164">Użyj daty obowiązku VAT</strong> jest zaznaczone, w przeciwnym
+wypadku system analizuje datę księgowania) przypadającą w okresie
+wyznaczonym datami w polach <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="166">Data początkowa</strong> i <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="166">Data końcowa</strong>
+w nagłówku deklaracji VAT-27.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="169"><p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="169">System wybiera właściwe <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="169">Zapisy VAT</strong> pod względem grup księgowych
+VAT, dla których dla transakcji sprzedaży <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="170">Typ kalkulacji VAT</strong>
+jest <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="171">Odwrotne obciążenie</strong> i nie dotyczy transakcji
+wewnątrzunijnych. Dodatkowe filtrowanie <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="172">Zapisów VAT</strong> zależy
+od wybranego w nagłówku deklaracji <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="173">Typu transakcji handlowej</strong>.
+System wybiera <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="174">Zapisy VAT</strong> zgodne z opcją wybraną w polu
+<strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="175">Towary/usługi</strong>. W tym celu analizowane jest zaznaczenie pola
+<strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="176">Usługa</strong> w oknie **Ustawienia księgowe VAT dla **kombinacji grup
+księgowych VAT w <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="177">Zapisach VAT</strong>.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="179"><p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="179">Podczas wstawiania wierszy, system automatycznie uzupełnia m.in.
+pola:</p>
+<ul sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="182">
+<li sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="182"><strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="182">Kwota (PLN)</strong> – suma wartości typu transakcji
+zakupu/sprzedaży/obu dla danego wiersza, skalkulowana z pola
+<strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="184">Podstawa VAT</strong> w <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="184">Zapisach VAT</strong>.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="186"><img src="media/image199.png" sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="186" alt=""></p>
+<ol start="8" sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="188">
+<li sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="188">Przygotowana deklaracja VAT-27 może być testowo wydrukowana jeszcze
+przed zatwierdzeniem. W tym celu należy wybrać <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="189">Raport testowy</strong>,
+a następnie <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="190">Podgląd</strong> lub <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="190">Drukuj</strong>:</li>
+</ol>
+<p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="192"><img src="media/image200.png" sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="192" alt=""></p>
+<div class="NOTE" sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="194">
+<h5>Uwaga</h5>
+<p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="195">Raport testowy sprawdza wprowadzone dane pod kątem
+wymagalności i wyświetla błędy/ostrzeżenia, które mogłyby uniemożliwić
+zatwierdzenie <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="197">Deklaracji VAT-27.</strong></p>
+</div>
+<ol start="9" sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="199">
+<li sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="199"><p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="199">W kartotece deklaracji VAT-27 należy poprawić/uzupełnić dane tak,
+aby na raporcie testowym nie pojawiały się ostrzeżenia.</p>
+</li>
+<li sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="202"><p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="202">Deklarację VAT-27 należy zatwierdzić, zmieniając jej stan
+na <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="203">Zwolniony</strong>. W tym celu należy wybrać <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="203">Zwolnij.</strong></p>
+</li>
+</ol>
+<p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="205"><img src="media/image201.png" sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="205" alt=""></p>
+<ol start="11" sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="207">
+<li sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="207">Zatwierdzoną deklarację (ze stanem <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="207">Zwolniony</strong>) można wydrukować,
+wybierając <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="208">Deklaracja</strong>, a następnie <strong sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="208">Drukuj lub Podgląd
+wydruku</strong>:</li>
+</ol>
+<p sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="211"><img src="media/image202.png" sourcefile="PolishFunctionality/vat-vat-27-declaration.md" sourcestartlinenumber="211" alt=""></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+           <div class="doc-language">
+              <a href="https://docs.it.integro.pl/pl-pl/" hreflang="pl-PL" lang="pl-PL">PL</a>
+              <a href="https://docs.it.integro.pl/en-us/" hreflang="en-US" lang="en-US" class="lang-flag">EN</a>
+            </div>
+            Copyright © IT.integro sp. z o.o.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

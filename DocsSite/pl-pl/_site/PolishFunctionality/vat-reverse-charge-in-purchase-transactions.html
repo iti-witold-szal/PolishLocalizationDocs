@@ -1,0 +1,397 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Odwrotne obci&#261;&#380;enie w&#160;transakcjach zakupu | IT.integro </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Odwrotne obci&#261;&#380;enie w&#160;transakcjach zakupu | IT.integro ">
+    <meta name="generator" content="docfx 2.55.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="TOC.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="odwrotne-obciążenie-wtransakcjach-zakupu">Odwrotne obciążenie w transakcjach zakupu</h1>
+
+<h2 id="informacje-ogólne">Informacje ogólne</h2>
+<p>Zgodnie z wymaganiami przepisów polskiego prawa, wewnątrzwspólnotowe
+nabycie towarów (WNT) i usług oraz import usług podlegają opodatkowaniu
+VAT, co jest jednoznaczne z koniecznością wykazania transakcji
+z obliczonym podatkiem VAT w rejestrze VAT. Do obliczania naliczonego
+i należnego podatku VAT z tytułu tego typu transakcji wykorzystywana
+jest standardowa funkcjonalność <strong>Odwrotne obciążenie</strong>.
+Aby przystosować tą funkcjonalność do wymagań polskiego prawa, zostały
+do niej dodane następujące elementy:</p>
+<ul>
+<li><p>Funkcjonalność <strong>Odwrotne obciążenie</strong> została rozszerzona
+o tworzenie zapisu VAT dla sprzedaży. Dzięki temu transakcja WNT
+i zakupu usług z kwotą podatku VAT należnego wykazywane są zarówno
+w rejestrze VAT sprzedaży, jak i zakupu.</p>
+</li>
+<li><p>Polska Lokalizacja dla Microsoft Dynamics 365 Business Central
+on‑premises umożliwia również kalkulację podatku VAT w walucie
+lokalnej według kursu wymiany z innego dnia niż data przeliczenia
+wartości zakupu i zobowiązań na potrzeby ksiąg rachunkowych.</p>
+</li>
+</ul>
+<h2 id="ustawienia">Ustawienia</h2>
+<p>Do kalkulacji i księgowania podatku VAT w ramach odwrotnego obciążenia
+konieczne jest zdefiniowanie właściwych ustawień. W tym celu, należy
+postępować według następujących kroków:</p>
+<ol>
+<li><p>Należy wybrać <strong>Działy &gt; Zarządzanie Finansami &gt; Administracja &gt;
+Ustawienia Księgowe VAT</strong>.</p>
+</li>
+<li><p>W oknie <strong>Ustawienia księgowe VAT</strong>, które się otworzy, należy
+zaznaczyć wiersz z kombinacją kodów w polach <strong>Gosp. grupa księgowa
+VAT</strong> i <strong>Tow. grupa księgowa VAT</strong>, która odnosi się do transakcji
+wewnątrzwspólnotowego nabycia towarów i usług oraz importu usług,
+a następnie należy wybrać <strong>Edycja</strong>.</p>
+</li>
+<li><p>W oknie <strong>Kartoteka ustaw. księg. VAT</strong> należy zwrócić uwagę
+na kilka pól:</p>
+<ul>
+<li><p><strong>Typ kalkulacji VAT na</strong> karcie skróconej <strong>Ogólne</strong> – w tym polu
+musi być wybrana opcja <strong>Odwrotne obciążenie</strong>.</p>
+</li>
+<li><p><strong>Konto odwrotnego obciążenia na</strong> karcie skróconej <strong>Zakupy</strong> –
+z listy rozwijanej w tym polu należy wybrać konto K/G, na
+które zostanie zaksięgowana kwota podatku VAT należnego obliczona
+dla transakcji wewnątrzwspólnotowego nabycia towarów i usług
+oraz importu usług.</p>
+</li>
+<li><p><strong>Konto niezr. odwrotnego obciążenia</strong> na karcie skróconej
+<strong>Zakupy</strong> – z listy rozwijanej w tym polu należy wybrać konto
+K/G, na które zostanie zaksięgowana niezrealizowana kwota podatku
+VAT należnego obliczona dla transakcji wewnątrzwspólnotowego
+nabycia towarów i usług oraz importu usług.</p>
+</li>
+<li><p><strong>Konto przełoż. odwrotnego obciążenia</strong> na karcie skróconej
+<strong>Zakupy</strong> – z listy rozwijanej w tym polu należy wybrać konto
+K/G, na które zostanie zaksięgowana przełożona kwota podatku VAT
+należnego obliczona dla transakcji wewnątrzwspólnotowego nabycia
+towarów i usług oraz importu usług.</p>
+</li>
+<li><p><strong>Konto korekty kursu wal. odwrotnego obciążenia</strong> na karcie
+skróconej <strong>Zakupy</strong> – z listy rozwijanej w tym polu należy
+wybrać konto K/G, na które zostanie zaksięgowana różnica
+wynikająca z przeliczenia VAT według innego kursu
+niż zobowiązanie, ale dotyczy to tylko kwoty VAT nie podlegającej
+odliczeniu.</p>
+</li>
+</ul>
+</li>
+</ol>
+<p><img src="media/image148.png" alt=""></p>
+<p>W sytuacji, gdy kurs wymiany waluty do obliczenia podatku VAT jest inny
+niż kurs wymiany waluty zastosowany do całości zaksięgowanej faktury
+zakupu, musi zostać doksięgowana kwota różnicy w podatku VAT.
+Księgowanie tej różnicy może być dokonywane ręcznie, po zaksięgowaniu
+faktury zakupu (opcja zalecana) lub automatycznie (opcja niezalecana
+z powodu wpływu na obniżenie wydajności systemu). W celu zdefiniowania
+tego ustawienia, należy postępować według następujących kroków:</p>
+<ol>
+<li><p>Należy wybrać <strong>Działy &gt; Zakup &gt; Administracja &gt; Ustawienia
+zakupów i zobowiązań.</strong></p>
+</li>
+<li><p>W oknie <strong>Ustawienia zakupów i zobowiązań</strong>, które się otworzy,
+na karcie skróconej <strong>Ogólne</strong>, należy zaznaczyć pole
+<strong>Automatyczne księgow. różnicy kurs. odwrotnego obciążenia</strong>,
+jeśli kwota różnicy w kalkulacji podatku VAT wynikająca
+z zastosowania różnych kursów wymiany ma być księgowana
+automatycznie. Pozostawienie pola pustego oznacza, że różnica ta
+musi być zaksięgowana ręcznie po zaksięgowania faktury zakupu
+(sposób ręcznego księgowania opisany jest w dalszej części tego
+rozdziału).</p>
+</li>
+</ol>
+<p><img src="media/image149.png" alt=""></p>
+<div class="NOTE">
+<h5>Uwaga</h5>
+<p>Ze względu na możliwość zablokowania tabel podczas operacji
+księgowania, pole <strong>Automatyczne księgow. różnicy kurs. odwrotnego
+obciążenia</strong> nie powinno zawierać ustawienia <strong>Tak</strong>, jeśli w polu
+<strong>Użyj poprzednich zasad blokowania tabeli Zapis K/G</strong> w tabeli
+<strong>Ustawienia księgi głównej</strong> wybrano ustawienie <strong>Nie</strong>.</p>
+</div>
+<h2 id="obsługa">Obsługa</h2>
+<p>Zaksięgowanie faktury zakupu za towary i usługi nabyte na terenie Unii
+Europejskiej lub za usługi nabyte poza Unią Europejską spowoduje
+obliczenie i zaksięgowanie podatku VAT, bez wpływu na wartość zakupów
+oraz wysokość zobowiązań wobec dostawcy. W tym celu, należy postępować
+według następujących kroków:</p>
+<ol>
+<li>Należy w standardowy sposób utworzyć nową fakturę zakupu, w której
+należy zwrócić uwagę na to, żeby wybrane były: <strong>Gosp. grupa
+księgowa VAT</strong> i <strong>Tow. grupa księgowa VAT</strong>, dla kombinacji
+których są zdefiniowane właściwe ustawienia (opisane powyżej).</li>
+</ol>
+<p><img src="media/image150.png" alt=""></p>
+<div class="NOTE">
+<h5>Uwaga</h5>
+<p>Kurs wymiany waluty do przeliczenia na walutę lokalną
+wartości zakupu i zobowiązań z faktury zakupu pobierany jest z tabeli
+kursów według daty w polu <strong>Data księgowania</strong>, a kurs wymiany waluty
+do przeliczenia na walutę lokalną kwoty podatku VAT pobierany jest
+z tabeli kursów według daty w polu <strong>Data obowiązku VAT</strong>.</p>
+</div>
+<ol start="2">
+<li><p>Należy sprawdzić podsumowanie wartości w fakturze zakupu, w tym
+celu, należy w oknie kartoteki faktury zakupu wybrać <strong>Statystyka</strong>.</p>
+</li>
+<li><p>W oknie <strong>Statystyka zakupów Faktura</strong>, które się otworzy, należy
+zwrócić uwagę na pola na karcie skróconej <strong>Odwrotne obciążenie</strong>:</p>
+<ul>
+<li><p><strong>Kod waluty odwrotnego obciążenia</strong> – kod waluty pobrany
+z parametrów faktury zakupu.</p>
+</li>
+<li><p><strong>Data obowiązku VAT</strong> – data obowiązku VAT pobrana z parametrów
+faktury zakupu; jednocześnie jest to data, według której ustalany
+jest kurs wymiany waluty dla kwoty podatku VAT.</p>
+</li>
+<li><p><strong>Kwota odwrotnego obciążenia</strong> – kwota obliczonego podatku VAT
+naliczonego i należnego wyrażona w walucie faktury.</p>
+</li>
+<li><p><strong>Kwota odwrotnego obciążenia (PLN)</strong> – równowartość w walucie
+lokalnej kwoty obliczonego podatku VAT naliczonego i należnego.</p>
+</li>
+</ul>
+</li>
+</ol>
+<p><img src="media/image151.png" alt=""></p>
+<ol start="4">
+<li><p>W przypadku wystąpienia na jednej fakturze zakupu wierszy z kilkoma
+różnymi stawkami VAT, podsumowanie kalkulacji kwoty odwrotnego
+obciążenia dla każdej stawki oddzielnie można zobaczyć na karcie
+skróconej <strong>Wiersze</strong> w oknie <strong>Statystyka faktury zakupu</strong>, gdzie
+zostały dodane 2 nowe pola:</p>
+<ul>
+<li><p><strong>Kwota odwrotnego obciążenia</strong> – kwota obliczonego podatku VAT
+naliczonego i należnego wyrażona w walucie faktury.</p>
+</li>
+<li><p><strong>Kwota odwrotnego obciążenia (PLN)</strong> – równowartość w walucie
+lokalnej kwoty obliczonego podatku VAT naliczonego i należnego.</p>
+</li>
+</ul>
+</li>
+</ol>
+<p><img src="media/image152.png" alt=""></p>
+<ol start="5">
+<li>W przypadku, gdy kurs wymiany waluty do kalkulacji kwoty odwrotnego
+obciążenia pobrany z tabeli kursów wymiany według <strong>Daty obowiązku
+VAT</strong> z jakiegoś powodu jest niewłaściwy, należy go zmienić. W tym
+celu, w oknie <strong>Statystyka zakupów Faktura</strong>, na karcie skróconej
+<strong>Odwrotne obciążenie</strong>, w polu <strong>Kod waluty odwrotnego obciążenia</strong>
+należy kliknąć przycisk asysty. Otworzy się okno <strong>Zmiana kursu
+wymiany</strong>, w którym, w polu <strong>Relacyjny kurs wymiany</strong> należy
+zmienić ręcznie wartość wstawioną domyślnie na właściwą.</li>
+</ol>
+<p><img src="media/image153.png" alt=""></p>
+<ol start="6">
+<li>Należy w standardowy sposób zaksięgować fakturę zakupu.</li>
+</ol>
+<p>Efekty księgowania w postaci <strong>Zapisów K/G</strong> i <strong>Zapisów VAT</strong> można
+zobaczyć nawigując zaksięgowaną fakturę zakupu:</p>
+<p><img src="media/image154.png" alt=""></p>
+<p><img src="media/image155.png" alt=""></p>
+<p>W sytuacji, gdy w zaksięgowanej fakturze zakupu zostały użyte różne
+kursy wymiany: inny dla wartości zakupu i zobowiązań, a inny dla kwoty
+odwrotnego obciążenia (niezależnie od tego, czy zostały one pobrane
+z tabeli na podstawie <strong>Daty księgowania</strong> i <strong>Daty obowiązku VAT</strong>, czy
+zostały ręcznie zmienione przed zaksięgowaniem), po zaksięgowaniu
+faktury zakupu, jeżeli pole <strong>Automatyczne księgow. różnicy kurs.
+odwrotnego obciążenia w Ustawieniach zakupów i zobowiązań</strong> nie jest
+zaznaczone, konieczne jest dokonanie dodatkowego księgowania korekty
+kwoty VAT. W tym celu, należy postępować według następujących kroków:</p>
+<ol>
+<li><p>Należy wybrać <strong>Działy &gt; Zarządzanie Finansami &gt; Działania
+okresowe &gt; VAT &gt; Arkusz rozliczania VAT</strong>.</p>
+</li>
+<li><p>W oknie <strong>Arkusz rozliczania VAT</strong>, które się otworzy, należy
+ustawić odpowiednie filtry, aby na ekranie wyświetlić wybrane
+zapisy VAT. W wierszach <strong>Arkusza rozliczenia VAT</strong>, w
+których występuje różnica kwoty VAT, zaznaczone jest pole <strong>Inny
+kurs dla odwrotnego obciążenia</strong>:</p>
+</li>
+</ol>
+<p><img src="media/image156.png" alt=""></p>
+<ol start="3">
+<li><p>Należy zaznaczyć wiersz typu <strong>Zakup</strong> z kwotą odwrotnego obciążenia
+do skorygowania.</p>
+</li>
+<li><p>Należy wybrać <strong>Koryguj kurs wymiany odwrotnego obciążenia</strong>.</p>
+</li>
+<li><p>Otworzy się okno z podsumowaniem informacji o odwrotnym obciążeniu
+obliczonym w danym wierszu. Jeśli kursy wymiany waluty są różne
+(inny dla wartości zakupu i zobowiązań, a inny dla kwoty
+odwrotnego obciążenia), wartość w polu <strong>Różnica kwot</strong> jest różna
+od 0:</p>
+</li>
+</ol>
+<p><img src="media/image157.png" alt=""></p>
+<ol start="6">
+<li><p>W tym samym oknie należy zwrócić uwagę na pola dat:</p>
+<ul>
+<li><p><strong>Data księgowania</strong> – data, z jaką zostanie zaksięgowana korekta
+kursu wymiany. Domyślnie wstawiana jest data robocza, w razie
+potrzeby można ją zmienić ręcznie.</p>
+</li>
+<li><p><strong>Data obowiązku VAT</strong> – data, z jaką zostanie zakwalifikowana
+korekta kwoty VAT do okresu rozliczenia podatku VAT. Domyślnie
+wstawiana jest data z korygowanego zapisu VAT, w razie potrzeby
+można ją zmienić ręcznie.</p>
+</li>
+</ul>
+</li>
+<li><p>Należy wybrać <strong>Księguj</strong>.</p>
+</li>
+<li><p>Efektem zaksięgowania korekty kursu wymiany będą <strong>Zapisy K/G</strong>
+i <strong>Szczegółowe zapisy VAT</strong>.</p>
+</li>
+</ol>
+<p><img src="media/image158.png" alt=""></p>
+<p><img src="media/image159.png" alt=""></p>
+<p>W sytuacji, gdy w zaksięgowanej fakturze zakupu kursy wymiany waluty
+są identyczne dla wartości zakupu i zobowiązań oraz kwoty odwrotnego
+obciążenia, może okazać się, że powinny być one różne. W celu zmiany
+kursu wymiany waluty dla zaksięgowanej kwoty odwrotnego obciążenia,
+należy postępować według następujących kroków:</p>
+<ol>
+<li><p>Należy wybrać <strong>Działy &gt; Zarządzanie Finansami &gt; Działania
+okresowe &gt; VAT &gt; Arkusz rozliczania VAT</strong>.</p>
+</li>
+<li><p>W oknie <strong>Arkusz rozliczania VAT</strong>, które się otworzy, należy
+ustawić odpowiednie filtry, aby na ekranie wyświetlić wybrane
+zapisy VAT, a następnie zaznaczyć wiersz z odwrotnym obciążeniem
+do skorygowania.</p>
+</li>
+<li><p>Należy wybrać <strong>Koryguj kurs wymiany odwrotnego obciążenia</strong>.</p>
+</li>
+<li><p>Otworzy się okno z podsumowaniem informacji o odwrotnym obciążeniu
+obliczonym w danym wierszu. W polu <strong>Kod waluty odwrotnego
+obciążenia</strong> należy kliknąć przycisk asysty. Otworzy się okno
+<strong>Zmiana kursu wymiany</strong>, w którym, w polu <strong>Relacyjny kurs
+wymiany</strong> należy ręcznie wprowadzić nowy kurs wymiany:</p>
+</li>
+</ol>
+<p><img src="media/image160.png" alt=""></p>
+<ol start="5">
+<li><p>Zmieniony kurs wymiany należy zatwierdzić wybierając <strong>OK</strong>.</p>
+</li>
+<li><p>W oknie <strong>Koryguj kurs wym. Odwrotnego</strong> obciążenia można zauważyć,
+że w polu <strong>Różnica kwot</strong> jest kwota różna od zera. Skorygowaną
+kwotę odwrotnego obciążenia należy zaksięgować wybierając
+<strong>Księguj</strong>.</p>
+</li>
+</ol>
+<p>Zaksięgowana kwota odwrotnego obciążenia jest wykazywana, w wybranym
+okresie VAT, w rejestrze VAT zakupu i w rejestrze VAT sprzedaży:</p>
+<p><img src="media/image161.png" alt=""></p>
+<p><img src="media/image162.png" alt=""></p>
+<div class="NOTE">
+<h5>Uwaga</h5>
+<p>Obsługa odwrotnego obciążenia została dodana również
+do dokumentu <strong>Zamówienie zakupu</strong>.</p>
+</div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+           <div class="doc-language">
+              <a href="https://docs.it.integro.pl/pl-pl/" hreflang="pl-PL" lang="pl-PL">PL</a>
+              <a href="https://docs.it.integro.pl/en-us/" hreflang="en-US" lang="en-US" class="lang-flag">EN</a>
+            </div>
+            Copyright © IT.integro sp. z o.o.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

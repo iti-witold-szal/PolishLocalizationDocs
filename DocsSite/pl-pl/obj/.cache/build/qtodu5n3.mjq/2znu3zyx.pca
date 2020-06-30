@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Opis ksi&#281;gowania | IT.integro </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Opis ksi&#281;gowania | IT.integro ">
+    <meta name="generator" content="docfx 2.55.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="TOC.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="opis-księgowania" sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="1">Opis księgowania</h1>
+
+<hr sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="2">
+<h2 id="informacje-ogólne" sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="4">Informacje ogólne</h2>
+<p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="6">Jest to element Polskiej Lokalizacji systemu Microsoft Dynamics 365
+Business Central on‑premises wprowadzający ułatwienia w opisywaniu
+księgowanych transakcji zapisywanych w tabeli <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="8">Zapis księgi głównej</strong>.
+Pozwala też na ujednolicenie systemu opisywania transakcji poprzez
+zablokowanie dokonywania zmian w wybranych opisach wstawianych
+domyślnie.</p>
+<h2 id="ustawienia" sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="13">Ustawienia</h2>
+<p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="15">Możliwe jest zdefiniowanie różnych sposobów tworzenia opisów transakcji zapisywanych w tabeli <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="15">Zapis księgi głównej</strong>, które będą generowane przez system w różnych typach dokumentów. W tym celu należy postępować według następujących kroków:</p>
+<ol sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="17">
+<li sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="17"><p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="17">Należy wybrać <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="17">Działy &gt; Zarządzanie Finansami &gt; Administracja &gt;
+Opisy księgowania.</strong></p>
+</li>
+<li sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="20"><p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="20">W oknie <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="20">Opisy księgowania</strong>, które się otworzy, należy w pustym
+wierszu wypełnić kolejno pola:</p>
+</li>
+</ol>
+<ul sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="23">
+<li sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="23"><p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="23"><strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="23">Kod</strong> -w tym polu należy wprowadzić unikalny kod dla opisu księgowania</p>
+</li>
+<li sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="25"><p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="25"><strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="25">Opis</strong> - w tym polu należy wprowadzić krótki opis dla opisu księgowania</p>
+</li>
+<li sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="27"><p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="27"><strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="27">Typ</strong> - w tym polu należy wybrać spośród dostępnych opcji, gdzie opis księgowania będzie używany. Dostępne opcje:</p>
+<ul sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="29">
+<li sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="29"><p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="29"><strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="29">Dokument sprzedaży</strong></p>
+</li>
+<li sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="31"><p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="31"><strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="31">Dokument zakupu</strong></p>
+</li>
+<li sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="33"><p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="33"><strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="33">Księgowanie kosztu zapasów</strong></p>
+</li>
+<li sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="35"><p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="35"><strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="35">Nota odsetkowa</strong></p>
+</li>
+<li sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="37"><p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="37"><strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="37">Dokument serwisowy</strong></p>
+</li>
+</ul>
+</li>
+<li sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="40"><p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="40"><strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="40">Formuła opisu księgowania -</strong> to pole przedstawia, w jaki sposób
+będą generowane elementy opisu sięgowania. Tutaj można wprowadzić znaki specjalne, jak np. %1 lub %2, w miejsce tórych system wstawi wartości z księgowanego dokumentu. Parametry dla znaków specjalnych definiowane są w odrębnym oknie, co zostanie opisane w dalszej części tego rozdziału.</p>
+</li>
+<li sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="43"><p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="43"><strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="43">Sprawdź przy księgowaniu</strong> - jeśli pole jest zaznaczone, system
+podczas księgowania umieści w zapisach domyślną treść opisu.
+Jakiekolwiek zmiany w opisie wprowadzone przez użytkownika,
+zostaną zignorowane. W przypadku, gdy pole nie jest zaznaczone,
+opis, który zostanie przeniesiony do zapisów księgi głównej
+podczas księgowania, będzie uwzględniał wszystkie zmiany
+wprowadzone przez użytkownika.</p>
+<h2 id="section" sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="52"><img src="media/image2.png" sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="52" alt=""></h2>
+</li>
+</ul>
+<ol start="3" sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="54">
+<li sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="54"><p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="54">W następnym kroku, dla każdego wiersza, w którym, w polu <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="54">Formuła
+opisu księgowania</strong> umieszczone zostały znaki specjalne %1 %2 %3
+... , konieczne jest zdefiniowanie parametrów, według
+których system będzie podstawiał odpowiednie wartości w miejsce
+znaków specjalnych. W tym celu, dla każdego opisu oddzielnie,
+należy wybrać <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="59">Parametry.</strong></p>
+</li>
+<li sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="61"><p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="61">W oknie <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="61">Parametry opisu księgowania</strong>, które się otworzy, należy
+odpowiednio wypełnić pola:</p>
+<ul sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="64">
+<li sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="64"><p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="64"><strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="64">Nr</strong> - w tym polu należy wprowadzić cyfrę odpowiadającą znakowi
+specjalnemu zawartemu w polu <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="65">Formuła opisu księgowania</strong>.
+Parametr wprowadzony w wierszu z tym numerem zostanie wstawiony
+w odpowiednie miejsce opisu księgowania, np. parametr w wierszu
+z numerem 1 zostanie wstawiony w miejsce znaku specjalnego %1.</p>
+<div class="NOTE" sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="70">
+<h5>Uwaga</h5>
+<p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="71">Z uwagi na ograniczenia techniczne, numery
+w oknie <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="72">Parametry opisu księgowania</strong> zawsze muszą zaczynać się od 1
+i nie może być ich więcej niż 10 dla każdego opisu księgowania.
+Dodatkowo, pole <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="74">Opis</strong> w oknie <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="74">Zapis księgi głównej</strong> nie może
+zawierać więcej niż 50 znaków.</p>
+</div>
+</li>
+<li sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="77"><p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="77"><strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="77">Typ</strong> - w tym polu należy wybrać, jakiego typu parametr będzie
+użyty. Dostępne opcje to:</p>
+<ul sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="80">
+<li sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="80"><p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="80"><strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="80">Etykieta</strong> - wybranie tej opcji oznacza, że w miejsce
+odpowiedniego znaku specjalnego zostanie podstawiona nazwa pola
+wybranego w polu <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="82">Nazwa pola</strong></p>
+</li>
+<li sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="84"><p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="84"><strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="84">Wartość</strong> - wybranie tej opcji oznacza, że w miejsce
+odpowiedniego znaku specjalnego zostanie podstawiona zawartość
+pola wybranego w polu <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="86">Nazwa pola</strong></p>
+</li>
+<li sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="88"><p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="88"><strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="88">Stała</strong> - wybranie tej opcji oznacza, że w miejsce odpowiedniego
+znaku specjalnego zostanie podstawiona treść ręcznie wpisana
+w polu <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="90">Nazwa pola.</strong></p>
+</li>
+</ul>
+<div class="NOTE" sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="92">
+<h5>Uwaga</h5>
+<p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="93">Należy pamiętać, że zawartość niektórych rodzajów pól (np.
+typu <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="94">Opcja</strong>) oraz nazwy pól będą tłumaczone na język aplikacji.
+Jeśli wymagane jest, aby parametry ulegające tłumaczeniom w opisach
+były wyświetlane zawsze w jednym, wybranym, języku, należy użyć opcji
+<strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="97">Stała</strong> i ręcznie wpisać treść.</p>
+</div>
+</li>
+<li sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="99"><p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="99"><strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="99">Nazwa pola</strong> - w tym polu należy wybrać pola, których nazwa
+lub zawartość (dla typów: <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="100">Etykieta</strong> lub <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="100">Wartość</strong>) będą użyte
+w miejscu znaków specjalnych w polu <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="101">Formuła Opisu Księgowania</strong>
+albo wprowadzić stałą treść (dla typu <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="102">Stała</strong>) w tym samym celu.
+W zależności od wybranego typu w polu <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="103">Typ</strong> w oknie <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="103">Opisy
+księgowania</strong>, lista pól dostępnych do wyboru w polu <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="104">Nazwa
+pola</strong> będzie różna:</p>
+<ul sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="107">
+<li sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="107"><p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="107"><strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="107">Dokument sprzedaży</strong> - lista rozwijana w polu <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="107">Nazwa pola</strong>
+będzie zestawieniem pól tabeli <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="108">Nagłówek sprzedaży</strong>.</p>
+</li>
+<li sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="110"><p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="110"><strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="110">Dokument zakupu</strong> - lista rozwijana w polu <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="110">Nazwa pola</strong> będzie
+zestawieniem pól tabeli <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="111">Nagłówek zakupu</strong>.</p>
+</li>
+<li sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="113"><p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="113"><strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="113">Księgowanie kosztu zapasów -</strong> lista rozwijana w polu <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="113">Nazwa
+pola</strong> będzie zestawieniem pól tabeli <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="114">Zapisy wyceny</strong>.</p>
+</li>
+<li sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="116"><p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="116"><strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="116">Nota odsetkowa -</strong> lista rozwijana w polu <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="116">Nazwa pola</strong> będzie
+zestawieniem pól tabeli <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="117">Nagłówek noty odsetkowej</strong>.</p>
+</li>
+<li sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="119"><p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="119"><strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="119">Dokument serwisowy -</strong> lista rozwijana w polu <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="119">Nazwa pola</strong>
+będzie zestawieniem pól tabeli <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="120">Nagłówek serwisu</strong>.</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="122"><img src="media/image4.png" sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="122" alt=""></p>
+<p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="125">Na podstawie przykładowych ustawień zaprezentowanych na powyższym
+rysunku, dla faktury zakupu z numerem 13/078 od firmy o nazwie Delta Sp. z o. o. system wygeneruje opis
+księgowania:  <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="127">Faktura 2017/548765 (od Delta Sp. z o.o.)</strong></p>
+<p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="132">W ramach definiowania ustawień konieczne jest też wybranie opisów
+domyślnych, które system będzie automatycznie generował w różnych
+miejscach. W tym celu należy postępować według następujących kroków:</p>
+<ol sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="136">
+<li sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="136"><p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="136">Należy wybrać <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="136">Działy \ Zarządzanie Finansami \ Administracja <br>
+Ustawienia sprzedaży i należności</strong>.</p>
+</li>
+<li sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="139"><p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="139">W oknie <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="139">Ustawienia sprzedaży i należn.</strong>, które się otworzy,
+na karcie skróconej <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="140">Ogólne</strong>, należy uzupełnić pola:</p>
+<ul sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="142">
+<li sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="142"><p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="142"><strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="142">Kod opisu księgowania</strong> - z listy rozwijanej należy wybrać
+właściwy kod spośród wcześniej zdefiniowanych opisów, który będzie
+domyślnie stosowany w dokumentach sprzedaży: ofercie, zamówieniu,
+fakturze, zamówieniu zwrotu oraz fakturze korygującej.</p>
+</li>
+<li sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="147"><p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="147"><strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="147">Kod opisu księgowania odsetek</strong> - z listy rozwijanej należy
+wybrać właściwy kod spośród wcześniej zdefiniowanych opisów,
+który będzie domyślnie stosowany w notach odsetkowych.</p>
+</li>
+</ul>
+</li>
+</ol>
+<p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="151"><img src="media/image5.png" sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="151" alt=""></p>
+<div class="NOTE" sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="154">
+<h5>Uwaga</h5>
+<p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="155">Należy zwrócić uwagę, że lista rozwijana w polu <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="155">Kod opisu
+księgowania</strong> składa się wyłącznie z kodów opisów zdefiniowanych
+z typem <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="157">Dokument sprzedaży</strong>, a w polu <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="157">Kod opisu księgowania
+odsetek</strong> - z kodów opisów zdefiniowanych z typem <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="158">Nota odsetkowa.</strong></p>
+</div>
+<ol start="3" sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="160">
+<li sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="160"><p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="160">Należy wybrać <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="160">Działy &gt; Zarządzanie Finansami &gt; Administracja <br>
+Ustawienia zakupów i zobowiązań</strong>.</p>
+</li>
+<li sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="163"><p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="163">W oknie <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="163">Ustawienia zakupów i zobow.</strong>, które się otworzy,
+na karcie skróconej <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="164">Ogólne</strong>, należy uzupełnić pole <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="164">Kod opisu
+księgowania</strong> - z listy rozwijanej należy wybrać właściwy kod
+spośród wcześniej zdefiniowanych opisów, który będzie domyślnie
+stosowany w dokumentach zakupu: ofercie, zamówieniu, fakturze,
+zamówieniu zwrotu oraz fakturze korygującej.</p>
+</li>
+</ol>
+<p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="170"><img src="media/image6.png" sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="170" alt=""></p>
+<div class="NOTE" sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="173">
+<h5>Uwaga</h5>
+<p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="174">Należy zwrócić uwagę, że lista rozwijana w polu <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="174">Kod opisu
+księgowania</strong> składa się wyłącznie z kodów opisów zdefiniowanych
+z typem <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="176">Dokument zakupu.</strong></p>
+</div>
+<ol start="5" sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="178">
+<li sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="178"><p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="178">Należy wybrać <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="178">Działy &gt; Zarządzanie Finansami &gt; Administracja &gt;
+Ustawienia zapasów</strong>.</p>
+</li>
+<li sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="181"><p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="181">W oknie <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="181">Ustawienia zapasów</strong>, które się otworzy, na karcie
+skróconej <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="182">Ogólne</strong>, należy uzupełnić pole <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="182">Kod opisu
+księgowania</strong> - z listy rozwijanej należy wybrać właściwy kod
+spośród wcześniej zdefiniowanych opisów, który będzie domyślnie
+stosowany w skrypcie <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="185">Księguj koszt zapasów do K/G</strong>.</p>
+</li>
+</ol>
+<p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="187"><img src="media/image7.png" sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="187" alt=""></p>
+<div class="NOTE" sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="190">
+<h5>Uwaga</h5>
+<p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="191">Należy zwrócić uwagę, że lista rozwijana w polu <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="191">Kod opisu
+księgowania</strong> składa się wyłącznie z kodów opisów zdefiniowanych
+z typem <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="193">Księgowanie kosztów zapasu.</strong></p>
+</div>
+<ol start="7" sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="195">
+<li sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="195"><p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="195">Należy wybrać <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="195">Działy &gt; Serwis &gt; Administracja &gt; Ustawienia
+serwisu.</strong></p>
+</li>
+<li sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="198"><p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="198">W oknie <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="198">Ustawienia zarz. serwisem</strong>, które się otworzy, na karcie
+skróconej <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="199">Ogólne</strong>, należy uzupełnić pole <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="199">Kod opisu
+księgowania</strong> - z listy rozwijanej należy wybrać właściwy kod
+spośród wcześniej zdefiniowanych opisów, który będzie domyślnie
+stosowany w dokumentach serwisu: zleceniu, fakturze oraz fakturze
+korygującej.</p>
+</li>
+</ol>
+<p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="205"><img src="media/image8.png" sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="205" alt=""></p>
+<div class="NOTE" sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="208">
+<h5>Uwaga</h5>
+<p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="209">Należy zwrócić uwagę, że lista rozwijana w polu <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="209">Kod opisu
+księgowania</strong> składa się wyłącznie z kodów opisów zdefiniowanych
+z typem <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="211">Dokument serwisowy.</strong></p>
+</div>
+<h2 id="obsługa" sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="213">Obsługa</h2>
+<p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="215">Po zdefiniowaniu opisów księgowania i ustawieniu reguł ich księgowania, można zacząć korzystać z tej funkcjonalności, np. w fakturze zakupu. W tym celu należy postępować według następujących kroków:</p>
+<ol sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="217">
+<li sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="217"><p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="217">Należy wybrać <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="217">Nowe</strong> w oknie <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="217">Faktury zakupu</strong> i wprowadzić co
+najmniej dostawcę oraz numer jego faktury.</p>
+</li>
+<li sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="220"><p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="220">W kartotece nowej faktury zakupu system uzupełni domyślnie pole Kod
+<strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="221">opisu księgowania</strong> oraz <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="221">Opis księgowania</strong> na podstawie
+wcześniej zdefiniowanych ustawień i parametrów.</p>
+</li>
+</ol>
+<p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="224"><img src="media/image9.png" sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="224" alt=""></p>
+<ol start="3" sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="227">
+<li sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="227"><p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="227">Pozostałe pola faktury zakupu należy uzupełnić standardowo.</p>
+</li>
+<li sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="229"><p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="229">Jeśli konieczna jest zmiana treści w polu <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="229">Opis księgowania</strong>,
+można to zrobić w dwojaki sposób, w zależności od ustawień:</p>
+<ul sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="232">
+<li sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="232"><p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="232">Jeżeli pole <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="232">Sprawdź przy księgowaniu</strong> nie jest zaznaczone
+dla wybranego <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="233">Kodu opisu księgowania</strong>, wszelkie konieczne
+zmiany należy wprowadzić w treści opisu wstawionego domyślnie</p>
+</li>
+<li sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="236"><p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="236">Jeżeli pole <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="236">Sprawdź przy księgowaniu</strong> jest zaznaczone
+dla wybranego <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="237">Kodu opisu księgowania</strong>, wszelkie zmiany
+wprowadzone w treści opisu wstawionego domyślnie zostaną
+zignorowane w trakcie księgowania. Wprowadzenie nowej treści opisu
+w zamówieniu zakupu jest możliwe po wyczyszczeniu pola <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="240">Kod opisu
+księgowania.</strong></p>
+</li>
+</ul>
+</li>
+<li sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="243"><p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="243">Należy zaksięgować fakturę zakupu, aby sprawdzić opis księgowania
+utworzony w tabeli <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="244">Zapis księgi głównej</strong>.</p>
+</li>
+</ol>
+<p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="246"><img src="media/image10.png" sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="246" alt=""></p>
+<div class="NOTE" sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="249">
+<h5>Uwaga</h5>
+<p sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="250">Jeżeli w oknach z ustawieniami nie zostanie wskazany
+domyślny <strong sourcefile="PolishFunctionality/gl-posting-description.md" sourcestartlinenumber="251">Kod opisu księgowania</strong>, system wygeneruje opis zgodnie
+ze standardem wersji międzynarodowej.</p>
+</div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+           <div class="doc-language">
+              <a href="https://docs.it.integro.pl/pl-pl/" hreflang="pl-PL" lang="pl-PL">PL</a>
+              <a href="https://docs.it.integro.pl/en-us/" hreflang="en-US" lang="en-US" class="lang-flag">EN</a>
+            </div>
+            Copyright © IT.integro sp. z o.o.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

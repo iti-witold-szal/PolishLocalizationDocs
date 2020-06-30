@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Tytu&#322; artyku&#322;u | IT.integro </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Tytu&#322; artyku&#322;u | IT.integro ">
+    <meta name="generator" content="docfx 2.55.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="TOC.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="tytuł-artykułu" sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="3">Tytuł artykułu</h1>
+<!-- Szablon powinien być używany do tworzenia wszystkich artykułów dotyczących produktów z wyjątkiem artykułu o nazwie index.md, który pełni funkcję strony głównej produktu. Dodatkowe informacje zamieszczono w artykule [Formatowanie tekstu](text-formatting.md). Aby możliwe było korzystanie w wszystkich opcji edycji opisanych w szablonie, zalecanie jest zainstalowanie rozszerzenia Docsmarkdown https://docs.microsoft.com/pl-pl/contribute/markdown-reference-->
+
+<!-- Tytuł artykułu powinien być zwięzły i mieć formę rzeczownika lub rzeczownika odczasownikowego, np. Konfiguracja ubezpieczenia środków trwałych/Setting Up Fixed Asset Insurance). Na końcu tytułu nie należy umieszczać kropki. Pierwszy wyraz w tytule powinien być pisany wielką literą, kolejne wyrazy - małymi, jeśli nie są nazwą własną.-->
+<p sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="6">Tutaj należy wprowadzić tekst wprowadzenia.</p>
+<!-- Tekst wprowadzenia znajduje się bezpośrednio pod tytułem artykułu. Zawiera zwięzły wstęp do zagadnień opisywanych poniżej w sekcjach informacyjnych i sekcjach procedur. W tej sekcji obowiązuje forma bezosobowa czasownika (należy, można itp). Nie należy wpisywać osobnego tytułu dla sekcji wprowadzenia. -->
+<h2 id="podtytuł-artykułu" sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="10">Podtytuł artykułu</h2>
+<!-- Instrukcje dla sekcji informacyjnych, objaśniających zagadnienia. -->
+<!-- Podtytuł artykułu powinien być zwięzły i mieć formę rzeczownika lub rzeczownika odczasownikowego, np. Konfigurowanie klauzul VAT. Na końcu podtytułu nie należy umieszczać kropki. Pierwszy w wyraz w tytule powinien być pisany wielką literą, kolejne wyrazy - małymi, jeśli nie są nazwą własną.-->
+<p sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="14">Tutaj należy wprowadzić tekst sekcji informacyjnej dotyczącej jednego z zagadnień w ramach tematu artykułu.</p>
+<!-- W tej sekcji obowiązuje forma bezosobowa czasownika (należy, można itp).* -->
+<!-- W sekcji informacyjnej możliwe jest zastosowanie elementów wymienionych poniżej. -->
+<!-- Tabela -->
+<table sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="22">
+<thead>
+<tr sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="22">
+<th sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="22"><strong sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="22">Kolumna 1</strong></th>
+<th sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="22"><strong sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="22">Kolumna 2</strong></th>
+<th sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="22"><strong sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="22">Kolumna 3</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="24">
+<td sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="24">tekst</td>
+<td sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="24">tekst</td>
+<td sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="24">tekst</td>
+</tr>
+</tbody>
+</table>
+<!-- Tabelę zaleca się wykorzystać do prezentacji danych, prezentacji lub opisu ustawień i pól. Można zwiększyć liczbę kolumn. Nagłówki kolumn należy pisać pogrubioną czcionką.
+
+Na przykład:
+
+|**Pole**|**Opis pola**|
+|---|---|
+|Sumuj zapisy|Pole należy zaznaczyć, jeśli zapisy księgowe będące wynikiem działania skryptu mają zostać zsumowane według waluty. Niezaznaczenie pola spowoduje utworzenie szczegółowych zapisów księgowych będących wynikiem działania skryptu.tekst.|
+-->
+<!-- Linia pozioma -->
+<hr sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="37">
+<!-- Lista -->
+<!-- Lista numerowana -->
+<ol sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="43">
+<li sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="43">To jest lista numerowana.</li>
+<li sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="44">To jest lista numerowana.</li>
+<li sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="45">To jest lista numerowana.</li>
+<li sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="46">To jest lista numerowana.</li>
+<li sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="47">To jest lista numerowana.</li>
+</ol>
+<!-- Lista numerowana z podlistą -->
+<ol sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="51">
+<li sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="51">To jest lista numerowana z podlistą.</li>
+<li sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="52">To jest lista numerowana z podlistą.</li>
+<li sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="53">To jest lista numerowana z podlistą.</li>
+<li sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="54">To jest lista numerowana z podlistą:
+<ol sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="55">
+<li sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="55">pozycja podlisty,</li>
+<li sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="56">pozycja podlisty,</li>
+<li sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="57">pozycja podlisty.</li>
+</ol>
+</li>
+<li sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="58">To jest lista numerowana z podlistą.</li>
+<li sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="59">To jest lista numerowana z podlistą.</li>
+</ol>
+<!-- Lista wypunktowana -->
+<p sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="63">To jest wprowadzenie do listy wypunktowanej:</p>
+ <!-- gdy pozycje listy to rozbudowane frazy lub równoważniki zdań -->
+<ul sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="66">
+<li sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="66">to jest lista wypunktowana;</li>
+<li sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="67">to jest lista wypunktowana;</li>
+<li sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="68">to jest lista wypunktowana;</li>
+<li sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="69">to jest lista wypunktowana.</li>
+</ul>
+<!-- lub w przypadku gdy pozycje listy to pojedynncze frazy   -->
+<p sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="73">To jest wprowadzenie do listy wypunktowanej:</p>
+<ul sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="75">
+<li sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="75">tekst,</li>
+<li sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="76">tekst,</li>
+<li sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="77">tekst.</li>
+</ul>
+<!-- Lista wypunktowana z podlistą -->
+<p sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="80">To jest wprowadzenie do listy wypunktowanej z podlistą:</p>
+<ul sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="82">
+<li sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="82">To jest lista wypunktowana.</li>
+<li sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="83">To jest lista wypunktowana.</li>
+<li sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="84">To jest lista wypunktowana.
+<ul sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="85">
+<li sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="85">pozycja podlisty,</li>
+<li sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="86">pozycja podlisty,</li>
+<li sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="87">pozycja podlisy.</li>
+</ul>
+</li>
+<li sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="88">To jest lista wypunktowana.</li>
+<li sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="89">To jest lista wypunktowana.</li>
+</ul>
+<!-- ## Kod -->
+<!-- Należy użyć trzech znaczników backticks ''' , aby rozpocząć blok przykładu kodu. Można rownież dodać wcięzie. -->
+<pre><code sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="95">function fancyAlert(arg) {
+    if(arg) {
+        $.docs({div:'#foo'})
+    }
+}
+</code></pre>
+<!-- W przypadku, gdy fragment kodu ma występować w wierszu zwykłego tekstu należy użyć pojedynczego znacznika backtick.  -->
+<p sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="105">To jest tekst, w którym w wierszu zamieszono <code sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="105">kod/nazwę bazy danych/pliku itp.</code></p>
+<!-- 
+Przy pomocy tego znacznika należy oznaczać polecenia, nazwy baz danych, plików, slów kluczowych. -->
+<!-- Przykład -->
+<p sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="111"><strong sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="111">Przykład</strong></p>
+<p sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="113">Tutaj należy wprowadzić tekst przykładu jako zwykły tekst lub w innej formie np. tabeli.</p>
+<!-- Alert 
+
+Typ alertu zależy od charakteru prezentowanych informacji. Poniżej przedstawiono 5 typów: Note - Uwaga, Tip - Porada, Important - Ważne, Caution - Ostrożnie, Warning - Ostrzeżenie. Nazwy alertów w zależności od języka strony www są renderowane w języku polskim lub angielskim. -->
+<!-- W przypadku alertów obowiązuje forma bezosobowa czasownika (należy, można itp).* -->
+<div class="NOTE" sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="120">
+<h5>Uwaga</h5>
+<p sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="121">Tu należy wprowadzić tekst alertu typu Uwaga. Alert powinien zawierać ważne informacje, które chcemy wyróżnić dla osób przeglądających dokumentację.</p>
+</div>
+<div class="TIP" sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="123">
+<h5>Porada</h5>
+<p sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="124">Tu należy wprowadzić tekst alertu typu typu Porada. Alert powinien zawierać pomocnicze informacje umożliwiające sprawniejsze wykonanie danej procedury.</p>
+</div>
+<div class="IMPORTANT" sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="126">
+<h5>Ważne</h5>
+<p sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="127">Tu należy wprowadzić tekst alertu typu Ważne. Alert powinien zawierać informacje niezbędne dla wykonania procedury.</p>
+</div>
+<div class="CAUTION" sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="129">
+<h5>Przestroga</h5>
+<p sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="130">Tu należy wprowadzić tekst alertu typu Ostrożnie. Alert powinien zawierać informacje o potencjalnych negatywnych skutkach działania lub procedury.</p>
+</div>
+<div class="WARNING" sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="132">
+<h5>Ostrzeżenie</h5>
+<p sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="133">Tu należy wprowadzić tekst alertu typu Ostrzeżenie. Alert powinien zawierać informacje o nieodzownych niebezpiecznych skutkach działania lub procedury.</p>
+</div>
+<!-- Rysunki i filmy 
+
+Rysunki  należy zamieszać bez tytułu i numeracji w  tekście, bezpośrednio pod powiązaną treścią w formie łącza do pliku .png w osobnym folderze media zgodnie z zasadami markdown. -->
+<p sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="139"><code sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="139">![Alt text](media\image.png)</code></p>
+<!-- Filmy wideo należy zamieszać bez numeracji w  tekście, najlepiej bez tytułów, bezpośrednio pod powiązaną treścią w formie łącza do filmu zgodnie z zasadami markdown. W rzezczywistym pliku należy pominąć znaczniki backtick użyte w tym szablonie -->
+<p sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="143"><code sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="143">![Video](https://youtu.be/video)</code></p>
+<!-- Aby dostosować wielkość obrazu wideo: -->
+<p sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="147"><code sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="147">![Video](https://youtu.be/video){width=&quot;90%&quot;}</code></p>
+<p sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="149"><code sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="149">![](https://youtu.be/video){width=&quot;560&quot; height=&quot;315&quot;}</code></p>
+<!-- 
+Cytat blokowy -->
+<blockquote sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="154">
+<p sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="154">Tu należy wpisać tekst cytatu blokowego.</p>
+</blockquote>
+<!-- Kod -->
+<p sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="158"><code sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="158">Tu należy wpisać fragment kodu</code></p>
+<h2 id="podtytuł" sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="160">Podtytuł</h2>
+<!-- Instrukcje dla sekcji zawierających opisy procedur.  -->
+<!-- Podtytuł artykułu powinien być zwięzły i mieć formę rzeczownika lub rzeczownika odczasownikowego, np. Konfigurowanie klauzul VAT. Na końcu podtytułu nie należy umieszczać kropki. Pierwszy w wyraz w tytule powinien być pisany wielką literą, kolejne wyrazy - małymi, jeśli nie są nazwą własną. --
+<!-- Podtytuł artykułu powinien być zwięzły i mieć formę rzeczownika lub rzeczownika odczasownikowego.-->
+<p sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="165">Tutaj należy wprowadzić tekst wprowadzenia do opisywanej procedury. Aby [co zrobić]:</p>
+<!-- Na przykład: Zamknięcie roku finansowego obejmuje szereg czynności. Aby zamknąć nowy rok finansowy: -->
+<ol sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="169">
+<li sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="169">Wybierz ikonę funkcji <img src="media/ui-search/search_small.png" sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="169" alt="Powiedz mi co chcesz zrobić">, wprowadź [<strong sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="169">Nazwa szukanej strony</strong>], a następnie wybierz powiązane łącze.</li>
+<li sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="170">Wykonaj kolejny krok procedury.</li>
+<li sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="171">Wykonaj kolejny krok procedury.</li>
+<li sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="172">Wykonaj kolejny krok procedury.</li>
+<li sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="173">itd.</li>
+</ol>
+<!-- W opisie kroków procedury należy używać formy osobowej, 2 osoby liczby pojedynczej.  -->
+<!-- W przypadku dokumentacji dla rozwiązań dla NAV i BC on-premises w punkcie 1 należy użyć sformułowania:  -->
+<ol sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="178">
+<li sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="178">W polu wyszukiwania wybierz [<strong sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="178">nazwa polecenia menu</strong>], a potem [<strong sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="178">nazwa polecenia menu</strong>] itd., a następnie [kolejna czynność].</li>
+<li sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="179">Wykonaj kolejny krok procedury.</li>
+<li sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="180">Wykonaj kolejny krok procedury.</li>
+<li sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="181">Wykonaj kolejny krok procedury.</li>
+<li sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="182">itd.</li>
+</ol>
+<!-- Kroki procedury powinny być przedstawione w formie listy numerowanej. W przypadku, gdy kroki procedury mają zawierać czynności pośrednie, należy zastosować listę wypunktowaną dla tych czynności.  -->
+<h2 id="zobacz-też" sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="186">Zobacz też</h2>
+<!-- Sekcja odwołań (Zobacz też) zawiera nazwy innych powiązanych dokumentów w ramach repozytorium projektu lub stron internetowych wraz z łączami. -->
+<p sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="190"><a href="article3.md" sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="190">Nazwa dokumentu</a></p>
+<p sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="192"><a href="https://youtu.be/O5S_sbHDqAc" sourcefile="PolishFunctionality/article1.md" sourcestartlinenumber="192">Nazwa dokumentu/strony wwww</a></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+           <div class="doc-language">
+              <a href="https://docs.it.integro.pl/pl-pl/" hreflang="pl-PL" lang="pl-PL">PL</a>
+              <a href="https://docs.it.integro.pl/en-us/" hreflang="en-US" lang="en-US" class="lang-flag">EN</a>
+            </div>
+            Copyright © IT.integro sp. z o.o.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

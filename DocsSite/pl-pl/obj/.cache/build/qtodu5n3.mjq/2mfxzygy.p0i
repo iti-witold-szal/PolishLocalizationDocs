@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Seria numeracji w&#160;szablonach g&#322;&#243;wnych | IT.integro </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Seria numeracji w&#160;szablonach g&#322;&#243;wnych | IT.integro ">
+    <meta name="generator" content="docfx 2.55.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="TOC.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="seria-numeracji-wszablonach-głównych" sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="1">Seria numeracji w szablonach głównych</h1>
+
+<h2 id="informacje-ogólne" sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="3">Informacje ogólne</h2>
+<p sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="5">Standardowa funkcjonalność <strong sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="5">Szablony główne</strong> umożliwia zdefiniowanie
+domyślnych parametrów w różnych zestawach, na podstawie których system
+automatycznie uzupełnia część pól w rekordach zakładanych przy użyciu
+wybranego szablonu głównego. Polska Lokalizacja umożliwia dodatkowo
+przypisywanie domyślnej serii numeracji w szablonach zdefiniowanych
+dla nabywców, dostawców i środków trwałych.</p>
+<h2 id="ustawienia" sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="12">Ustawienia</h2>
+<p sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="14">W celu przypisania serii numeracji do szablonu głównego, należy
+postępować według następujących kroków:</p>
+<ol sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="17">
+<li sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="17"><p sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="17">Należy wybrać <strong sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="17">Działy &gt; Administracja &gt; Ustawienia aplikacji &gt;
+Ogólne &gt; Konfiguruj szablony główne.</strong></p>
+</li>
+<li sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="20"><p sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="20">W oknie <strong sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="20">Konfiguruj szablony główne</strong>, które się otworzy, należy
+zaznaczyć wiersz z wybranym szablonem i wybrać <strong sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="21">Edycja</strong>.</p>
+</li>
+<li sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="23"><p sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="23">Na karcie skróconej <strong sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="23">Wiersze</strong> należy wstawić nowy wiersz, w którym
+w polu <strong sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="24">Nazwa pola</strong> należy wybrać <strong sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="24">No. Series</strong>, a w polu
+<strong sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="25">Wartość domyślna</strong> należy ręcznie wprowadzić kod wcześniej
+zdefiniowanej serii numeracji, przeznaczonej do numerowania
+kartotek zakładanych przy użyciu danego szablonu. Pozostałe pola
+należy uzupełnić w sposób standardowy.</p>
+</li>
+</ol>
+<p sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="30"><img src="media/image25.png" sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="30" alt=""></p>
+<div class="NOTE" sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="32">
+<h5>Uwaga</h5>
+<p sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="33">Przypisywanie domyślnych serii numeracji jest możliwe
+dla <strong sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="34">Szablonów głównych</strong> zdefiniowanych dla nabywców (identyfikator
+tabeli = 18), dostawców (identyfikator tabeli = 23) i środków trwałych
+(identyfikator tabeli = 5600).</p>
+<p sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="38">Brak przypisania domyślnej serii numeracji do szablonu głównego
+skutkuje tym, że podczas tworzenia nowej kartoteki z wykorzystaniem
+tego szablonu, system zastosuje odpowiednią serię numeracji
+ze standardowych ustawień zdefiniowanych w oknach: <strong sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="41">Ustawienia
+sprzedaży i należn.</strong>, <strong sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="42">Ustawienia zakupów i zobowiązań</strong>,
+<strong sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="43">Ustawienia ŚT.</strong></p>
+</div>
+<h2 id="obsługa" sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="45">Obsługa</h2>
+<p sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="47">Zasada działania funkcjonalności jest taka sama dla nabywców, dostawców
+i środków trwałych, dlatego obsługa zostanie opisana tylko
+na przykładzie nabywcy.</p>
+<p sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="51">W celu zdefiniowania kartoteki nabywcy z wykorzystaniem szablonu
+głównego z przypisaną domyślną serią numeracji, należy postępować
+według następujących kroków:</p>
+<ol sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="55">
+<li sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="55"><p sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="55">Należy wybrać <strong sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="55">Działy &gt; Zarządzanie Finansami &gt; Należności &gt;
+Nabywcy</strong>.</p>
+</li>
+<li sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="58"><p sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="58">W oknie <strong sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="58">Nabywcy</strong>, które się otworzy, należy wybrać <strong sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="58">Nowe</strong>.</p>
+</li>
+<li sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="60"><p sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="60">W oknie <strong sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="60">Wybierz szablon dla nowego nabywcy</strong> należy zaznaczyć
+wiersz z wybranym szablonem i wybrać <strong sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="61">OK.</strong></p>
+</li>
+</ol>
+<p sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="63"><img src="media/image26.png" sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="63" alt=""></p>
+<ol start="4" sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="65">
+<li sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="65">System nadał nowej kartotece nabywcy numer kolejny zgodny z serią
+numeracji przypisaną do wybranego szablonu głównego:</li>
+</ol>
+<p sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="68"><img src="media/image27.png" sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="68" alt=""></p>
+<ol start="5" sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="70">
+<li sourcefile="PolishFunctionality/gl-master-templates-number-series.md" sourcestartlinenumber="70">Pozostałe pola w kartotece nabywcy należy uzupełnić standardowo.</li>
+</ol>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+           <div class="doc-language">
+              <a href="https://docs.it.integro.pl/pl-pl/" hreflang="pl-PL" lang="pl-PL">PL</a>
+              <a href="https://docs.it.integro.pl/en-us/" hreflang="en-US" lang="en-US" class="lang-flag">EN</a>
+            </div>
+            Copyright © IT.integro sp. z o.o.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

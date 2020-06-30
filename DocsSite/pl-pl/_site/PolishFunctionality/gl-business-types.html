@@ -1,0 +1,320 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Informacje og&#243;lne | IT.integro </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Informacje og&#243;lne | IT.integro ">
+    <meta name="generator" content="docfx 2.55.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="TOC.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+
+<p>Typy działalności {#typy-działalności .Poziom-1}
+––––––––-</p>
+<h2 id="informacje-ogólne">Informacje ogólne</h2>
+<p>Ustawa CIT na rok 2018 wprowadza wymóg podziału wyniku finansowego na
+część operacyjną i kapitałową, z zakazem kompensaty strat pomiędzy tymi
+typami działalności. W większości przypadków, podział księgowań pomiędzy
+typy działalności, może być zrealizowany za pomocą standardowej
+funkcjonalności systemu Microsoft Dynamics 365 Business Central
+on‑premises, przy użyciu kont K/G, czy też funkcjonalności wymiarów
+księgowych. Tego typu podział jest niestety niemożliwy w przypadku
+księgowań automatycznych związanych z naliczaniem różnic kursowych. W
+standardzie systemu, konta różnic kursowych są przypisane do waluty. Nie
+jest zatem możliwe rozdzielenie różnic kursowych, dotyczących różnych
+typów działalności na odrębne konta księgi głównej. W przypadku
+wykorzystania wymiarów księgowych, pobierane są one automatycznie
+z zapisów ksiąg nabywców i dostawców. Użytkownik nie ma możliwości
+zmiany wartości wymiarów, z jakimi będą zaksięgowane różnice kursowe
+podczas procesu rozliczania należności i zobowiązań.</p>
+<p>Opisana poniżej funkcjonalność umożliwia podział zapisów ksiąg nabywców
+i dostawców pomiędzy definiowalne przez użytkownika typy działalności.
+Do typu działalności można przypisać zestaw kont różnic kursowych, co
+sprawia, iż w przypadku rozliczenia zapisu księgi nabywcy lub dostawcy z
+określonym typem działalności, konta różnic kursowych nie są pobierane z
+ustawień waluty, lecz z ustawień typu działalności.</p>
+<h2 id="ustawienia">Ustawienia</h2>
+<p>Z uwagi na to, że do podziału wyniku finansowego wykorzystywana jest
+standardowa funkcjonalność wymiarów, należy utworzyć nowy, dedykowany,
+wymiar. W tym celu, należy postępować według następujących kroków:</p>
+<ol>
+<li><p>Należy wybrać <strong>Działy &gt; Zarządzanie Finansami &gt; Administracja &gt;
+Wymiary</strong>.</p>
+</li>
+<li><p>W oknie <strong>Wymiary</strong>, które się otworzy, należy utworzyć nowy wiersz
+i wprowadzić <strong>Kod</strong>, <strong>Nazwę</strong> oraz pozostałe dane wymiaru,
+którego wartości będą używane do podziału różnic kursowych.</p>
+</li>
+<li><p>Należy ustawić kursor w wierszu z nowym wymiarem i na wstążce, na
+karcie <strong>Nawiguj</strong>, wybrać <strong>Wartości wymiaru</strong>.</p>
+</li>
+<li><p>W oknie <strong>Wartości wymiaru</strong>, które się otworzy, należy w kolejnych
+wierszach wprowadzić <strong>Kod</strong>, <strong>Nazwę</strong> i pozostałe dane wartości
+nowego wymiaru.</p>
+</li>
+</ol>
+<p><img src="media/image42.png" alt=""></p>
+<p>Aby możliwe było korzystanie z opisywanej funkcjonalności, konieczne
+jest wskazanie w <strong>Ustawieniach księgi głównej</strong> nowo utworzonego
+wymiaru. W tym celu, należy postępować według następujących kroków:</p>
+<ol>
+<li><p>Należy wybrać <strong>Działy &gt; Zarządzanie Finansami &gt; Administracja &gt;
+Ustawienia księgi głównej</strong>.</p>
+</li>
+<li><p>W oknie <strong>Ustawienia księgi głównej</strong>, które się otworzy, na karcie
+skróconej <strong>Wymiary</strong>, w polu <strong>Kod wymiaru typu działalności</strong> z
+listy rozwijanej należy wybrać zdefiniowany w poprzednich krokach
+wymiar.</p>
+</li>
+</ol>
+<p><img src="media/image43.png" alt=""></p>
+<p>Po utworzeniu odpowiedniego wymiaru wraz z wartościami, należy
+zdefiniować konta różnic kursowych. W tym celu, należy postępować według
+następujących kroków:</p>
+<ol>
+<li><p>Należy wybrać <strong>Działy &gt; Zarządzanie Finansami &gt; Administracja &gt;
+Typy działalności gospodarczych</strong>.</p>
+</li>
+<li><p>W oknie <strong>Typy działalności gospodarczych</strong>, które się otworzy,
+należy wybrać właściwe konta księgi głównej, na których księgowane
+będą zrealizowane i niezrealizowane różnice kursowe związane z
+wybranymi wartościami wymiaru:</p>
+<ul>
+<li><p><strong>Konto zysków niezrealiz.</strong>– w tym polu należy wybrać konto do
+zaksięgowania niezrealizowanych dodatnich różnic kursowych.</p>
+</li>
+<li><p><strong>Konto zysków zrealizowanych</strong> – w tym polu należy wybrać konto
+do zaksięgowania zrealizowanych dodatnich różnic kursowych.</p>
+</li>
+<li><p><strong>Konto strat niezrealiz.</strong> – w tym polu należy wybrać konto do
+zaksięgowania niezrealizowanych ujemnych różnic kursowych.</p>
+</li>
+<li><p><strong>Konto strat zrealizowanych</strong> – w tym polu należy wybrać konto
+do zaksięgowania zrealizowanych ujemnych różnic kursowych.</p>
+</li>
+</ul>
+<div class="NOTE">
+<h5>Uwaga</h5>
+<p>W oknie <strong>Typy działalności gospodarczych</strong> nie można
+tworzyć nowych wierszy, ponieważ są one zsynchronizowane z wartościami
+wymiaru wybranego w polu <strong>Kod wymiaru typu działalności</strong> w oknie
+<strong>Ustawienia księgi głównej</strong>.</p>
+</div>
+</li>
+</ol>
+<p><img src="media/image44.png" alt="typy działalności gospodarczych"></p>
+<h2 id="obsługa">Obsługa</h2>
+<p>Dzięki wykorzystaniu wymiarów, przypisywanie odpowiednich typów działalności może odbywać się w wielu miejscach w systemie Microsoft Dynamics 365 Business Central on‑premises. Można przypisać domyślny typ działalności do nabywcy lub dostawcy, do dokumentu sprzedaży lub zakupu, oraz do każdego wiersza dziennika głównego.</p>
+<p>Z uwagi na to, że dostawcy i nabywcy mogą mieć przypisane różne typy działalności, może zdarzyć się, że będą wzajemnie rozliczane zapisy księgi nabywców lub dostawców z przypisanymi różnymi typami działalności. W takiej sytuacji do określenia kont różnic kursowych zostanie wykorzystany typ działalności z zapisu rozliczającego.</p>
+<p>Można ustawić domyślną wartość wymiaru typu działalności dla danej tabeli w systemie. W tym celu, należy postępować według następujących kroków:</p>
+<ol>
+<li><p>Należy wybrać <strong>Działy &gt; Zarządzanie Finansami &gt; Administracja &gt;
+Wymiary</strong>.</p>
+</li>
+<li><p>W oknie <strong>Wymiary</strong>, które się otworzy, należy ustawić kursor w
+wierszu z wybranym wymiarem i na wstążce, na karcie <strong>Nawiguj</strong>
+wybrać <strong>Wymiar domyślny typu konta</strong>.</p>
+</li>
+<li><p>W oknie <strong>Wymiar domyślny typu konta</strong>, które się otworzy, należy
+wypełnić poszczególne pola, w oddzielnym wierszu dla każdej wybranej
+tabeli:</p>
+<ul>
+<li><p><strong>Identyfikator tabeli</strong> – w tym polu należy wybrać z listy
+rozwijanej tabelę, dla której wybrana wartość wymiaru będzie
+traktowana jako wartość domyślna.</p>
+</li>
+<li><p><strong>Kod wartości wymiaru</strong> – w tym polu należy wybrać domyślną dla
+danej tabeli wartość wymiaru.</p>
+</li>
+<li><p><strong>Księgowanie wartości</strong> – w tym polu należy wybrać jedną z opcji:</p>
+<ul>
+<li><p><strong>pusta</strong></p>
+</li>
+<li><p><strong>Kod obowiązkowy</strong></p>
+</li>
+<li><p><strong>Ten sam kod</strong></p>
+</li>
+<li><p><strong>Bez kodu</strong>.</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<p><img src="media/image45.png" alt=""></p>
+<p>Domyślne wartości wymiarów można również przypisywać do kartotek nabywców i dostawców. W tym celu, należy postępować według następujących kroków:</p>
+<ol>
+<li><p>Należy otworzyć kartotekę wybranego nabywcy lub dostawcy i na
+wstążce wybrać <strong>Wymiary</strong></p>
+<p>lub</p>
+<p>na liście nabywców lub dostawców zaznaczyć wiersze z wybranymi
+kontrahentami (lub jednym kontrahentem) i na wstążce wybrać <strong>Wymiary
+– zakres</strong> (lub <strong>Wymiary – wiersz)</strong>.</p>
+</li>
+<li><p>W oknie <strong>Wymiary domyślne</strong>, które się otworzy, należy utworzyć
+nowy wiersz, wypełniając pola:</p>
+<ul>
+<li><p><strong>Kod wymiaru –</strong> w tym polu należy wybrać z listy rozwijanej
+utworzony wcześniej wymiar.</p>
+</li>
+<li><p><strong>Kod wartości wymiaru</strong> – w tym polu należy wybrać domyślną dla
+wybranych kontrahentów (lub kontrahenta) wartość wymiaru.</p>
+</li>
+<li><p><strong>Księgowanie wartości</strong> – w tym polu należy wybrać jedną z opcji:</p>
+<ul>
+<li><p><strong>pusta</strong></p>
+</li>
+<li><p><strong>Kod obowiązkowy</strong></p>
+</li>
+<li><p><strong>Ten sam kod</strong></p>
+</li>
+<li><p><strong>Bez kodu</strong>.</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<p><img src="media/image46.png" alt=""></p>
+<p><img src="media/image47.png" alt=""></p>
+<p>Typ działalności można również przypisywać bezpośrednio do dokumentu, zarówno w kartotekach dokumentów, jak i w wierszach dzienników. Aby przypisać wartość wymiaru do dokumentu w wierszu dziennika, należy postępować według następujących kroków:</p>
+<ol>
+<li><p>W oknie <strong>Dziennik główny</strong> należy zaznaczyć wybrany wiersz i na
+wstążce, na karcie <strong>Nawiguj</strong>, wybrać <strong>Wymiary</strong>.</p>
+</li>
+<li><p>W oknie <strong>Edytuj zapisy zestawu wymiarów</strong>, które się otworzy,
+należy ustawić żądaną wartość wymiaru odpowiedzialnego za podział
+różnic kursowych, wypełniając pola:</p>
+<ul>
+<li><p><strong>Kod wymiaru</strong> – w tym polu należy wybrać z listy rozwijanej
+utworzony wcześniej wymiar.</p>
+</li>
+<li><p><strong>Kod wartości wymiaru</strong> – w tym polu należy wybrać właściwą wartość
+wymiaru wybranego w polu Kod wymiaru.</p>
+</li>
+</ul>
+</li>
+</ol>
+<p><img src="media/image48.png" alt=""></p>
+<p>W celu przypisania typu działalności do dokumentu, należy postępować według następujących kroków:</p>
+<ol>
+<li><p>Należy otworzyć jedną z list lub kartotek dokumentów sprzedaży lub
+zakupu.</p>
+</li>
+<li><p>W oknie, które się otworzy, należy na wstążce, na karcie
+<strong>Nawiguj</strong>, wybrać <strong>Wymiary.</strong></p>
+</li>
+<li><p>W oknie <strong>Edytuj zapisy zestawu wymiarów</strong>, które się otworzy,
+należy ustawić żądaną wartość wymiaru odpowiedzialnego za podział
+różnic kursowych, wypełniając pola:</p>
+</li>
+</ol>
+<p>Zapisy zestawu wymiarów faktury zakupów:</p>
+<p><img src="media/image49.png" alt=""></p>
+<p>Zapisy zestawu wymiarów zamówienia sprzedaży:</p>
+<p><img src="media/image50.png" alt=""></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+           <div class="doc-language">
+              <a href="https://docs.it.integro.pl/pl-pl/" hreflang="pl-PL" lang="pl-PL">PL</a>
+              <a href="https://docs.it.integro.pl/en-us/" hreflang="en-US" lang="en-US" class="lang-flag">EN</a>
+            </div>
+            Copyright © IT.integro sp. z o.o.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

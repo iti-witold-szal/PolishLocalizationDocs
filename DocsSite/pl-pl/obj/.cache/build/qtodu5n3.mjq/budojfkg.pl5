@@ -1,0 +1,192 @@
+
+<div id="sidetoggle">
+  <div>
+    <div class="sidefilter">
+      <form class="toc-filter">
+        <span class="glyphicon glyphicon-filter filter-icon"></span>
+        <span class="glyphicon glyphicon-remove clear-icon" id="toc_filter_clear"></span>
+        <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+      </form>
+    </div>
+    <div class="sidetoc">
+      <div class="toc" id="toc">
+          
+          <ul class="nav level1">
+                <li>
+                    <a href="index.html" name="" title="Polska&#160;Funckjonalno&#347;&#263;&#160;-&#160;Starter&#160;Pack">Polska&#160;Funckjonalno&#347;&#263;&#160;-&#160;Starter&#160;Pack</a>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="gl-general-ledger.html" name="" title="Obs&#322;uga&#160;ksi&#281;gi&#160;g&#322;&#243;wnej">Obs&#322;uga&#160;ksi&#281;gi&#160;g&#322;&#243;wnej</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="gl-posting-description.html" name="" title="Opis&#160;ksi&#281;gowania">Opis&#160;ksi&#281;gowania</a>
+                          </li>
+                          <li>
+                              <a href="gl-adjusting-exchange-rates.html" name="" title="Korygowanie&#160;kurs&#243;w&#160;wymiany">Korygowanie&#160;kurs&#243;w&#160;wymiany</a>
+                          </li>
+                          <li>
+                              <a href="gl-exchange-rate-adjustment-registers.html" name="" title="Rejestry&#160;korekt&#160;kurs&#243;w&#160;wymiany">Rejestry&#160;korekt&#160;kurs&#243;w&#160;wymiany</a>
+                          </li>
+                          <li>
+                              <a href="gl-accounting-software-name-version.html" name="" title="Informacja&#160;o&#160;nazwie&#160;i&#160;wersji&#160;programu&#160;ksi&#281;gowego">Informacja&#160;o&#160;nazwie&#160;i&#160;wersji&#160;programu&#160;ksi&#281;gowego</a>
+                          </li>
+                          <li>
+                              <a href="gl-setting-up-the-get-nbp-exchange-rates-service.html" name="" title="Konfiguracja&#160;us&#322;ugi&#160;pobierania&#160;kurs&#243;w&#160;walut&#160;NBP">Konfiguracja&#160;us&#322;ugi&#160;pobierania&#160;kurs&#243;w&#160;walut&#160;NBP</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="vat.html" name="" title="Obs&#322;uga&#160;podatku&#160;VAT">Obs&#322;uga&#160;podatku&#160;VAT</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="vat-settlement-date.html" name="" title="Data&#160;obowi&#261;zku&#160;VAT">Data&#160;obowi&#261;zku&#160;VAT</a>
+                          </li>
+                          <li>
+                              <a href="vat-sales-purchase-vat-register.html" name="" title="Rejestr&#160;VAT&#160;sprzeda&#380;y/zakupu">Rejestr&#160;VAT&#160;sprzeda&#380;y/zakupu</a>
+                          </li>
+                          <li>
+                              <a href="vat-application-worksheet.html" name="" title="Arkusz&#160;rozliczania&#160;VAT">Arkusz&#160;rozliczania&#160;VAT</a>
+                          </li>
+                          <li>
+                              <a href="vat-detailed-vat-entries.html" name="" title="Szczeg&#243;&#322;owe&#160;zapisy&#160;VAT">Szczeg&#243;&#322;owe&#160;zapisy&#160;VAT</a>
+                          </li>
+                          <li>
+                              <a href="vat-posting-vat-documents-in-general-journals.html" name="" title="Ksi&#281;gowanie&#160;dokument&#243;w&#160;z&#8239;VAT&#160;w&#8239;dziennikach&#160;g&#322;&#243;wnych">Ksi&#281;gowanie&#160;dokument&#243;w&#160;z&#8239;VAT&#160;w&#8239;dziennikach&#160;g&#322;&#243;wnych</a>
+                          </li>
+                          <li>
+                              <a href="vat-posting-full-vat-amount.html" name="" title="Ksi&#281;gowanie&#160;pe&#322;nego&#160;VAT">Ksi&#281;gowanie&#160;pe&#322;nego&#160;VAT</a>
+                          </li>
+                          <li>
+                              <a href="vat-skipping-transactions-in-the-vat-register.html" name="" title="Pomijanie&#160;transakcji&#160;w&#160;ewidencji&#160;VAT">Pomijanie&#160;transakcji&#160;w&#160;ewidencji&#160;VAT</a>
+                          </li>
+                          <li>
+                              <a href="vat-reverse-charge-vat-supported.html" name="" title="Obs&#322;uga&#160;odwrotnego&#160;obci&#261;&#380;enia">Obs&#322;uga&#160;odwrotnego&#160;obci&#261;&#380;enia</a>
+                          </li>
+                          <li>
+                              <a href="vat-checking-the-vat-status-of-an-entity.html" name="" title="Sprawdzenie&#160;statusu&#160;podmiotu&#160;w&#160;VAT">Sprawdzenie&#160;statusu&#160;podmiotu&#160;w&#160;VAT</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="rp-receivables-and-payables.html" name="" title="Obs&#322;uga&#160;nale&#380;no&#347;ci&#160;i&#160;zobowi&#261;za&#324;">Obs&#322;uga&#160;nale&#380;no&#347;ci&#160;i&#160;zobowi&#261;za&#324;</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="rp-printing-sales-invoice.html" name="" title="Wydruk&#160;faktury&#160;sprzeda&#380;y">Wydruk&#160;faktury&#160;sprzeda&#380;y</a>
+                          </li>
+                          <li>
+                              <a href="rp-printing-sales-credit-memo.html" name="" title="Wydruk&#160;faktury&#160;koryguj&#261;cej&#160;sprzeda&#380;y">Wydruk&#160;faktury&#160;koryguj&#261;cej&#160;sprzeda&#380;y</a>
+                          </li>
+                          <li>
+                              <a href="rp-sales-credit-memo.html" name="" title="Faktura&#160;koryguj&#261;ca&#160;sprzeda&#380;y">Faktura&#160;koryguj&#261;ca&#160;sprzeda&#380;y</a>
+                          </li>
+                          <li>
+                              <a href="rp-credit-memo-creator" name="" title="Kreator&#160;faktury&#160;koryguj&#261;cej&#160;sprzeda&#380;y">Kreator&#160;faktury&#160;koryguj&#261;cej&#160;sprzeda&#380;y</a>
+                          </li>
+                          <li>
+                              <a href="rp-customer-vendor-balance-reconciliation.html" name="" title="Potwierdzenie&#160;salda&#160;nabywcy/dostawcy">Potwierdzenie&#160;salda&#160;nabywcy/dostawcy</a>
+                          </li>
+                          <li>
+                              <a href="rp-contractor-data-in-the-regon-web-database-bir.html" name="" title="Dane&#160;kontrahent&#243;w&#160;w&#160;Bazie&#160;Internetowej&#160;REGON&#160;(BIR)">Dane&#160;kontrahent&#243;w&#160;w&#160;Bazie&#160;Internetowej&#160;REGON&#160;(BIR)</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="fa-fixed-assets-management.html" name="" title="Obs&#322;uga&#160;&#347;rodk&#243;w&#160;trwa&#322;ych">Obs&#322;uga&#160;&#347;rodk&#243;w&#160;trwa&#322;ych</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="fa-anual-depreciation-plan.html" name="" title="Roczny&#160;plan&#160;amortyzacji">Roczny&#160;plan&#160;amortyzacji</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="inv-inventory-management.html" name="" title="Obs&#322;uga&#160;zapas&#243;w">Obs&#322;uga&#160;zapas&#243;w</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="inv-intrastat.html" name="" title="Intrastat">Intrastat</a>
+                          </li>
+                          <li>
+                              <a href="inv-physical-inventory-counting-document.html" name="" title="Dokument&#160;inwentaryzacji">Dokument&#160;inwentaryzacji</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="ar-analysis-and-reports.html" name="" title="Analizy&#160;i&#160;raporty">Analizy&#160;i&#160;raporty</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="ar-general-ledger-account-net-change-and-balance.html" name="" title="Zestawienie&#160;obrot&#243;w&#160;i&#160;sald&#160;kont&#160;K/G">Zestawienie&#160;obrot&#243;w&#160;i&#160;sald&#160;kont&#160;K/G</a>
+                          </li>
+                          <li>
+                              <a href="ar-general-ledger-journal.html" name="" title="Dziennik&#160;K/G">Dziennik&#160;K/G</a>
+                          </li>
+                          <li>
+                              <a href="ar-register-document-general-ledger-register.html" name="" title="Dokument&#160;rejestrowy&#160;-&#160;rejestr&#160;K/G">Dokument&#160;rejestrowy&#160;-&#160;rejestr&#160;K/G</a>
+                          </li>
+                          <li>
+                              <a href="ar-analytical-general-ledger-register.html" name="" title="Analityczny&#160;rejestr&#160;K/G">Analityczny&#160;rejestr&#160;K/G</a>
+                          </li>
+                          <li>
+                              <a href="ar-analytical-general-ledger-document.html" name="" title="Analityczny&#160;dokument&#160;K/G">Analityczny&#160;dokument&#160;K/G</a>
+                          </li>
+                          <li>
+                              <a href="ar-bank-account-detail-trial-balance.html" name="" title="Konto&#160;bankowe&#160;-&#160;szczeg&#243;&#322;owy&#160;bilans&#160;pr&#243;bny">Konto&#160;bankowe&#160;-&#160;szczeg&#243;&#322;owy&#160;bilans&#160;pr&#243;bny</a>
+                          </li>
+                          <li>
+                              <a href="ar-customer-vendor-net-change-and-balance.html" name="" title="Zestawienie&#160;obrot&#243;w&#160;i&#160;sald&#160;nabywcy/dostawcy">Zestawienie&#160;obrot&#243;w&#160;i&#160;sald&#160;nabywcy/dostawcy</a>
+                          </li>
+                          <li>
+                              <a href="ar-customer-vendor-ledger-entry-journal.html" name="" title="Dziennik&#160;zapis&#243;w&#160;ksi&#281;gi&#160;nabywc&#243;w/dostawc&#243;w">Dziennik&#160;zapis&#243;w&#160;ksi&#281;gi&#160;nabywc&#243;w/dostawc&#243;w</a>
+                          </li>
+                          <li>
+                              <a href="ar-receivables-payables-ageing-analysis.html" name="" title="Analiza&#160;wiekowania&#160;nale&#380;no&#347;ci/zobowi&#261;za&#324;">Analiza&#160;wiekowania&#160;nale&#380;no&#347;ci/zobowi&#261;za&#324;</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="saft-standard-audit-file-jpk.html" name="" title="Jednolity&#160;plik&#160;kontrolny">Jednolity&#160;plik&#160;kontrolny</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="saft-setup.html" name="" title="JPK&#160;Ustawienia">JPK&#160;Ustawienia</a>
+                          </li>
+                          <li>
+                              <a href="saft-executing-saft-jpk-file-export.html" name="" title="JPK&#160;Uruchamianie&#160;eksportu&#160;plik&#243;w">JPK&#160;Uruchamianie&#160;eksportu&#160;plik&#243;w</a>
+                          </li>
+                          <li>
+                              <a href="saft-jpk-export-file-register.html" name="" title="JPK&#160;Rejestr&#160;eksportu&#160;plik&#243;w">JPK&#160;Rejestr&#160;eksportu&#160;plik&#243;w</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="msp-mandatory-split-payment.html" name="" title="Obowi&#261;zkowa&#160;podzielona&#160;p&#322;atno&#347;&#263;">Obowi&#261;zkowa&#160;podzielona&#160;p&#322;atno&#347;&#263;</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="msp-sales-and-purchase-documents.html" name="" title="Ustawienia&#160;MPP&#160;na&#160;dokumentach&#160;sprzeda&#380;y&#160;i&#160;zakupu">Ustawienia&#160;MPP&#160;na&#160;dokumentach&#160;sprzeda&#380;y&#160;i&#160;zakupu</a>
+                          </li>
+                          <li>
+                              <a href="msp-selling.html" name="" title="Wsparcie&#160;procesu&#160;sprzeda&#380;y&#160;z&#160;obowi&#261;zkow&#261;&#160;podzielon&#261;&#160;p&#322;atno&#347;ci&#261;">Wsparcie&#160;procesu&#160;sprzeda&#380;y&#160;z&#160;obowi&#261;zkow&#261;&#160;podzielon&#261;&#160;p&#322;atno&#347;ci&#261;</a>
+                          </li>
+                          <li>
+                              <a href="msp-purchasing.html" name="" title="Wsparcie&#160;procesu&#160;zakupu&#160;z&#160;obowi&#261;zkow&#261;&#160;podzielon&#261;&#160;p&#322;atno&#347;ci&#261;">Wsparcie&#160;procesu&#160;zakupu&#160;z&#160;obowi&#261;zkow&#261;&#160;podzielon&#261;&#160;p&#322;atno&#347;ci&#261;</a>
+                          </li>
+                    </ul>
+                </li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</div>
