@@ -49,7 +49,7 @@
 ### [Bankowość elektroniczna – Dziennik przelewów bankowych](vat-bank-transfer-log.md)
 ### [Bankowość elektroniczna – Zapisy rejestru polecenia przelewu](vat-transfer-order-register-records.md)
 # [Obsługa środków pieniężnych](cm-cash-management.md)
-## [Zarządzanie kasą gotówkową](cm-cash-managing.md)
+## [Zarządzanie kasą gotówkową](cm-cash-register-menagement.md)
 ## [Dziennik wyciągów bankowych](cm-bank-statement-journal.md)
 ## [Kalkulacja i księgowanie różnic kursowych w transakcjach bankowych](cm-calculating-and-posting-currency-exchange-rate-differences.md)
 # [Bankowość elektroniczna](eb-electronic-banking.md)
@@ -59,84 +59,84 @@
 ## [Import/przekazywanie wyciągów bankowych](eb-importing-and-transfering-bank-statements.md)
 ## [Mechanizm podzielonej płatności (Split Payment)](eb-split-payment.md)
 # [Obsługa należności I zobowiązań](rp-receivables-and-payables.md)
-## [Precyzja zaokrąglania cen sprzedaży]
-## [Paragony fiskalne]
-## [Drukowanie paragonów fiskalnych]
-## [NIP nabywcy na paragonie fiskalnym]
-## [Wydruki dokumentów sprzedaży]
-## [Wydruk faktury sprzedaży](rp-printing-sales-invoice.md)
-## [Wydruk faktury korygującej sprzedaży](rp-printing-sales-credit-memo.md)
-## [Wydruk faktury sprzedaży serwisu]
-## [Wydruk faktury korygującej sprzedaży serwisu]
-## [Faktura Pro-forma sprzedaży]
-## [Baza Danych Odpadowych (BDO)]
+## [Precyzja zaokrąglania cen sprzedaży](rp-sales-price-rounding-precision.md)
+## [Paragony fiskalne](rp-fiscal-receipts.md)
+### [Drukowanie paragonów fiskalnych](rp-printing-fiscal-receipts.md)
+### [NIP nabywcy na paragonie fiskalnym](rp-customer-vat-registration-number-on-a-fiscal-receipt.md)
+## [Wydruki dokumentów sprzedaży](rp-printing-sales-documents.md)
+### [Wydruk faktury sprzedaży](rp-printing-sales-invoice.md)
+### [Wydruk faktury korygującej sprzedaży](rp-printing-sales-credit-memo.md)
+### [Wydruk faktury sprzedaży serwisu](rp-printing-service-sales-invoice.md)
+### [Wydruk faktury korygującej sprzedaży serwisu](rp-printing-service-sales-credit-memo.md)
+### [Faktura Pro-forma sprzedaży](rp-sales-pro-forma-invoice.md)
+### [Baza Danych Odpadowych (BDO)](rp-waste-database-bdo.md)
 ## [Faktura korygująca sprzedaży](rp-sales-credit-memo.md)
-## [Kreator faktury korygującej](rp-credit-memo-creator)
-## [Korygowanie danych nagłówkowych]
-## [Wybór konta bankowego na dokumentach sprzedaży]
-## [Noty korygujące]
-## [Faktura rozliczenia zaliczki pracowniczej]
-## [Szablony nabywców i dostawców]
-## [Wiele kont należności/zobowiązań]
-## [Kompensaty nabywców i dostawców]
-## [Wyświetlanie salda jako dostawca/nabywca]
-## [Sugerowanie i księgowanie kompensaty]
-## [Faktury zaliczkowe]
+### [Kreator faktury korygującej](rp-credit-memo-creator)
+### [Korygowanie danych nagłówkowych](rp-adjusting-header-data.md)
+## [Wybór konta bankowego na dokumentach sprzedaży](rp-sales-documents-bank-account-selection.md)
+## [Noty korygujące](rp-corrective-memos.md)
+## [Faktura rozliczenia zaliczki pracowniczej](rp-settlement-invoice-of-an-employee-prepayment.md)
+## [Szablony nabywców i dostawców](rp-customer-and-vendor-templates.md)
+## [Wiele kont należności/zobowiązań](rp-multiple-recivables-payables-accounts.md)
+## [Kompensaty nabywców i dostawców](rp-customer-vendor-compensations.md)
+### [Wyświetlanie salda jako dostawca/nabywca](rp-viewing-balances-per-customer-vendor.md)
+### [Sugerowanie i księgowanie kompensaty](rp-suggesting-and-posting-compensation.md)
+## [Faktury zaliczkowe](rp-prepayment-invoices.md)
 ## [Potwierdzenie salda nabywcy/dostawcy](rp-customer-vendor-balance-reconciliation.md)
-## [Sprawozdanie kwartalne GUS DNU-K]
+## [Sprawozdanie kwartalne GUS DNU-K](rp-quarterly-reporting-for-the-central-statistiacal-office-of-poland.md)
 # [Obsługa środków trwałych](fa-fixed-assets-management.md)
-## [Klasyfikacja środków trwałych]
-## [Zwiększenie wartości środka trwałego w fakturze zakupu]
+## [Klasyfikacja środków trwałych](fa-fixed-assets-classification.md)
+## [Zwiększenie wartości środka trwałego w fakturze zakupu](fa-fixed-asset-appreciation-in-a-purchase-invoice.md)
 ## [Roczny plan amortyzacji](fa-anual-depreciation-plan.md)
 # [Obsługa zapasów](inv-inventory-management.md)
-## [Polska Klasyfikacja Wyrobów i Usług (PKWiU)]
-## [Obsługa gł. gospodarczej grupy księgowej w operacjach magazynowych]
-## [Kalkulacja podatku od opakowań]
+## [Polska Klasyfikacja Wyrobów i Usług (PKWiU)](inv-polish-classification-of-products-and-services.md)
+## [Obsługa gł. gospodarczej grupy księgowej w operacjach magazynowych](inv-working-with-general-business-posting-group-in-warehouse-transactions.md)
+## [Kalkulacja podatku od opakowań](inv-package-tax-calculation.md)
 ## [Intrastat](inv-intrastat.md)
 ## [Dokument inwentaryzacji](inv-physical-inventory-counting-document.md)
-## [Dokumenty operacji magazynowych]
+## [Dokumenty operacji magazynowych](inv-warehouse-activity-documents.md)
 # [Analizy i raporty](ar-analysis-and-reports.md)
 ## [Zestawienie obrotów i sald kont K/G](ar-general-ledger-account-net-change-and-balance.md)
 ## [Dziennik K/G](ar-general-ledger-journal.md)
-## [Dokument księgowy – rejestr K/G]
+## [Dokument księgowy – rejestr K/G](ar-posting-document-general-ledger-register.md)
 ## [Analityczny rejestr K/G](ar-analytical-general-ledger-register.md)
 ## [Analityczny dokument K/G](ar-analytical-general-ledger-document.md)
-## [K/G - faktura zakupu]
-## [K/G - faktura korygująca zakupu]
-## [K/G - faktura sprzedaży]
-## [K/G - faktura korygująca sprzedaży]
+## [K/G - faktura zakupu](ar-general-ledger-purchase-invoice.md)
+## [K/G - faktura korygująca zakupu](ar-general-ledger-purchase-credit-memo.md)
+## [K/G - faktura sprzedaży](ar-general-ledger-sales-invoice.md)
+## [K/G - faktura korygująca sprzedaży](ar-general-ledger-sales-credit-memo.md)
 ## [Konto bankowe - szczegółowy bilans próbny](ar-bank-account-detail-trial-balance.md)
 ## [Zestawienie obrotów i sald nabywcy/dostawcy](ar-customer-vendor-net-change-and-balance.md)
 ## [Dziennik zapisów księgi nabywców/ dostawców](ar-customer-vendor-ledger-entry-journal.md)
-## [Wiekowanie należności/zobowiązań  w zadanych okresach]
+## [Wiekowanie należności/zobowiązań  w zadanych okresach](ar-aged-accounts-recivable-payable-in-selected-periods.md)
 ## [Analiza wiekowania należności/zobowiązań](ar-receivables-payables-ageing-analysis.md)
-## [Nabywca/dostawca - saldo na dzień]
-## [Nabywca/dostawca - szczegółowy bilans próbny]
-## [Raporty środków trwałych]
-## [Wiekowanie zapasów]
+## [Nabywca/dostawca - saldo na dzień](ar-customer-vendor-balance-at-date.md)
+## [Nabywca/dostawca - szczegółowy bilans próbny](ar-customer-vendor-detail-trial-balance.md)
+## [Raporty środków trwałych](ar-fixed-assets-reports.md)
+## [Wiekowanie zapasów](ar-inventory-aging.md)
 # [Jednolity Plik Kontrolny](saft-standard-audit-file-jpk.md)
 ## [JPK Ustawienia](saft-setup.md)
-## [Ustawienia raportowania ustawowego]
-## [Ustawienia ogólne JPK]
-## [Obszary JPK]
-## [Wersje obszarów JPK]
-## [Elementy obszarów JPK]
-## [Ustawienia elementów obszaru JPK_VAT]
-## [Ustawienia elementów obszaru JPK_FA]
-## [Dodatkowe ustawienia dla pliku JPK_VAT]
-## [Przygotowanie danych pliku JPK_FA]
+### [Ustawienia raportowania ustawowego](saft-government-reporting-setup.md)
+### [Ustawienia ogólne JPK](saft-general-jpk-settings.md)
+### [Obszary JPK](saft-saft-areas.md)
+### [Wersje obszarów JPK](saft-saft-area-version.md)
+### [Elementy obszarów JPK](saft-jpk-area-elements.md)
+### [Ustawienia elementów obszaru JPK_VAT](saft-jpk-vat-area-elemts-setup.md)
+### [Ustawienia elementów obszaru JPK_FA](saft-jpk-fa-area-elements-setup.md)
+### [Dodatkowe ustawienia dla pliku JPK_VAT](saft-additional-settings-for-a-jpk-vat-file.md)
+### [Przygotowanie danych pliku JPK_FA](saft-preparing-jpk-fa-file-data.md)
 ## [JPK Uruchamianie eksportu plików](saft-executing-saft-jpk-file-export.md)
-## [Generowanie pliku JPK_VAT]
-## [Generowanie pliku JPK_FA]
-## [Generowanie pliku JPK_KR]
-## [Generowanie pliku JPK_WB]
-## [Generowanie pliku JPK_MAG]
+### [Generowanie pliku JPK_VAT](saft-generating-jpk-vat-file.md)
+### [Generowanie pliku JPK_FA](saft-generating-jpk-fa-file.md)
+### [Generowanie pliku JPK_KR](saft-generating-jpk-kr-file.md)
+### [Generowanie pliku JPK_WB](saft-generating-jpk-wb-file.md)
+### [Generowanie pliku JPK_MAG](saft-generating-jpk-mag-file.md)
 ## [JPK Rejestr eksportu plików](saft-jpk-export-file-register.md)
-## [Funkcje rejestru plików JPK]
+### [Funkcje rejestru plików JPK](saft-functions-in-saft-jpk-register.md)
 # [Obowiązkowa podzielona płatność](msp-mandatory-split-payment.md)
-## [Dokumenty sprzedaży i zakupu]
-## [Wsparcie procesu sprzedaży z obowiązkową podzieloną płatnością](msp-selling.md)
-## [Wsparcie procesu zakupu z obowiązkową podzieloną płatnością](msp-purchasing.md)
-## [Bankowość elektroniczna]
-## [Generowanie przelewów]
-## [Import wyciągów bankowych]
+## [Dokumenty sprzedaży i zakupu](msp-sales-and-purchase-documents.md)
+### [Wsparcie procesu sprzedaży z obowiązkową podzieloną płatnością](msp-selling.md)
+### [Wsparcie procesu zakupu z obowiązkową podzieloną płatnością](msp-purchasing.md)
+## [Bankowość elektroniczna](msp-electronic-banking.md)
+### [Generowanie przelewów](msp-generating-transfers.md)
+### [Import wyciągów bankowych](msp-importing-bank-statements.md)
