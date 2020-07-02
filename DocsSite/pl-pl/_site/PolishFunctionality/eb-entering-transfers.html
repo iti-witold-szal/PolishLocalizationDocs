@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title> | IT.integro </title>
+    <title>Wprowadzanie przelew&#243;w | IT.integro </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content=" | IT.integro ">
+    <meta name="title" content="Wprowadzanie przelew&#243;w | IT.integro ">
     <meta name="generator" content="docfx 2.55.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -77,7 +77,239 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
+<h1 id="wprowadzanie-przelewów">Wprowadzanie przelewów</h1>
 
+<p>Wprowadzanie przelewów odbywa się za pośrednictwem specjalnie
+utworzonego <strong>Arkusza płatności do dostawców</strong>/<strong>nabywców</strong>,
+które następnie przenoszone są do dziennika przelewów bankowych, skąd
+mogą być wyeksportowane.</p>
+<p>W czasie przenoszenia przelewów do dziennika przelewów informacje o nich
+przenoszone są do zapisów w rejestrach przelewów.</p>
+<p>Tylko niektóre informacje można modyfikować w przelewach przeniesionych
+do <strong>Dziennika przelewów bankowych</strong>.</p>
+<p><strong>Arkusz płatności do dostawców</strong>/<strong>nabywców</strong> ma następującą strukturę:</p>
+<p><img src="media/image267.png" alt=""></p>
+<p>W poniższym zestawieniu podano wszystkie pola. Znaczek umieszczony
+w kolumnie <strong>Wypełnienie</strong> informuje o tym, czy pole musi być
+wypełnione:</p>
+<p>^ pole należy zawsze wypełnić,</p>
+<p>• pole należy wypełnić w zależności od potrzeb,</p>
+<p>○ pole jest automatycznie wypełniane przez system.</p>
+<p>Kolumna <strong>Uwagi</strong> zawiera opis pola oraz krótkie wyjaśnienie,
+jak wykorzystywane jest pole.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Nazwa</strong></th>
+<th><strong>Wypełnienie</strong></th>
+<th><strong>Uwagi</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Data księgowania</strong></td>
+<td>○</td>
+<td>Pole przepisane z zapisów księgi dostawcy/nabywcy.</td>
+</tr>
+<tr>
+<td><strong>Typ dokumentu</strong></td>
+<td>○</td>
+<td>Pole przepisane z zapisów księgi dostawcy/nabywcy.</td>
+</tr>
+<tr>
+<td><strong>Nr dokumentu</strong></td>
+<td>○</td>
+<td>Pole przepisane z zapisów księgi dostawcy/nabywcy.</td>
+</tr>
+<tr>
+<td><strong>Termin płatności</strong></td>
+<td>○</td>
+<td>Pole przepisane z zapisów księgi dostawcy/nabywcy.</td>
+</tr>
+<tr>
+<td><strong>Nr dostawcy/ nabywcy</strong></td>
+<td>○</td>
+<td>Pole przepisane z zapisów księgi dostawcy/nabywcy.</td>
+</tr>
+<tr>
+<td><strong>Opis</strong></td>
+<td>○</td>
+<td>Pole przepisane z zapisów księgi dostawcy/nabywcy.</td>
+</tr>
+<tr>
+<td><strong>Kwota polecenia przelewu</strong></td>
+<td>^</td>
+<td>Kwota, jaką chcemy zapłacić za określoną fakturę.</td>
+</tr>
+<tr>
+<td><strong>Kwota polecenia przelewu (Waluta)</strong></td>
+<td>○</td>
+<td>Kwota, jaką chcemy zapłacić za określoną fakturę w walucie konta banku, z którego dokonujemy przelewu.</td>
+</tr>
+<tr>
+<td><strong>Kod waluty</strong></td>
+<td>○</td>
+<td>Pole przepisane z zapisów księgi dostawcy/nabywcy.</td>
+</tr>
+<tr>
+<td><strong>Kwota pozostała</strong></td>
+<td>○</td>
+<td>Pole przepisane z zapisów księgi dostawcy/nabywcy.</td>
+</tr>
+<tr>
+<td><strong>Kwota pozostała (PLN)</strong></td>
+<td>○</td>
+<td>Pole przepisane z zapisów księgi dostawcy/nabywcy.</td>
+</tr>
+<tr>
+<td><strong>Kwota poleceń przelewu (dziennik)</strong></td>
+<td>○</td>
+<td>Zsumowana kwota wszystkich przelewów dotyczących danego zapisu, znajdujących się w różnych dziennikach.</td>
+</tr>
+<tr>
+<td><strong>Kwota poleceń przelewu (zapisy)</strong></td>
+<td>○</td>
+<td>Zsumowana kwota wszystkich przelewów dotyczących danego zapisu, które zostały już wyeksportowane.</td>
+</tr>
+<tr>
+<td><strong>Wstrzymane</strong></td>
+<td>○</td>
+<td>Pole przepisane z zapisów księgi dostawcy/nabywcy.</td>
+</tr>
+<tr>
+<td><strong>Kod konta bank. dostawcy/nabywcy</strong></td>
+<td>○/^</td>
+<td>Kod konta bankowego dostawcy/nabywcy, na które chcemy wysłać przelew.</td>
+</tr>
+<tr>
+<td><strong>Szablon polecenia przelewu</strong></td>
+<td>○</td>
+<td>Pole uzupełniane automatycznie zgodnie z wybranym szablonem.</td>
+</tr>
+<tr>
+<td><strong>Kwota pierwotna (PLN)</strong></td>
+<td>○</td>
+<td>Pole przepisane z zapisów księgi dostawcy/nabywcy.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="tworzenie-przelewów">Tworzenie przelewów</h2>
+<p>Moduł Bankowość elektroniczna umożliwia automatyczne tworzenie przelewów
+dla dostawców lub nabywców.</p>
+<p>Do automatycznego tworzenia przelewów służą funkcje znajdujące się
+w oknach <strong>Arkusz płatności do dostawców</strong> i <strong>Arkusz płatności
+do nabywców</strong>.</p>
+<p>Po otworzeniu okna <strong>Arkusz płatności do dostawców</strong> lub <strong>Arkusz
+płatności do nabywców</strong> na ekranie wyświetlana jest lista dostępnych
+szablonów w przypadku, gdy zdefiniowanych jest klika szablonów poleceń
+przelewu. Gdy jest tylko jeden szablon, automatycznie otworzy się
+odpowiednia strona. Brak szablonów sygnalizowany jest odpowiednim
+komunikatem.</p>
+<p>Wyświetlona zostanie lista zaksięgowanych zapisów księgi
+dostawców/nabywców, wyfiltrowana według waluty konta bankowego
+zdefiniowanego w szablonie polecenia przelewu. W przypadku zaznaczenia
+opcji <strong>Dozwolona inna waluta przelewu</strong> na szablonie polecenia
+przelewu, filtr ten nie jest stosowany.</p>
+<p><strong>Szablon polecenia przelewu</strong> zostanie wypełniony automatycznie zgodnie
+z wcześniejszym wyborem.</p>
+<p>W przypadku wypełnienia pola <strong>Kod konta bankowego beneficjenta</strong>
+są trzy możliwości:</p>
+<ul>
+<li><p>Gdy konto bankowe zostało wcześniej wybrane z listy, wpisanie
+wartości w polu <strong>Kwota polecenia przelewu</strong> niczego nie zmienia,</p>
+</li>
+<li><p>Gdy pole <strong>Kod konta bankowego</strong> nie jest wypełnione, wpisanie
+wartości w polu <strong>Kwota polecenia przelewu</strong> powoduje wybranie
+domyślnego kodu konta bankowego,</p>
+</li>
+<li><p>Gdy żadne konto beneficjenta nie zostało oznaczone jako domyślne
+na kartotece konta dostawcy/nabywcy, pojawi się błąd i wymagane
+będzie ręczne uzupełnienie pola <strong>Kod konta bankowego</strong>.</p>
+</li>
+</ul>
+<p>W zapisach księgi dostawcy/nabywcy wystarczy uzupełnić pole <strong>Kwota
+polecenia przelewu</strong>. Istnieją trzy sposoby uzupełnienia pola <strong>Kwoty
+polecenia przelewu</strong>:</p>
+<ol>
+<li><p>Ręczne wprowadzanie kwoty</p>
+<p>Użytkownik może ręcznie wpisać kwotę w polu <strong>Kwota polecenia
+przelewu</strong>. Zostanie ona poddana walidacji pod kątem poprawności:</p>
+<ul>
+<li><p>Wpisanie kwoty większej od <strong>Kwoty pozostałej</strong> spowoduje błąd.</p>
+</li>
+<li><p>Wpisanie kwoty większej od <strong>Kwoty pozostałej</strong> pomniejszonej o już
+zdefiniowane lub wyeksportowane przelewy wywoła komunikat
+z informacją o błędzie. Od decyzji użytkownika zależeć będzie, czy
+dana kwota zostanie przypisana, czy też nie.</p>
+</li>
+</ul>
+</li>
+<li><p>Automatyczne wprowadzanie kwoty</p>
+<p>Przypisana zostanie kwota równa <strong>Kwocie pozostałej</strong> pomniejszonej
+o już zdefiniowane lub wyeksportowane przelewy. Można to uczynić zarówno
+dla jednego, jak i wielu wierszy za pomocą funkcji <strong>Przypisz kwotę
+polecenia przelewu (F9)</strong>.</p>
+</li>
+</ol>
+<p><img src="media/image268.png" alt=""></p>
+<ol start="3">
+<li><p>Sugerowanie kwoty</p>
+<p>Jeżeli znana jest kwota, dla której mają być utworzone przelewy, system
+może zasugerować przelewy. W tym celu należy na wstążce kliknąć przycisk
+<strong>Sugeruj kwoty poleceń przelewów</strong>.</p>
+<p><img src="media/image269.png" alt=""></p>
+<p>Należy wprowadzić <strong>Kod waluty</strong> oraz <strong>Dostępną kwotę</strong>. W wyniku
+działania skryptu, zostaną uzupełnione kwoty przelewów, które będą
+czekać na przekazanie do <strong>Dziennika płatności</strong>.</p>
+<p><img src="media/image270.png" alt=""></p>
+</li>
+</ol>
+<div class="NOTE">
+<h5>Uwaga</h5>
+<p>Opcji <strong>Uwzględniaj nadpłaty</strong> należy użyć w przypadku
+sugerowania poleceń przelewów dla nabywców/dostawców posiadających
+zaksięgowane otwarte (nierozliczone) płatności. System wówczas bierze
+pod uwagę kwotę pozostałą z faktury i kwotę pozostałą z otwartej
+płatności (nadpłaty) i uzupełnia pole <strong>Kwota polecenia przelewu</strong>
+zarówno w wierszu dotyczącym faktury, jak i płatności.</p>
+</div>
+<div class="NOTE">
+<h5>Uwaga</h5>
+<p>W przypadku konta bankowego, gdy na szablonie nie ma
+zaznaczonej opcji <strong>Dozwolona inna waluta przelewu</strong>, pole <strong>Kod
+waluty</strong> przyjmuje wartość z <strong>Konta bankowego</strong> i jest nieedytowalne.</p>
+</div>
+<h2 id="przekazanie-przelewów-dodziennika-płatności">Przekazanie przelewów do dziennika płatności</h2>
+<p>Po uzupełnieniu danych w wybranych zapisach księgi dostawcy/nabywcy
+można przekazać je do <strong>Dziennika płatności</strong>.</p>
+<p><img src="media/image271.png" alt=""></p>
+<p>System zapyta, z jaką datą utworzyć przelew oraz jakie grupowanie kwot
+zastosować w przelewach.</p>
+<p><img src="media/image272.png" alt=""></p>
+<p>System pogrupuje przelewy, a efekt można będzie zobaczyć w odpowiednim
+<strong>Dzienniku przelewów</strong>. Najprostszym sposobem przejścia do <strong>Dziennika
+przelewów</strong> jest kliknięcie akcji <strong>Dziennik płatności</strong>.</p>
+<p>W oknie <strong>Dziennik przelewów bankowych</strong>, po sprawdzeniu wierszy
+i ewentualnym uzupełnieniu wymaganych pól, należy na wstążce kliknąć
+przycisk <strong>Eksportuj płatności do pliku</strong>.</p>
+<p><img src="media/image273.png" alt=""></p>
+<p><img src="media/image274.png" alt=""></p>
+<p>W wyświetlonym oknie <strong>Eksportuj plik</strong> należy kliknąć przycisk
+<strong>Zapisz</strong> i wybrać katalog, w którym zostanie zapisany plik. Następnie
+plik należy przekazać do banku.</p>
+<h2 id="wyeksportowanie-pliku-płatności">Wyeksportowanie pliku płatności</h2>
+<p>Z okna <strong>Arkusz płatności do dostawców</strong>/<strong>nabywców</strong> można bezpośrednio
+wyeksportować plik płatności pomijając krok w <strong>Dzienniku przelewów</strong>.</p>
+<p><img src="media/image275.png" alt=""></p>
+<p>System zapyta z jaką datą utworzyć przelew oraz jakie grupowanie kwot
+zastosować w przelewach.</p>
+<p><img src="media/image276.png" alt=""></p>
+<p>System pogrupuje przelewy, a następnie wyświetli stronę <strong>Eksportuj
+plik</strong>.</p>
+<p><img src="media/image274.png" alt=""></p>
+<p>W wyświetlonym oknie <strong>Eksportuj plik</strong> należy kliknąć przycisk
+<strong>Zapisz</strong> i wybrać katalog, w którym zostanie zapisany plik. Następnie
+plik należy przekazać do banku.</p>
 </article>
           </div>
           

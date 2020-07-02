@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title> | IT.integro </title>
+    <title>Dokumenty zakupu | IT.integro </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content=" | IT.integro ">
+    <meta name="title" content="Dokumenty zakupu | IT.integro ">
     <meta name="generator" content="docfx 2.55.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -77,7 +77,71 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
+<h1 id="dokumenty-zakupu">Dokumenty zakupu</h1>
 
+<h2 id="informacje-ogólne">Informacje ogólne</h2>
+<p>W niezaksięgowanych dokumentach zakupu (fakturach i zamówieniach)
+funkcja sprawdzająca status podatnika VAT, opisana w rozdziale <em>2.16.
+Sprawdzenie statusu podmiotu w VAT</em>, rozbudowana jest o mechanizm
+weryfikujący rachunki bankowe przypisane do kartoteki dostawcy.</p>
+<div class="NOTE">
+<h5>Uwaga</h5>
+<p>Opis sprawdzania kontrahenta zamieszczony w tym rozdziale
+bazuje na przykładzie faktury zakupu. W zamówieniach zakupu mechanizm
+jest identyczny, więc należy wzorować się na opisie dotyczącym faktury
+zakupu.</p>
+</div>
+<h2 id="obsługa">Obsługa</h2>
+<p>W celu sprawdzenia podczas ewidencji dokumentu zakupu, czy rachunki
+bankowe przypisane do wybranego dostawcy są zarejestrowane w wykazie
+podatników VAT, należy wykonać następujące kroki:</p>
+<ol>
+<li><p>Należy wybrać <strong>Działy &gt; Zakup &gt; Przetwarzanie zamówień &gt; Faktury
+zakupu.</strong></p>
+</li>
+<li><p>W oknie <strong>Faktury zakupu, które się otworzy, należy na wstążce
+kliknąć Nowy.</strong></p>
+</li>
+<li><p><strong>W nagłówku nowej faktury zakupu należy wybrać dostawcę.</strong></p>
+</li>
+<li><p>Na karcie skróconej <strong>Szczegóły faktury</strong>, z listy rozwijanej w polu
+<strong>Kod konta bank. dostawcy</strong> należy wybrać rachunek bankowy
+widniejący na wprowadzanej fakturze zakupu.</p>
+</li>
+<li><p>Na wstążce należy kliknąć <strong>Sprawdź kontrahenta</strong>.</p>
+</li>
+</ol>
+<p>System sprawdzi status podatnika VAT i zweryfikuje jego konta bankowe na
+dzień wprowadzony w polu <strong>Data księgowania</strong> w nagłówku dokumentu.
+Zostanie wyświetlony stosowny komunikat:</p>
+<p><img src="media/image233.png" alt=""></p>
+<p>Na karcie skróconej <strong>Szczegóły faktury</strong> system zaktualizuje status
+podatnika i jego rachunku bankowego w polach:</p>
+<ul>
+<li><p><strong>Kod statusu VAT</strong> – opcje w tym polu i ich znaczenie opisane są w
+rozdziale <em>2.16. Sprawdzenie statusu podmiotu w VAT</em></p>
+</li>
+<li><p><strong>Stan konta bankowego</strong> – pole przyjmuje jedną z opcji:</p>
+<ul>
+<li><p><strong>Niezweryfikowane –</strong> w sytuacji, gdy nie została dokonana
+weryfikacja wybranego rachunku bankowego,</p>
+</li>
+<li><p><strong>Zgłoszone</strong> – w sytuacji, gdy wybrany rachunek bankowy znajduje
+się w wykazie podatników VAT,</p>
+</li>
+<li><p><strong>Niezgłoszone</strong> – w sytuacji, gdy wybrany rachunek bankowy
+nie znajduje się w wykazie podatników VAT,</p>
+</li>
+<li><p><strong>Nie dotyczy</strong> – jest to opcja wyświetlana dla kontrahentów
+zagranicznych.</p>
+</li>
+</ul>
+</li>
+</ul>
+<p><img src="media/image234.png" alt=""></p>
+<p>Aby sprawdzić szczegóły dotyczące weryfikacji konta bankowego, należy
+kliknąć link statusu konta bankowego lub akcję <strong>Otwórz dziennik zapytań
+wyk. podat. VAT</strong> na wstążce.</p>
 </article>
           </div>
           

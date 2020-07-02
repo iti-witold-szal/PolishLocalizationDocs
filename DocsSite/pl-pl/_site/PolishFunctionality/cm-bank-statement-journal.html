@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title> | IT.integro </title>
+    <title>Dziennik wyci&#261;g&#243;w bankowych | IT.integro </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content=" | IT.integro ">
+    <meta name="title" content="Dziennik wyci&#261;g&#243;w bankowych | IT.integro ">
     <meta name="generator" content="docfx 2.55.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -77,7 +77,199 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
+<h1 id="dziennik-wyciągów-bankowych">Dziennik wyciągów bankowych</h1>
 
+<h2 id="informacje-ogólne">Informacje ogólne</h2>
+<p>W obsłudze przepływu środków pieniężnych firmy ważna jest elastyczność
+i bieżąca kontrola salda. W celu zapewnienia sprawnej obsługi
+rejestracji operacji bankowych, Polska Lokalizacja została wyposażona
+w <strong>Dziennik wyciągów bankowych</strong>. Właściwe zdefiniowanie wszystkich
+ustawień w ramach tej funkcjonalności zapewnia najbardziej optymalną
+i dostosowaną do potrzeb użytkownika ewidencję transakcji na kontach
+bankowych.</p>
+<h2 id="ustawienia">Ustawienia</h2>
+<p>Żeby możliwe było korzystanie z funkcjonalności <strong>Dziennik wyciągów
+bankowych</strong>, konieczne jest zdefiniowanie szablonów i (opcjonalnie)
+instancji dziennika głównego dla każdego konta bankowego oddzielnie.
+W tym celu należy postępować według następujących kroków:</p>
+<ol>
+<li><p>Należy wybrać <strong>Działy &gt; Zarządzanie Finansami &gt; Administracja &gt;
+Szablony dzienników głównych</strong></p>
+</li>
+<li><p>W oknie, które się otworzy, należy wybrać <strong>Nowe</strong>.</p>
+</li>
+<li><p>W nowym wierszu należy wprowadzić parametry szablonu dziennika
+przeznaczonego do księgowania wyciągów bankowych konkretnego konta
+bankowego. Większość pól należy uzupełnić w sposób standardowy,
+a charakterystyczne dla tego typu dokumentów są pola:</p>
+<ul>
+<li><p><strong>Typ</strong> – z listy rozwijanej należy wybrać <strong>Wpłaty gotówkowe</strong></p>
+</li>
+<li><p><strong>Typ konta przeciwst.</strong> – z listy rozwijanej należy wybrać <strong>Konto
+bankowe</strong></p>
+</li>
+<li><p><strong>Nr konta przeciwst.</strong> – z listy rozwijanej należy wybrać
+wcześniej zdefiniowane konto bankowe, z którego wyciągi bankowe
+będą księgowane przy użyciu tego szablonu dziennika głównego</p>
+</li>
+<li><p><strong>Seria numeracji</strong> – z listy rozwijanej należy wybrać wcześniej
+zdefiniowaną serię numeracji, która będzie miała zastosowanie
+dla nadawania kolejnych numerów księgowanym wyciągom bankowym
+z wybranego konta bankowego</p>
+</li>
+<li><p><strong>Seria numeracji księgowania</strong> – pole należy pozostawić puste.</p>
+</li>
+<li><p><strong>Identyfikator strony</strong> – w tym polu należy wprowadzić numer
+52063175</p>
+</li>
+</ul>
+</li>
+</ol>
+<p><img src="media/image251.png" alt=""></p>
+<p>Definiowanie instancji dziennika głównego do szablonu typu <strong>Wyciąg
+bankowy</strong> odbywa się w sposób standardowy, tzn. część pól skopiowana
+jest z szablonu dziennika (m.in. typ i numer konta przeciwstawnego
+oraz serie numeracji) oraz część pól jest wypełniona domyślnie (m.in.
+nazwa i opis instancji). Możliwe jest ręczne dokonanie niezbędnych zmian
+w domyślnych instancjach i ręczne definiowanie kolejnych instancji.
+W tym celu należy otworzyć okno <strong>Instancje dziennika głównego</strong> poprzez
+wybranie <strong>Instancje</strong> dla zaznaczonego wiersza z wybranym szablonem
+dziennika:</p>
+<p><img src="media/image252.png" alt=""></p>
+<h2 id="obsługa">Obsługa</h2>
+<p>W celu wprowadzenia i zaksięgowania wyciągu bankowego, należy postępować według następujących kroków:</p>
+<ol>
+<li><p>Należy wybrać <strong>Działy &gt; Zarządzanie Finansami &gt; Zarządzanie
+środkami pieniężnymi &gt; Dziennik wyciągów bankowych.</strong></p>
+</li>
+<li><p>W oknie <strong>Lista szablonów dziennika gł.</strong>, które się otworzy, należy
+wybrać jeden z wcześniej zdefiniowanych szablonów dziennika.</p>
+</li>
+<li><p>W oknie <strong>Dziennik wyciągów bankowych</strong>, które się otworzy,
+w kolejnych wierszach należy wprowadzić kolejne pozycje wyciągu
+bankowego, wypełniając pola odpowiednimi danymi:</p>
+<ul>
+<li><p><strong>Data księgowania</strong> – data, z jaką zostanie zaksięgowany wyciąg
+bankowy – system wstawia domyślnie datę bieżącą, którą można
+ręcznie zmienić na inną.</p>
+</li>
+<li><p><strong>Typ dokumentu</strong> – z listy rozwijanej można wybierać spośród 2
+opcji:</p>
+<ul>
+<li><p><strong>Płatność</strong> (od nabywcy lub dla dostawcy)</p>
+</li>
+<li><p><strong>Zwrot</strong> (do nabywcy lub od dostawcy)</p>
+</li>
+</ul>
+<p>Pole może pozostać puste.</p>
+</li>
+<li><p><strong>Nr dokumentu</strong> – pole wypełnione automatycznie przez system
+numerem kolejnym zgodnym z przypisaną do dziennika serią
+numeracji.</p>
+</li>
+<li><p><strong>Typ konta</strong> – z listy rozwijanej należy wybrać typ konta
+przeciwstawnego wobec konta bankowego w danej transakcji bankowej</p>
+</li>
+<li><p><strong>Nr konta</strong> – z listy rozwijanej należy wybrać numer konta
+przeciwstawnego wobec konta bankowego w danej transakcji bankowej.
+Konta wyświetlone na liście są zgodne z typem wybranym w polu
+<strong>Typ konta</strong>.</p>
+</li>
+<li><p><strong>Grupa księgowa</strong> – pole uzupełnia się automatycznie domyślną
+grupą księgową przypisaną do wybranego w tym wierszu nabywcy
+lub dostawcy. W razie potrzeby, kod grupy księgowej może zostać
+zmieniony na inny zgodnie z regułami ustawionymi dla zastępczych
+grup księgowych.</p>
+<p>Więcej o definiowaniu i obsłudze zastępczych grup księgowych można
+przeczytać w rozdziale <strong>Wiele kont należności/zobowiązań.</strong></p>
+</li>
+<li><p><strong>Opis</strong> – pole uzupełnia się automatycznie nazwą wybranego konta.
+Treść opisu należy ręcznie zmienić na odpowiednią dla wprowadzanej
+transakcji.</p>
+</li>
+<li><p><strong>Kod waluty –</strong> pole uzupełnia się automatycznie kodem waluty
+przypisanym do kartoteki konta bankowego i domyślnie przypisywane
+jest do transakcji wprowadzanych w dzienniku wyciągów bankowych
+danego konta bankowego. Kodu waluty w tym polu nie można zmieniać.</p>
+<p>Wyjątek stanowi dziennik wyciągów bankowych dla konta bankowego
+z domyślnym pustym kodem waluty – w wierszach takiego dziennika
+dozwolone jest przypisywanie wszystkich kodów walut.</p>
+</li>
+<li><p><strong>Kwota</strong> – w tym polu należy wprowadzić kwotę transakcji w walucie
+wybranej w polu <strong>Kod waluty.</strong></p>
+</li>
+<li><p><strong>Kwota (PLN)</strong> – w tym polu system wstawi kwotę w walucie
+lokalnej, stanowiącą równowartość kwoty w walucie, obliczoną
+na podstawie właściwego kursu wymiany waluty pobranego z wcześniej
+uzupełnionej tabeli.</p>
+</li>
+</ul>
+<div class="NOTE">
+<h5>Uwaga</h5>
+<p>W sytuacji, gdy kwota wyliczona w polu <strong>Kwota (PLN)</strong> jest
+niewłaściwa, można ją poprawić dwoma sposobami: 1) zmienić ręcznie
+kwotę w polu <strong>Kwota (PLN)</strong> na właściwą, wtedy system dokona
+rekalkulacji kursu wymiany waluty; 2) zmienić kurs wymiany waluty
+w tym konkretnym wierszu dziennika wyciągów bankowych, wtedy system
+dokona rekalkulacji kwoty w polu <strong>Kwota (PLN)</strong>.</p>
+</div>
+<ul>
+<li><p><strong>Nr dok. rozliczającego</strong> – pole jest aktywne wtedy, gdy w polach
+<strong>Typ konta</strong> i <strong>Numer konta</strong> wybrany jest nabywca lub dostawca.
+Lista rozwijana w tym polu wyświetla nierozliczone dokumenty
+kontrahenta, spośród których należy wybrać jeden, który będzie
+rozliczony z transakcją w wierszu dziennika wyciągów bankowych.</p>
+</li>
+<li><p><strong>Rozliczone automatycznie</strong> – pole wypełniane po wybraniu
+<strong>Rozlicz automatycznie</strong>, jeżeli w wyniku użycia tej funkcji
+system znalazł i zasugerował otwarty zapis księgi nabywcy/dostawcy
+do rozliczenia z daną pozycją wyciągu bankowego.</p>
+</li>
+<li><p><strong>Rozliczony (Tak/Nie)</strong> – pole wypełniane automatycznie
+po połączeniu danej pozycji wyciągu bankowego z otwartym zapisem
+księgi nabywcy/dostawcy.</p>
+</li>
+</ul>
+</li>
+<li><p>W sytuacji, gdy w jednym wierszu dziennika wyciągów bankowych
+rozliczanych jest więcej niż jeden dokumentów nabywcy lub dostawcy,
+należy wybrać <strong>Rozlicz zapisy</strong>.</p>
+</li>
+<li><p>W oknie <strong>Rozlicz zapisy nabywcy</strong>, które się otworzy, należy
+zaznaczyć wszystkie wiersze z dokumentami, które mają być
+rozliczone, a następnie należy wybrać <strong>Ustaw id. rozliczenia</strong>,
+a następnie <strong>OK.</strong></p>
+</li>
+</ol>
+<p>Podczas wprowadzania wierszy w dzienniku wyciągów bankowych, jak również
+po zakończeniu tego procesu, możliwa jest bieżąca kontrola salda konta
+bankowego. Umożliwiają to pola w dzienniku wyświetlone bezpośrednio pod
+wierszami. Pola są zgrupowane w 2 kolumny dla konta bankowego w walucie
+obcej i w 1 kolumnę dla konta bankowego w walucie lokalnej:</p>
+<ul>
+<li><p><strong>Kod waluty</strong> – jest to kod waluty, w jakiej są wyświetlone kwoty
+w polach poniżej.</p>
+</li>
+<li><p><strong>Bieżące saldo konta bankowego</strong> – jest to saldo konta bankowego
+pochodzące z zaksięgowanych dotychczas zapisów (saldo początkowe
+wyciągu bankowego).</p>
+</li>
+<li><p><strong>Saldo wiersza dziennika</strong> – jest to kwota skalkulowana poprzez
+zsumowanie salda początkowego z pola <strong>Bieżące saldo konta
+bankowego</strong> z sumą kwot wprowadzonych w polu <strong>Kwota</strong> (lub
+<strong>Kwota (PLN)</strong>) do bieżącego wiersza włącznie (wiersza, w którym
+ustawiony jest kursor).</p>
+</li>
+<li><p><strong>Saldo razem</strong> – jest to kwota skalkulowana poprzez zsumowanie
+salda początkowego z pola <strong>Bieżące saldo konta bankowego</strong> z sumą
+kwot wprowadzonych w polu <strong>Kwota</strong> (lub <strong>Kwota (PLN)</strong>)
+we wszystkich wierszach dziennika (przewidywane saldo końcowe
+wyciągu bankowego).</p>
+</li>
+</ul>
+<p><img src="media/image253.png" alt=""></p>
+<p>Tak wprowadzony i sprawdzony wyciąg bankowy można zaksięgować wybierając
+<strong>Księguj</strong> lub <strong>Księguj i drukuj</strong>.</p>
 </article>
           </div>
           
