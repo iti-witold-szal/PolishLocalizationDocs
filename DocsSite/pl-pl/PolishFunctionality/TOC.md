@@ -132,7 +132,7 @@
 ### [Generowanie pliku JPK_WB](saft-generating-jpk-wb-file.md)
 ### [Generowanie pliku JPK_MAG](saft-generating-jpk-mag-file.md)
 ## [JPK Rejestr eksportu plików](saft-jpk-export-file-register.md)
-### [Funkcje rejestru plików JPK](saft-functions-in-saft-jpk-register.md)
+## [Funkcje rejestru plików JPK](saft-functions-in-saft-jpk-register.md)
 # [Obowiązkowa podzielona płatność](msp-mandatory-split-payment.md)
 ## [Dokumenty sprzedaży i zakupu](msp-sales-and-purchase-documents.md)
 ### [Wsparcie procesu sprzedaży z obowiązkową podzieloną płatnością](msp-selling.md)
