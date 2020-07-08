@@ -118,7 +118,6 @@
 ## [JPK Ustawienia](saft-setup.md)
 ### [Ustawienia raportowania ustawowego](saft-government-reporting-setup.md)
 ### [Ustawienia ogólne JPK](saft-general-jpk-settings.md)
-### [Obszary JPK](saft-saft-areas.md)
 ### [Wersje obszarów JPK](saft-saft-area-version.md)
 ### [Elementy obszarów JPK](saft-jpk-area-elements.md)
 ### [Ustawienia elementów obszaru JPK_VAT](saft-jpk-vat-area-elemts-setup.md)
