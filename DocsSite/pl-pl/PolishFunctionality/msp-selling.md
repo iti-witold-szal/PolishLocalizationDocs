@@ -134,11 +134,11 @@ faktury sprzedaży oraz w księgach pomocniczych: **Zapisy VAT** i
 
   ![](media/image526.png)
 
-  ![Obraz zawierający zrzut ekranu Opis wygenerowany automatycznie](media/image527.png)
+  ![](media/image527.png)
 
-  ![Obraz zawierający zrzut ekranu Opis wygenerowany automatycznie](media/image528.png)
+  ![](media/image528.png)
 Na wydruku zaksięgowanej faktury sprzedaży z zaznaczonym polem
 **Obowiązkowa podzielona płatność** wyświetlona jest treść klauzuli VAT
 wybrana w oknie **Ustawienia księgi głównej**.
 
-  ![Obraz zawierający zrzut ekranu Opis wygenerowany automatycznie](media/image529.png)
+  ![](media/image529.png)

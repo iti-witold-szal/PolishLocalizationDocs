@@ -103,11 +103,11 @@ W poniższym zestawieniu wymienione są nowe pola, widoczne tylko dla
 szablonu z obowiązkową podzieloną płatnością:
 
 |**Nazwa**|**Wypełnienie**|**Uwagi**|
-|–––|–––––|–––––-|
+|--------|---------|-------|
 |**Opis przelewu bankowego**|• opcjonalne|pole do wprowadzenia dodatkowego, opcjonalnego opisu przelewu (max. 33 znaki)|
 |**Kwota VAT polecenia przelewu (PLN)**|\^ obowiązkowe|kwota VAT stanowiąca część kwoty przelewu, która będzie zapłacona w mechanizmie podzielonej płatności; kwota musi być większa od zera i nie może być większa od kwoty przelewu|
-|**Kwota VAT polecenia przelewu (dziennik)**|**○ automatyczne**|zsumowana kwota VAT wszystkich przelewów dotyczących danego zapisu, znajdujących się w różnych dziennikach|
-|**Kwota VAT polecenia przelewu (zapisy)**|**○ automatyczne**|zsumowana kwota VAT wszystkich przelewów dotyczących danego zapisu, które zostały już wyeksportowane|
+|**Kwota VAT polecenia przelewu (dziennik)**|○ automatyczne|zsumowana kwota VAT wszystkich przelewów dotyczących danego zapisu, znajdujących się w różnych dziennikach|
+|**Kwota VAT polecenia przelewu (zapisy)**|○ automatyczne|zsumowana kwota VAT wszystkich przelewów dotyczących danego zapisu, które zostały już wyeksportowane|
 
 W sytuacji, gdy w ewidencji dokumentów zakupu i sprzedaży wykorzystywany
 jest moduł *Split Payment Dokumenty*, zapisy księgi dostawcy wyświetlone

@@ -54,7 +54,7 @@ lub
 
 3.  księgowania dokumentu.
 
-  ![Obraz zawierający zrzut ekranu, ściana, wewnątrz Opis wygenerowany automatycznie](media/image530.png)
+  ![](media/image530.png)
 
 Aby zweryfikować wartości faktury zakupu i zastosowanie mechanizmu
 podzielonej płatności, w oknie **Faktura zakupu** należy na wstążce
@@ -123,7 +123,7 @@ dostawców**.
 
   ![](media/image535.png)
 
-  ![Obraz zawierający zrzut ekranu Opis wygenerowany automatycznie](media/image536.png)
+  ![](media/image536.png)
 
   ![](media/image537.png)
 
@@ -134,7 +134,7 @@ podlegającą mechanizmowi podzielonej płatności należy oznaczyć ręcznie,
 wybierając 1 w polu **Ident. zestawu atrybutów VAT**. Dotyczy to również
 transakcji objętych obowiązkiem zastosowania tego mechanizmu.
 
-  ![Obraz zawierający zrzut ekranu, monitor, wewnątrz, komputer Opis wygenerowany automatycznie](media/image538.png)
+  ![](media/image538.png)
 
 ## Zmiana oznaczenia MPP dla zobowiązań
 
