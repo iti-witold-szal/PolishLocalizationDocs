@@ -58,7 +58,7 @@
 ## [Rejestry przelewów](eb-transfer-registers.md)
 ## [Import/przekazywanie wyciągów bankowych](eb-importing-and-transfering-bank-statements.md)
 ## [Mechanizm podzielonej płatności (Split Payment)](eb-split-payment.md)
-# [Obsługa należności I zobowiązań](rp-receivables-and-payables.md)
+# [Obsługa należności i zobowiązań](rp-receivables-and-payables.md)
 ## [Precyzja zaokrąglania cen sprzedaży](rp-sales-price-rounding-precision.md)
 ## [Paragony fiskalne](rp-fiscal-receipts.md)
 ### [Drukowanie paragonów fiskalnych](rp-printing-fiscal-receipts.md)
